@@ -1,0 +1,795 @@
+2024-03-21 11:46:12.007 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: mdc-access-servlet-filter urls=[/*] order=2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2024-03-21 11:46:12.007 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/], webServlet urls=[/h2-console/*]
+2024-03-21 11:46:12.816 [restartedMain] "  " DEBUG o.s.w.s.server.support.WebSocketHandlerMapping - Patterns [/ws/ep/**] in 'stompWebSocketHandlerMapping'
+2024-03-21 11:46:12.857 [restartedMain] "  " DEBUG o.s.w.s.m.WebSocketAnnotationMethodMessageHandler - 
+	c.r.RecruitApplication:
+	
+2024-03-21 11:46:12.857 [restartedMain] "  " DEBUG o.s.w.s.m.WebSocketAnnotationMethodMessageHandler - 
+	c.r.c.AdminController:
+	
+2024-03-21 11:46:12.857 [restartedMain] "  " DEBUG o.s.w.s.m.WebSocketAnnotationMethodMessageHandler - 
+	c.r.c.ApplicationController:
+	
+2024-03-21 11:46:12.857 [restartedMain] "  " DEBUG o.s.w.s.m.WebSocketAnnotationMethodMessageHandler - 
+	c.r.c.CategoryController:
+	
+2024-03-21 11:46:12.857 [restartedMain] "  " DEBUG o.s.w.s.m.WebSocketAnnotationMethodMessageHandler - 
+	c.r.c.ChatController:
+	
+2024-03-21 11:46:12.857 [restartedMain] "  " DEBUG o.s.w.s.m.WebSocketAnnotationMethodMessageHandler - 
+	c.r.c.CompanyController:
+	
+2024-03-21 11:46:12.857 [restartedMain] "  " DEBUG o.s.w.s.m.WebSocketAnnotationMethodMessageHandler - 
+	c.r.c.FavorController:
+	
+2024-03-21 11:46:12.858 [restartedMain] "  " DEBUG o.s.w.s.m.WebSocketAnnotationMethodMessageHandler - 
+	c.r.c.FileController:
+	
+2024-03-21 11:46:12.858 [restartedMain] "  " DEBUG o.s.w.s.m.WebSocketAnnotationMethodMessageHandler - 
+	c.r.c.FollowController:
+	
+2024-03-21 11:46:12.858 [restartedMain] "  " DEBUG o.s.w.s.m.WebSocketAnnotationMethodMessageHandler - 
+	c.r.c.HrCompanyController:
+	
+2024-03-21 11:46:12.858 [restartedMain] "  " DEBUG o.s.w.s.m.WebSocketAnnotationMethodMessageHandler - 
+	c.r.c.InterviewController:
+	
+2024-03-21 11:46:12.858 [restartedMain] "  " DEBUG o.s.w.s.m.WebSocketAnnotationMethodMessageHandler - 
+	c.r.c.LogController:
+	
+2024-03-21 11:46:12.858 [restartedMain] "  " DEBUG o.s.w.s.m.WebSocketAnnotationMethodMessageHandler - 
+	c.r.c.NotifyController:
+	
+2024-03-21 11:46:12.858 [restartedMain] "  " DEBUG o.s.w.s.m.WebSocketAnnotationMethodMessageHandler - 
+	c.r.c.PositionController:
+	
+2024-03-21 11:46:12.858 [restartedMain] "  " DEBUG o.s.w.s.m.WebSocketAnnotationMethodMessageHandler - 
+	c.r.c.ResumeController:
+	
+2024-03-21 11:46:12.858 [restartedMain] "  " DEBUG o.s.w.s.m.WebSocketAnnotationMethodMessageHandler - 
+	c.r.c.UserController:
+	
+2024-03-21 11:46:12.860 [restartedMain] "  " DEBUG o.s.w.s.m.WebSocketAnnotationMethodMessageHandler - 
+	c.r.c.WsController:
+	{[MESSAGE],[/ws/chat]}: handleMsg(ChatMsg)
+2024-03-21 11:46:12.863 [restartedMain] "  " DEBUG o.s.w.s.m.WebSocketAnnotationMethodMessageHandler - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	
+2024-03-21 11:46:12.915 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-03-21 11:46:12.950 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 98 mappings in 'requestMappingHandlerMapping'
+2024-03-21 11:46:12.963 [restartedMain] "  " DEBUG o.s.web.servlet.config.annotation.WebMvcConfigurer - Default resource handling disabled
+2024-03-21 11:46:12.968 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/assets/**] in 'resourceHandlerMapping'
+2024-03-21 11:46:12.975 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-03-21 11:46:13.245 [restartedMain] "  " DEBUG o.s.w.servlet.view.freemarker.FreeMarkerConfigurer - Cannot resolve template loader path [classpath:/templates/] to [java.io.File]: using SpringTemplateLoader as fallback
+java.io.FileNotFoundException: class path resource [templates/] cannot be resolved to URL because it does not exist
+	at org.springframework.core.io.ClassPathResource.getURL(ClassPathResource.java:195)
+	at org.springframework.core.io.AbstractFileResolvingResource.getFile(AbstractFileResolvingResource.java:150)
+	at org.springframework.ui.freemarker.FreeMarkerConfigurationFactory.getTemplateLoaderForPath(FreeMarkerConfigurationFactory.java:345)
+	at org.springframework.ui.freemarker.FreeMarkerConfigurationFactory.createConfiguration(FreeMarkerConfigurationFactory.java:297)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer.afterPropertiesSet(FreeMarkerConfigurer.java:120)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1790)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.recruit.RecruitApplication.main(RecruitApplication.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2024-03-21 11:46:13.340 [restartedMain] "  " DEBUG org.springframework.web.SimpLogging - clientOutboundChannel added SubProtocolWebSocketHandler[StompSubProtocolHandler[v10.stomp, v11.stomp, v12.stomp]]
+2024-03-21 11:46:13.340 [restartedMain] "  " DEBUG org.springframework.web.SimpLogging - clientInboundChannel added WebSocketAnnotationMethodMessageHandler[prefixes=[]]
+2024-03-21 11:46:13.340 [restartedMain] "  " DEBUG org.springframework.web.SimpLogging - clientInboundChannel added SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]
+2024-03-21 11:46:13.340 [restartedMain] "  " DEBUG org.springframework.web.SimpLogging - brokerChannel added SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]
+2024-03-21 11:46:13.341 [restartedMain] "  " DEBUG org.springframework.web.SimpLogging - clientInboundChannel added UserDestinationMessageHandler[DefaultUserDestinationResolver[prefix=/user/]]
+2024-03-21 11:46:13.341 [restartedMain] "  " DEBUG org.springframework.web.SimpLogging - brokerChannel added UserDestinationMessageHandler[DefaultUserDestinationResolver[prefix=/user/]]
+2024-03-21 11:46:13.380 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.392 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查询所有可分配的权限(String), 管理员(String)
+2024-03-21 11:46:13.406 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.407 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.407 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 申请审核(String), 申请(String)
+2024-03-21 11:46:13.408 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.409 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.410 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 更新企业状态(String), 公司(String)
+2024-03-21 11:46:13.410 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.411 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.412 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 我的面试(String), 面试(String)
+2024-03-21 11:46:13.412 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.413 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.413 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 删除一个权限组(String), 管理员(String)
+2024-03-21 11:46:13.414 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.415 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.415 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 删除分类(String), 职位分类(String)
+2024-03-21 11:46:13.416 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.416 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.417 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查看已发布的职位(String), 职位(String)
+2024-03-21 11:46:13.417 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.418 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.418 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 更新一个权限组(String), 管理员(String)
+2024-03-21 11:46:13.419 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.420 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.420 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查询所有日志(String), 日志(String)
+2024-03-21 11:46:13.421 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.422 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.422 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 取消收藏(String), 收藏职位(String)
+2024-03-21 11:46:13.422 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.423 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.423 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查询所有可分配的权限(String), 管理员(String)
+2024-03-21 11:46:13.424 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.425 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.425 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 下架职位(String), 职位(String)
+2024-03-21 11:46:13.425 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.426 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.426 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 新增关注(String), 关注公司(String)
+2024-03-21 11:46:13.427 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.428 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.428 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 面试管理(String), 面试(String)
+2024-03-21 11:46:13.428 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.429 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.429 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 删除一个权限组(String), 管理员(String)
+2024-03-21 11:46:13.430 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.431 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.431 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 更新企业信息(String), 公司(String)
+2024-03-21 11:46:13.433 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.434 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.434 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查询所有权限组(String), 管理员(String)
+2024-03-21 11:46:13.435 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.436 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.436 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查看已发布的职位(String), 职位(String)
+2024-03-21 11:46:13.437 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.437 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.438 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 管理员更新用户信息(String), 管理员(String)
+2024-03-21 11:46:13.438 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.439 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.439 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 删除用户(String), 管理员(String)
+2024-03-21 11:46:13.440 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.440 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.441 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 申请审核(String), 申请(String)
+2024-03-21 11:46:13.441 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.442 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.442 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 我的投递箱(String), 申请(String)
+2024-03-21 11:46:13.443 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.443 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.444 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 新增分类(String), 职位分类(String)
+2024-03-21 11:46:13.444 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.445 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.445 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 更新一个权限组(String), 管理员(String)
+2024-03-21 11:46:13.445 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.446 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.446 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查看分类列表(String), 职位分类(String)
+2024-03-21 11:46:13.447 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.448 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.448 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 简历管理(String), 申请(String)
+2024-03-21 11:46:13.449 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.449 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.450 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 新增分类(String), 职位分类(String)
+2024-03-21 11:46:13.450 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.451 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.451 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查询简历(String), 简历(String)
+2024-03-21 11:46:13.451 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.452 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.452 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 简历排序(String), 申请(String)
+2024-03-21 11:46:13.453 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.453 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.453 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 更新职位(String), 职位(String)
+2024-03-21 11:46:13.454 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.454 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.454 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 撤销申请(String), 申请(String)
+2024-03-21 11:46:13.455 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.455 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.456 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 更新简历(String), 简历(String)
+2024-03-21 11:46:13.456 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.457 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.457 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 发布职位(String), 职位(String)
+2024-03-21 11:46:13.458 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.459 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.459 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 删除多个权限(String), 管理员(String)
+2024-03-21 11:46:13.459 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.460 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.460 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 简历管理(String), 申请(String)
+2024-03-21 11:46:13.461 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.483 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.483 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 搜索日志(String), 日志(String)
+2024-03-21 11:46:13.485 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.486 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.486 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查询一个权限组及其权限(String), 管理员(String)
+2024-03-21 11:46:13.487 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.488 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.488 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 更新企业状态(String), 公司(String)
+2024-03-21 11:46:13.488 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.489 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.489 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 更新职位(String), 职位(String)
+2024-03-21 11:46:13.490 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.491 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.491 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查询所有权限组(String), 管理员(String)
+2024-03-21 11:46:13.492 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.492 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.492 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 搜索日志(String), 日志(String)
+2024-03-21 11:46:13.493 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.494 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.494 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查看我的关注(String), 关注公司(String)
+2024-03-21 11:46:13.495 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.495 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.496 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查询简历(String), 简历(String)
+2024-03-21 11:46:13.497 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.497 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.498 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 我的投递箱(String), 申请(String)
+2024-03-21 11:46:13.498 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.499 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.499 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 更新职位状态(String), 职位(String)
+2024-03-21 11:46:13.500 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.501 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.501 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 企业认证(String), 公司(String)
+2024-03-21 11:46:13.502 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.502 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.502 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 分配多个权限(String), 管理员(String)
+2024-03-21 11:46:13.503 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.504 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.504 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 取消关注(String), 关注公司(String)
+2024-03-21 11:46:13.504 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.505 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.505 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 企业认证(String), 公司(String)
+2024-03-21 11:46:13.506 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.507 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.507 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 面试管理(String), 面试(String)
+2024-03-21 11:46:13.508 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.508 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.508 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查看我的关注(String), 关注公司(String)
+2024-03-21 11:46:13.509 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.510 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.510 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 面试管理(String), 面试(String)
+2024-03-21 11:46:13.511 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.511 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.511 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 简历排序(String), 申请(String)
+2024-03-21 11:46:13.512 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.512 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.512 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 新增关注(String), 关注公司(String)
+2024-03-21 11:46:13.513 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.514 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.514 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 删除分类(String), 职位分类(String)
+2024-03-21 11:46:13.515 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.515 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.515 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查询一个权限组及其权限(String), 管理员(String)
+2024-03-21 11:46:13.516 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.517 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.517 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 添加收藏(String), 收藏职位(String)
+2024-03-21 11:46:13.517 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.518 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.518 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 更新简历(String), 简历(String)
+2024-03-21 11:46:13.519 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.519 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.520 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 删除用户(String), 管理员(String)
+2024-03-21 11:46:13.520 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.521 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.521 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 更新企业信息(String), 公司(String)
+2024-03-21 11:46:13.522 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.523 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.523 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查询日志记录的用户(String), 日志(String)
+2024-03-21 11:46:13.523 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.524 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.524 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 撤销申请(String), 申请(String)
+2024-03-21 11:46:13.525 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.525 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.525 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 下架职位(String), 职位(String)
+2024-03-21 11:46:13.526 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.526 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.527 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 取消关注(String), 关注公司(String)
+2024-03-21 11:46:13.527 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.528 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.528 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查询所有用户(String), 管理员(String)
+2024-03-21 11:46:13.528 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.529 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.529 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 修改用户密码(String), 管理员(String)
+2024-03-21 11:46:13.529 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.530 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.530 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 面试管理(String), 面试(String)
+2024-03-21 11:46:13.531 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.531 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.531 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 创建简历(String), 简历(String)
+2024-03-21 11:46:13.532 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.532 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.532 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 分配多个权限(String), 管理员(String)
+2024-03-21 11:46:13.533 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.534 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.534 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 取消收藏(String), 收藏职位(String)
+2024-03-21 11:46:13.535 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.535 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.535 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 发布职位(String), 职位(String)
+2024-03-21 11:46:13.536 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.536 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.537 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 分配单个权限(String), 管理员(String)
+2024-03-21 11:46:13.537 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.538 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.538 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 投递简历(String), 申请(String)
+2024-03-21 11:46:13.538 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.539 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.539 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 创建简历(String), 简历(String)
+2024-03-21 11:46:13.540 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.540 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.541 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查询所有用户(String), 管理员(String)
+2024-03-21 11:46:13.541 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.542 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.542 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 新建权限组(String), 管理员(String)
+2024-03-21 11:46:13.542 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.543 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.543 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 管理员更新用户信息(String), 管理员(String)
+2024-03-21 11:46:13.544 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.544 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.544 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查看我的收藏(String), 收藏职位(String)
+2024-03-21 11:46:13.545 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.545 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.545 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 面试管理(String), 面试(String)
+2024-03-21 11:46:13.546 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.547 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.547 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查询日志记录的用户(String), 日志(String)
+2024-03-21 11:46:13.547 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.548 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.548 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查询所有用户(String), 管理员(String)
+2024-03-21 11:46:13.549 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.549 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.549 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查询所有用户(String), 管理员(String)
+2024-03-21 11:46:13.550 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.550 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.550 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 面试管理(String), 面试(String)
+2024-03-21 11:46:13.551 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.552 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.552 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 分配单个权限(String), 管理员(String)
+2024-03-21 11:46:13.552 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.553 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.553 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 新建权限组(String), 管理员(String)
+2024-03-21 11:46:13.554 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.554 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.555 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 投递简历(String), 申请(String)
+2024-03-21 11:46:13.555 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.556 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.556 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 更新分类(String), 职位分类(String)
+2024-03-21 11:46:13.557 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.557 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.557 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 更新分类(String), 职位分类(String)
+2024-03-21 11:46:13.558 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.558 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.558 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查看分类列表(String), 职位分类(String)
+2024-03-21 11:46:13.559 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.560 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.560 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查询所有权限组及其权限(String), 管理员(String)
+2024-03-21 11:46:13.560 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.561 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.561 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 修改用户密码(String), 管理员(String)
+2024-03-21 11:46:13.562 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.562 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.562 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 删除多个权限(String), 管理员(String)
+2024-03-21 11:46:13.563 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.564 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.564 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 更新职位状态(String), 职位(String)
+2024-03-21 11:46:13.564 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.565 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.565 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查询所有权限组及其权限(String), 管理员(String)
+2024-03-21 11:46:13.565 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.566 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.566 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 我的面试(String), 面试(String)
+2024-03-21 11:46:13.566 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.567 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.567 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查询所有日志(String), 日志(String)
+2024-03-21 11:46:13.568 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.569 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.569 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 查看我的收藏(String), 收藏职位(String)
+2024-03-21 11:46:13.569 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.570 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2024-03-21 11:46:13.570 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - ==> Parameters: 添加收藏(String), 收藏职位(String)
+2024-03-21 11:46:13.571 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:13.573 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectList - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM permission WHERE delete_time IS NULL
+2024-03-21 11:46:13.573 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectList - ==> Parameters: 
+2024-03-21 11:46:13.576 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.selectList - <==      Total: 53
+2024-03-21 11:46:13.578 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2024-03-21 11:46:13.578 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.updateById - ==> Parameters: 查看简历详情(String), 简历(String), true(Boolean), 2024-02-24 08:35:54.021(Timestamp), 2024-02-24 08:35:54.021(Timestamp), 8(Integer)
+2024-03-21 11:46:13.585 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.updateById - <==    Updates: 1
+2024-03-21 11:46:13.585 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2024-03-21 11:46:13.586 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.updateById - ==> Parameters: 职位审核(String), 职位(String), true(Boolean), 2024-02-24 09:34:30.746(Timestamp), 2024-02-24 09:34:30.746(Timestamp), 10(Integer)
+2024-03-21 11:46:13.586 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.updateById - <==    Updates: 1
+2024-03-21 11:46:13.587 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2024-03-21 11:46:13.587 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.updateById - ==> Parameters: 查看职位详细信息(String), 职位(String), true(Boolean), 2024-02-24 09:34:30.843(Timestamp), 2024-02-24 09:34:30.843(Timestamp), 12(Integer)
+2024-03-21 11:46:13.588 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.updateById - <==    Updates: 1
+2024-03-21 11:46:13.588 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2024-03-21 11:46:13.588 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.updateById - ==> Parameters: 企业审核(String), 公司(String), true(Boolean), 2024-02-24 09:40:34.825(Timestamp), 2024-02-24 09:40:34.825(Timestamp), 17(Integer)
+2024-03-21 11:46:13.589 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.updateById - <==    Updates: 1
+2024-03-21 11:46:13.590 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2024-03-21 11:46:13.590 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.updateById - ==> Parameters: 用户列表(String), 管理员(String), true(Boolean), 2024-02-25 07:51:53.107(Timestamp), 2024-02-26 00:34:52.02(Timestamp), 55(Integer)
+2024-03-21 11:46:13.591 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.updateById - <==    Updates: 1
+2024-03-21 11:46:13.591 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2024-03-21 11:46:13.591 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.updateById - ==> Parameters: 管理员(String), 管理员(String), true(Boolean), 2024-02-25 07:56:39.29(Timestamp), 2024-02-26 00:34:52.023(Timestamp), 56(Integer)
+2024-03-21 11:46:13.592 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.updateById - <==    Updates: 1
+2024-03-21 11:46:13.592 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2024-03-21 11:46:13.592 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.updateById - ==> Parameters: 查询所有用户(String), (String), true(Boolean), 2024-03-11 08:42:23.78(Timestamp), 2024-03-11 08:42:23.78(Timestamp), 57(Integer)
+2024-03-21 11:46:13.593 [restartedMain] "  " DEBUG com.recruit.mapper.PermissionMapper.updateById - <==    Updates: 1
+2024-03-21 11:46:28.019 [http-nio-80-exec-4] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2024-03-21 11:46:28.052 [http-nio-80-exec-4] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-03-21 11:46:28.063 [http-nio-80-exec-3] "GET /recruit/position/sort HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/position/sort", parameters={}
+2024-03-21 11:46:28.063 [http-nio-80-exec-1] "GET /recruit/category/show HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/category/show", parameters={}
+2024-03-21 11:46:28.064 [http-nio-80-exec-2] "GET /recruit/company/find HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/company/find", parameters={}
+2024-03-21 11:46:28.063 [http-nio-80-exec-4] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/position/page/keyword?page=0&count=12&keyword=", parameters={masked}
+2024-03-21 11:46:28.067 [http-nio-80-exec-4] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.PositionController#pageKeyword(Integer, Integer, String)
+2024-03-21 11:46:28.067 [http-nio-80-exec-3] "GET /recruit/position/sort HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.PositionController#sort()
+2024-03-21 11:46:28.067 [http-nio-80-exec-2] "GET /recruit/company/find HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.CompanyController#findHot()
+2024-03-21 11:46:28.067 [http-nio-80-exec-1] "GET /recruit/category/show HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.CategoryController#show()
+2024-03-21 11:46:28.127 [http-nio-80-exec-2] "GET /recruit/company/find HTTP/1.1" DEBUG com.recruit.mapper.CompanyMapper.findHotCompany - ==>  Preparing: SELECT * FROM `company` where delete_time is null and state = 1 LIMIT 0,8
+2024-03-21 11:46:28.128 [http-nio-80-exec-2] "GET /recruit/company/find HTTP/1.1" DEBUG com.recruit.mapper.CompanyMapper.findHotCompany - ==> Parameters: 
+2024-03-21 11:46:28.129 [http-nio-80-exec-1] "GET /recruit/category/show HTTP/1.1" DEBUG com.recruit.mapper.CategoryMapper.show - ==>  Preparing: SELECT * FROM category where delete_time is null LIMIT 0,9
+2024-03-21 11:46:28.129 [http-nio-80-exec-1] "GET /recruit/category/show HTTP/1.1" DEBUG com.recruit.mapper.CategoryMapper.show - ==> Parameters: 
+2024-03-21 11:46:28.130 [http-nio-80-exec-3] "GET /recruit/position/sort HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.sortByHits - ==>  Preparing: SELECT p.*,c.name as company_name,c.logo FROM position p,company c where p.company_id = c.id and p.delete_time is null and p.state = 1 ORDER BY hits desc LIMIT 0,8
+2024-03-21 11:46:28.130 [http-nio-80-exec-3] "GET /recruit/position/sort HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.sortByHits - ==> Parameters: 
+2024-03-21 11:46:28.139 [http-nio-80-exec-1] "GET /recruit/category/show HTTP/1.1" DEBUG com.recruit.mapper.CategoryMapper.show - <==      Total: 9
+2024-03-21 11:46:28.141 [http-nio-80-exec-2] "GET /recruit/company/find HTTP/1.1" DEBUG com.recruit.mapper.CompanyMapper.findHotCompany - <==      Total: 8
+2024-03-21 11:46:28.144 [http-nio-80-exec-3] "GET /recruit/position/sort HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.sortByHits - <==      Total: 8
+2024-03-21 11:46:28.326 [http-nio-80-exec-2] "GET /recruit/company/find HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-03-21 11:46:28.327 [http-nio-80-exec-2] "GET /recruit/company/find HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[CompanyDO(name=阿里巴巴, foreignName=Alibaba, city=中国杭州1, logo=https://bjck.xilikeli.cn/61007a1aced342c (truncated)...]
+2024-03-21 11:46:28.327 [http-nio-80-exec-3] "GET /recruit/position/sort HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-03-21 11:46:28.327 [http-nio-80-exec-3] "GET /recruit/position/sort HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[PositionResultDO(CategoryName=null, CompanyName=阿里巴巴, CompanyDesc=null, logo=https://bjck.xilikeli. (truncated)...]
+2024-03-21 11:46:28.328 [http-nio-80-exec-1] "GET /recruit/category/show HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-03-21 11:46:28.328 [http-nio-80-exec-1] "GET /recruit/category/show HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[CategoryDO(name=Java开发, description=这个分类是Java开发), CategoryDO(name=C++开发, description=这个分类是C++开发), C (truncated)...]
+2024-03-21 11:46:28.353 [http-nio-80-exec-4] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - ==>  Preparing: SELECT COUNT(1) FROM position p LEFT JOIN company c ON p.company_id = c.id LEFT JOIN category ca ON p.category_id = ca.id WHERE p.state = 1 AND p.delete_time IS NULL AND p.title LIKE concat('%', ?, '%')
+2024-03-21 11:46:28.353 [http-nio-80-exec-4] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - ==> Parameters: (String)
+2024-03-21 11:46:28.365 [http-nio-80-exec-4] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - ==>  Preparing: SELECT p.*,c.id as company_id,c.name as company_name,c.description as company_desc,c.logo as logo,ca.id as category_id,ca.name as category_name FROM position p left join company c on p.company_id = c.id left join category ca on p.category_id = ca.id where p.state = 1 and p.delete_time is null and p.title like concat('%',?,'%') LIMIT ?
+2024-03-21 11:46:28.366 [http-nio-80-exec-4] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - ==> Parameters: (String), 12(Long)
+2024-03-21 11:46:28.379 [http-nio-80-exec-4] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPageByKeyword - <==      Total: 12
+2024-03-21 11:46:28.393 [http-nio-80-exec-4] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-03-21 11:46:28.393 [http-nio-80-exec-4] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PageResponseVO(total=16, items=[PositionResultDO(CategoryName=Java开发, CompanyName=阿里巴巴, CompanyDesc= (truncated)...]
+2024-03-21 11:46:28.401 [http-nio-80-exec-1] "GET /recruit/category/show HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-03-21 11:46:28.402 [http-nio-80-exec-4] "GET /recruit/position/page/keyword HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-03-21 11:46:28.402 [http-nio-80-exec-2] "GET /recruit/company/find HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-03-21 11:46:28.401 [http-nio-80-exec-3] "GET /recruit/position/sort HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-03-21 11:46:35.358 [http-nio-80-exec-5] "OPTIONS /recruit/user/login HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - OPTIONS "/recruit/user/login", parameters={}
+2024-03-21 11:46:35.362 [http-nio-80-exec-5] "OPTIONS /recruit/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.UserController#login(LoginDTO)
+2024-03-21 11:46:35.368 [http-nio-80-exec-5] "OPTIONS /recruit/user/login HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-03-21 11:46:35.377 [http-nio-80-exec-6] "POST /recruit/user/login HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/recruit/user/login", parameters={}
+2024-03-21 11:46:35.377 [http-nio-80-exec-6] "POST /recruit/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.UserController#login(LoginDTO)
+2024-03-21 11:46:35.403 [http-nio-80-exec-6] "POST /recruit/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=utf-8" to [LoginDTO(username=cheng, password=123456)]
+2024-03-21 11:46:35.454 [http-nio-80-exec-6] "POST /recruit/user/login HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectOne - ==>  Preparing: SELECT id,username,nickname,avatar,email,tel,create_time,update_time,delete_time FROM `user` WHERE delete_time IS NULL AND (username = ?)
+2024-03-21 11:46:35.454 [http-nio-80-exec-6] "POST /recruit/user/login HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectOne - ==> Parameters: cheng(String)
+2024-03-21 11:46:35.457 [http-nio-80-exec-6] "POST /recruit/user/login HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectOne - <==      Total: 0
+2024-03-21 11:46:35.459 [http-nio-80-exec-6] "POST /recruit/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.recruit.common.exception.RestExceptionHandler#processException(HttpException, HttpServletRequest, HttpServletResponse)
+2024-03-21 11:46:35.464 [http-nio-80-exec-6] "POST /recruit/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-03-21 11:46:35.465 [http-nio-80-exec-6] "POST /recruit/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [UnifyResponseVO(code=10021, message=用户不存在, request=POST /recruit/user/login)]
+2024-03-21 11:46:35.465 [http-nio-80-exec-6] "POST /recruit/user/login HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2024-03-21 11:46:44.575 [http-nio-80-exec-7] "POST /recruit/user/login HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/recruit/user/login", parameters={}
+2024-03-21 11:46:44.577 [http-nio-80-exec-7] "POST /recruit/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.UserController#login(LoginDTO)
+2024-03-21 11:46:44.579 [http-nio-80-exec-7] "POST /recruit/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=utf-8" to [LoginDTO(username=user, password=123456)]
+2024-03-21 11:46:44.582 [http-nio-80-exec-7] "POST /recruit/user/login HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectOne - ==>  Preparing: SELECT id,username,nickname,avatar,email,tel,create_time,update_time,delete_time FROM `user` WHERE delete_time IS NULL AND (username = ?)
+2024-03-21 11:46:44.582 [http-nio-80-exec-7] "POST /recruit/user/login HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectOne - ==> Parameters: user(String)
+2024-03-21 11:46:44.584 [http-nio-80-exec-7] "POST /recruit/user/login HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:44.598 [http-nio-80-exec-7] "POST /recruit/user/login HTTP/1.1" DEBUG com.recruit.mapper.UserIdentityMapper.selectOne - ==>  Preparing: SELECT id,user_id,identity_type,identifier,credential,create_time,update_time,delete_time FROM user_identity WHERE delete_time IS NULL AND (user_id = ? AND identity_type = ? AND identifier = ?)
+2024-03-21 11:46:44.599 [http-nio-80-exec-7] "POST /recruit/user/login HTTP/1.1" DEBUG com.recruit.mapper.UserIdentityMapper.selectOne - ==> Parameters: 4(Integer), USERNAME_PASSWORD(String), user(String)
+2024-03-21 11:46:44.601 [http-nio-80-exec-7] "POST /recruit/user/login HTTP/1.1" DEBUG com.recruit.mapper.UserIdentityMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:44.753 [http-nio-80-exec-7] "POST /recruit/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-03-21 11:46:44.753 [http-nio-80-exec-7] "POST /recruit/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tokens{accessToken='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6NCwic2NvcGUiOiJsaW4iLCJ0eXB (truncated)...]
+2024-03-21 11:46:44.754 [http-nio-80-exec-7] "POST /recruit/user/login HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-03-21 11:46:44.759 [http-nio-80-exec-8] "OPTIONS /recruit/user/permissions HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - OPTIONS "/recruit/user/permissions", parameters={}
+2024-03-21 11:46:44.759 [http-nio-80-exec-8] "OPTIONS /recruit/user/permissions HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.UserController#getPermissions()
+2024-03-21 11:46:44.760 [http-nio-80-exec-8] "OPTIONS /recruit/user/permissions HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-03-21 11:46:44.762 [http-nio-80-exec-9] "GET /recruit/user/permissions HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/user/permissions", parameters={}
+2024-03-21 11:46:44.762 [http-nio-80-exec-9] "GET /recruit/user/permissions HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.UserController#getPermissions()
+2024-03-21 11:46:44.771 [http-nio-80-exec-9] "GET /recruit/user/permissions HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectById - ==>  Preparing: SELECT id,username,nickname,avatar,email,tel,create_time,update_time,delete_time FROM `user` WHERE id=? AND delete_time IS NULL
+2024-03-21 11:46:44.772 [http-nio-80-exec-9] "GET /recruit/user/permissions HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectById - ==> Parameters: 4(Integer)
+2024-03-21 11:46:44.772 [http-nio-80-exec-9] "GET /recruit/user/permissions HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectById - <==      Total: 1
+2024-03-21 11:46:44.777 [http-nio-80-exec-9] "GET /recruit/user/permissions HTTP/1.1" DEBUG com.recruit.mapper.GroupMapper.selectOne - ==>  Preparing: SELECT id,name,info,`level`,create_time,update_time,delete_time FROM `group` WHERE delete_time IS NULL AND (`level` = ?)
+2024-03-21 11:46:44.777 [http-nio-80-exec-9] "GET /recruit/user/permissions HTTP/1.1" DEBUG com.recruit.mapper.GroupMapper.selectOne - ==> Parameters: 1(Integer)
+2024-03-21 11:46:44.779 [http-nio-80-exec-9] "GET /recruit/user/permissions HTTP/1.1" DEBUG com.recruit.mapper.GroupMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:44.781 [http-nio-80-exec-9] "GET /recruit/user/permissions HTTP/1.1" DEBUG com.recruit.mapper.UserGroupMapper.selectOne - ==>  Preparing: SELECT id,user_id,group_id FROM user_group WHERE (user_id = ? AND group_id = ?)
+2024-03-21 11:46:44.781 [http-nio-80-exec-9] "GET /recruit/user/permissions HTTP/1.1" DEBUG com.recruit.mapper.UserGroupMapper.selectOne - ==> Parameters: 4(Integer), 1(Integer)
+2024-03-21 11:46:44.782 [http-nio-80-exec-9] "GET /recruit/user/permissions HTTP/1.1" DEBUG com.recruit.mapper.UserGroupMapper.selectOne - <==      Total: 0
+2024-03-21 11:46:44.783 [http-nio-80-exec-9] "GET /recruit/user/permissions HTTP/1.1" DEBUG com.recruit.mapper.GroupMapper.selectUserGroupIds - ==>  Preparing: SELECT g.id from `group` AS g WHERE g.delete_time IS NULL AND g.id IN ( SELECT ug.group_id FROM `user` AS u LEFT JOIN `user_group` as ug ON ug.user_id = u.id WHERE u.id = ? AND u.delete_time IS NULL )
+2024-03-21 11:46:44.783 [http-nio-80-exec-9] "GET /recruit/user/permissions HTTP/1.1" DEBUG com.recruit.mapper.GroupMapper.selectUserGroupIds - ==> Parameters: 4(Integer)
+2024-03-21 11:46:44.784 [http-nio-80-exec-9] "GET /recruit/user/permissions HTTP/1.1" DEBUG com.recruit.mapper.GroupMapper.selectUserGroupIds - <==      Total: 1
+2024-03-21 11:46:44.786 [http-nio-80-exec-9] "GET /recruit/user/permissions HTTP/1.1" DEBUG c.r.m.PermissionMapper.selectPermissionsByGroupIds - ==>  Preparing: SELECT p.id, p.name, p.module, p.mount, p.create_time, p.update_time, p.delete_time FROM permission AS p WHERE p.delete_time IS NULL AND p.mount = true AND p.id IN ( SELECT gp.permission_id FROM group_permission AS gp WHERE gp.group_id IN ( ? ) )
+2024-03-21 11:46:44.786 [http-nio-80-exec-9] "GET /recruit/user/permissions HTTP/1.1" DEBUG c.r.m.PermissionMapper.selectPermissionsByGroupIds - ==> Parameters: 2(Integer)
+2024-03-21 11:46:44.787 [http-nio-80-exec-9] "GET /recruit/user/permissions HTTP/1.1" DEBUG c.r.m.PermissionMapper.selectPermissionsByGroupIds - <==      Total: 13
+2024-03-21 11:46:44.793 [http-nio-80-exec-9] "GET /recruit/user/permissions HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-03-21 11:46:44.793 [http-nio-80-exec-9] "GET /recruit/user/permissions HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [UserPermissionVO(id=4, nickname=刘同学, username=user, avatar=https://bjck.xilikeli.cn/72d0786bad734967 (truncated)...]
+2024-03-21 11:46:44.794 [http-nio-80-exec-9] "GET /recruit/user/permissions HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-03-21 11:46:44.804 [http-nio-80-exec-10] "OPTIONS /recruit/user/getGroup/4 HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - OPTIONS "/recruit/user/getGroup/4", parameters={}
+2024-03-21 11:46:44.805 [http-nio-80-exec-10] "OPTIONS /recruit/user/getGroup/4 HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.UserController#getUserGroup(Integer)
+2024-03-21 11:46:44.806 [http-nio-80-exec-10] "OPTIONS /recruit/user/getGroup/4 HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-03-21 11:46:44.809 [http-nio-80-exec-1] "GET /recruit/user/getGroup/4 HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/user/getGroup/4", parameters={}
+2024-03-21 11:46:44.809 [http-nio-80-exec-1] "GET /recruit/user/getGroup/4 HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.UserController#getUserGroup(Integer)
+2024-03-21 11:46:44.812 [http-nio-80-exec-1] "GET /recruit/user/getGroup/4 HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectById - ==>  Preparing: SELECT id,username,nickname,avatar,email,tel,create_time,update_time,delete_time FROM `user` WHERE id=? AND delete_time IS NULL
+2024-03-21 11:46:44.812 [http-nio-80-exec-1] "GET /recruit/user/getGroup/4 HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectById - ==> Parameters: 4(Integer)
+2024-03-21 11:46:44.813 [http-nio-80-exec-1] "GET /recruit/user/getGroup/4 HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectById - <==      Total: 1
+2024-03-21 11:46:44.817 [http-nio-80-exec-1] "GET /recruit/user/getGroup/4 HTTP/1.1" DEBUG com.recruit.mapper.UserGroupMapper.selectOne - ==>  Preparing: SELECT id,user_id,group_id FROM user_group WHERE (user_id = ?)
+2024-03-21 11:46:44.817 [http-nio-80-exec-1] "GET /recruit/user/getGroup/4 HTTP/1.1" DEBUG com.recruit.mapper.UserGroupMapper.selectOne - ==> Parameters: 4(Integer)
+2024-03-21 11:46:44.818 [http-nio-80-exec-1] "GET /recruit/user/getGroup/4 HTTP/1.1" DEBUG com.recruit.mapper.UserGroupMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:44.818 [http-nio-80-exec-1] "GET /recruit/user/getGroup/4 HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-03-21 11:46:44.818 [http-nio-80-exec-1] "GET /recruit/user/getGroup/4 HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [2]
+2024-03-21 11:46:44.819 [http-nio-80-exec-1] "GET /recruit/user/getGroup/4 HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-03-21 11:46:46.652 [http-nio-80-exec-3] "OPTIONS /recruit/position/page/1 HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - OPTIONS "/recruit/position/page/1?page=0&count=10", parameters={masked}
+2024-03-21 11:46:46.653 [http-nio-80-exec-2] "OPTIONS /recruit/notify HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - OPTIONS "/recruit/notify?userName=%E5%88%98%E5%90%8C%E5%AD%A6&isRead=false", parameters={masked}
+2024-03-21 11:46:46.653 [http-nio-80-exec-2] "OPTIONS /recruit/notify HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.NotifyController#get(String, String)
+2024-03-21 11:46:46.653 [http-nio-80-exec-3] "OPTIONS /recruit/position/page/1 HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.PositionController#page(Integer, Integer, Integer)
+2024-03-21 11:46:46.654 [http-nio-80-exec-2] "OPTIONS /recruit/notify HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-03-21 11:46:46.654 [http-nio-80-exec-3] "OPTIONS /recruit/position/page/1 HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-03-21 11:46:46.657 [http-nio-80-exec-4] "GET /recruit/notify HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/notify?userName=%E5%88%98%E5%90%8C%E5%AD%A6&isRead=false", parameters={masked}
+2024-03-21 11:46:46.657 [http-nio-80-exec-4] "GET /recruit/notify HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.NotifyController#get(String, String)
+2024-03-21 11:46:46.658 [http-nio-80-exec-5] "GET /recruit/position/page/1 HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/position/page/1?page=0&count=10", parameters={masked}
+2024-03-21 11:46:46.660 [http-nio-80-exec-5] "GET /recruit/position/page/1 HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.PositionController#page(Integer, Integer, Integer)
+2024-03-21 11:46:46.677 [http-nio-80-exec-5] "GET /recruit/position/page/1 HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPage - ==>  Preparing: SELECT COUNT(1) FROM position p LEFT JOIN company c ON p.company_id = c.id LEFT JOIN category ca ON p.category_id = ca.id WHERE p.state = ? AND p.delete_time IS NULL
+2024-03-21 11:46:46.677 [http-nio-80-exec-5] "GET /recruit/position/page/1 HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPage - ==> Parameters: 1(Integer)
+2024-03-21 11:46:46.678 [http-nio-80-exec-4] "GET /recruit/notify HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectOne - ==>  Preparing: SELECT id,username,nickname,avatar,email,tel,create_time,update_time,delete_time FROM `user` WHERE delete_time IS NULL AND (nickname = ?)
+2024-03-21 11:46:46.678 [http-nio-80-exec-4] "GET /recruit/notify HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectOne - ==> Parameters: 刘同学(String)
+2024-03-21 11:46:46.679 [http-nio-80-exec-5] "GET /recruit/position/page/1 HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPage - ==>  Preparing: SELECT p.*,c.id as company_id,c.name as company_name,c.description as company_desc,ca.id as category_id,ca.name as category_name FROM position p left join company c on p.company_id = c.id left join category ca on p.category_id = ca.id where p.state = ? and p.delete_time is null LIMIT ?
+2024-03-21 11:46:46.679 [http-nio-80-exec-4] "GET /recruit/notify HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:46.679 [http-nio-80-exec-5] "GET /recruit/position/page/1 HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPage - ==> Parameters: 1(Integer), 10(Long)
+2024-03-21 11:46:46.679 [http-nio-80-exec-4] "GET /recruit/notify HTTP/1.1" DEBUG com.recruit.mapper.NotifyMapper.selectList - ==>  Preparing: SELECT id,content,user_name,is_read,time,create_time,update_time,delete_time FROM notify WHERE delete_time IS NULL AND (user_name = ? AND is_read = ?)
+2024-03-21 11:46:46.680 [http-nio-80-exec-4] "GET /recruit/notify HTTP/1.1" DEBUG com.recruit.mapper.NotifyMapper.selectList - ==> Parameters: user(String), false(String)
+2024-03-21 11:46:46.680 [http-nio-80-exec-4] "GET /recruit/notify HTTP/1.1" DEBUG com.recruit.mapper.NotifyMapper.selectList - <==      Total: 10
+2024-03-21 11:46:46.680 [http-nio-80-exec-5] "GET /recruit/position/page/1 HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPage - <==      Total: 10
+2024-03-21 11:46:46.681 [http-nio-80-exec-5] "GET /recruit/position/page/1 HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-03-21 11:46:46.681 [http-nio-80-exec-5] "GET /recruit/position/page/1 HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PageResponseVO(total=16, items=[PositionResultDO(CategoryName=Java开发, CompanyName=阿里巴巴, CompanyDesc= (truncated)...]
+2024-03-21 11:46:46.681 [http-nio-80-exec-4] "GET /recruit/notify HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-03-21 11:46:46.682 [http-nio-80-exec-4] "GET /recruit/notify HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[NotifyDO(content=阿里巴巴发布了职位——Java工程师，快去看看吧！, userName=user, isRead=false, time=Mon Feb 26 05:58:02 C (truncated)...]
+2024-03-21 11:46:46.682 [http-nio-80-exec-5] "GET /recruit/position/page/1 HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-03-21 11:46:46.685 [http-nio-80-exec-4] "GET /recruit/notify HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-03-21 11:46:48.443 [http-nio-80-exec-6] "GET /chat/users HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/chat/users", parameters={}
+2024-03-21 11:46:48.443 [http-nio-80-exec-6] "GET /chat/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.ChatController#getUsers(Integer, Integer, Integer)
+2024-03-21 11:46:48.444 [http-nio-80-exec-7] "GET /ws/ep/info HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/ws/ep/info?t=1710992808410", parameters={masked}
+2024-03-21 11:46:48.447 [http-nio-80-exec-7] "GET /ws/ep/info HTTP/1.1" DEBUG o.s.w.s.server.support.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler@5ffa1100
+2024-03-21 11:46:48.448 [http-nio-80-exec-7] "GET /ws/ep/info HTTP/1.1" DEBUG o.s.w.s.s.transport.handler.DefaultSockJsService - Processing transport request: GET http://localhost/ws/ep/info?t=1710992808410
+2024-03-21 11:46:48.449 [http-nio-80-exec-7] "GET /ws/ep/info HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-03-21 11:46:48.463 [http-nio-80-exec-6] "GET /chat/users HTTP/1.1" DEBUG com.recruit.mapper.GroupMapper.selectOne - ==>  Preparing: SELECT id,name,info,`level`,create_time,update_time,delete_time FROM `group` WHERE delete_time IS NULL AND (`level` = ?)
+2024-03-21 11:46:48.463 [http-nio-80-exec-6] "GET /chat/users HTTP/1.1" DEBUG com.recruit.mapper.GroupMapper.selectOne - ==> Parameters: 1(Integer)
+2024-03-21 11:46:48.465 [http-nio-80-exec-6] "GET /chat/users HTTP/1.1" DEBUG com.recruit.mapper.GroupMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:48.466 [http-nio-80-exec-8] "GET /ws/ep/606/xkjdqpwa/websocket HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/ws/ep/606/xkjdqpwa/websocket", parameters={}
+2024-03-21 11:46:48.472 [http-nio-80-exec-8] "GET /ws/ep/606/xkjdqpwa/websocket HTTP/1.1" DEBUG o.s.w.s.server.support.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler@5ffa1100
+2024-03-21 11:46:48.472 [http-nio-80-exec-8] "GET /ws/ep/606/xkjdqpwa/websocket HTTP/1.1" DEBUG org.springframework.web.cors.DefaultCorsProcessor - Reject: 'http://localhost:8083' origin is not allowed
+2024-03-21 11:46:48.473 [http-nio-80-exec-8] "GET /ws/ep/606/xkjdqpwa/websocket HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 403 FORBIDDEN
+2024-03-21 11:46:48.474 [http-nio-80-exec-6] "GET /chat/users HTTP/1.1" DEBUG com.recruit.mapper.UserGroupMapper.selectOne - ==>  Preparing: SELECT id,user_id,group_id FROM user_group WHERE (group_id = ?)
+2024-03-21 11:46:48.474 [http-nio-80-exec-6] "GET /chat/users HTTP/1.1" DEBUG com.recruit.mapper.UserGroupMapper.selectOne - ==> Parameters: 1(Integer)
+2024-03-21 11:46:48.475 [http-nio-80-exec-6] "GET /chat/users HTTP/1.1" DEBUG com.recruit.mapper.UserGroupMapper.selectOne - <==      Total: 1
+2024-03-21 11:46:48.478 [http-nio-80-exec-6] "GET /chat/users HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM `user` WHERE delete_time IS NULL AND (id <> ?)
+2024-03-21 11:46:48.478 [http-nio-80-exec-6] "GET /chat/users HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectPage - ==> Parameters: 1(Integer)
+2024-03-21 11:46:48.479 [http-nio-80-exec-10] "GET /ws/ep/606/xkjdqpwa/websocket HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/ws/ep/606/xkjdqpwa/websocket", parameters={}
+2024-03-21 11:46:48.479 [http-nio-80-exec-10] "GET /ws/ep/606/xkjdqpwa/websocket HTTP/1.1" DEBUG o.s.w.s.server.support.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler@5ffa1100
+2024-03-21 11:46:48.479 [http-nio-80-exec-10] "GET /ws/ep/606/xkjdqpwa/websocket HTTP/1.1" DEBUG org.springframework.web.cors.DefaultCorsProcessor - Reject: 'http://localhost:8083' origin is not allowed
+2024-03-21 11:46:48.480 [http-nio-80-exec-10] "GET /ws/ep/606/xkjdqpwa/websocket HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 403 FORBIDDEN
+2024-03-21 11:46:48.480 [http-nio-80-exec-6] "GET /chat/users HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,username,nickname,avatar,email,tel,create_time,update_time,delete_time FROM `user` WHERE delete_time IS NULL AND (id <> ?) LIMIT ?
+2024-03-21 11:46:48.480 [http-nio-80-exec-6] "GET /chat/users HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectPage - ==> Parameters: 1(Integer), 10(Long)
+2024-03-21 11:46:48.481 [http-nio-80-exec-6] "GET /chat/users HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectPage - <==      Total: 7
+2024-03-21 11:46:48.482 [http-nio-80-exec-6] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - ==>  Preparing: SELECT g.id, g.name, g.info,g.level, g.create_time,g.update_time,g.delete_time from `group` AS g WHERE g.delete_time IS NULL AND g.id IN ( SELECT ug.group_id FROM `user` AS u LEFT JOIN user_group as ug ON ug.user_id = u.id WHERE u.id = ? AND u.delete_time IS NULL )
+2024-03-21 11:46:48.482 [http-nio-80-exec-6] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - ==> Parameters: 4(Integer)
+2024-03-21 11:46:48.482 [http-nio-80-exec-6] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - <==      Total: 1
+2024-03-21 11:46:48.484 [http-nio-80-exec-2] "GET /ws/ep/606/xkjdqpwa/websocket HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/ws/ep/606/xkjdqpwa/websocket", parameters={}
+2024-03-21 11:46:48.485 [http-nio-80-exec-2] "GET /ws/ep/606/xkjdqpwa/websocket HTTP/1.1" DEBUG o.s.w.s.server.support.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler@5ffa1100
+2024-03-21 11:46:48.485 [http-nio-80-exec-2] "GET /ws/ep/606/xkjdqpwa/websocket HTTP/1.1" DEBUG org.springframework.web.cors.DefaultCorsProcessor - Reject: 'http://localhost:8083' origin is not allowed
+2024-03-21 11:46:48.485 [http-nio-80-exec-2] "GET /ws/ep/606/xkjdqpwa/websocket HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 403 FORBIDDEN
+2024-03-21 11:46:48.503 [http-nio-80-exec-6] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - ==>  Preparing: SELECT g.id, g.name, g.info,g.level, g.create_time,g.update_time,g.delete_time from `group` AS g WHERE g.delete_time IS NULL AND g.id IN ( SELECT ug.group_id FROM `user` AS u LEFT JOIN user_group as ug ON ug.user_id = u.id WHERE u.id = ? AND u.delete_time IS NULL )
+2024-03-21 11:46:48.503 [http-nio-80-exec-6] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - ==> Parameters: 5(Integer)
+2024-03-21 11:46:48.505 [http-nio-80-exec-6] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - <==      Total: 1
+2024-03-21 11:46:48.506 [http-nio-80-exec-6] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - ==>  Preparing: SELECT g.id, g.name, g.info,g.level, g.create_time,g.update_time,g.delete_time from `group` AS g WHERE g.delete_time IS NULL AND g.id IN ( SELECT ug.group_id FROM `user` AS u LEFT JOIN user_group as ug ON ug.user_id = u.id WHERE u.id = ? AND u.delete_time IS NULL )
+2024-03-21 11:46:48.506 [http-nio-80-exec-6] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - ==> Parameters: 6(Integer)
+2024-03-21 11:46:48.506 [http-nio-80-exec-6] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - <==      Total: 1
+2024-03-21 11:46:48.507 [http-nio-80-exec-6] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - ==>  Preparing: SELECT g.id, g.name, g.info,g.level, g.create_time,g.update_time,g.delete_time from `group` AS g WHERE g.delete_time IS NULL AND g.id IN ( SELECT ug.group_id FROM `user` AS u LEFT JOIN user_group as ug ON ug.user_id = u.id WHERE u.id = ? AND u.delete_time IS NULL )
+2024-03-21 11:46:48.507 [http-nio-80-exec-6] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - ==> Parameters: 7(Integer)
+2024-03-21 11:46:48.507 [http-nio-80-exec-6] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - <==      Total: 1
+2024-03-21 11:46:48.508 [http-nio-80-exec-6] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - ==>  Preparing: SELECT g.id, g.name, g.info,g.level, g.create_time,g.update_time,g.delete_time from `group` AS g WHERE g.delete_time IS NULL AND g.id IN ( SELECT ug.group_id FROM `user` AS u LEFT JOIN user_group as ug ON ug.user_id = u.id WHERE u.id = ? AND u.delete_time IS NULL )
+2024-03-21 11:46:48.508 [http-nio-80-exec-6] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - ==> Parameters: 8(Integer)
+2024-03-21 11:46:48.508 [http-nio-80-exec-6] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - <==      Total: 1
+2024-03-21 11:46:48.509 [http-nio-80-exec-6] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - ==>  Preparing: SELECT g.id, g.name, g.info,g.level, g.create_time,g.update_time,g.delete_time from `group` AS g WHERE g.delete_time IS NULL AND g.id IN ( SELECT ug.group_id FROM `user` AS u LEFT JOIN user_group as ug ON ug.user_id = u.id WHERE u.id = ? AND u.delete_time IS NULL )
+2024-03-21 11:46:48.509 [http-nio-80-exec-6] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - ==> Parameters: 9(Integer)
+2024-03-21 11:46:48.510 [http-nio-80-exec-6] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - <==      Total: 1
+2024-03-21 11:46:48.511 [http-nio-80-exec-6] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - ==>  Preparing: SELECT g.id, g.name, g.info,g.level, g.create_time,g.update_time,g.delete_time from `group` AS g WHERE g.delete_time IS NULL AND g.id IN ( SELECT ug.group_id FROM `user` AS u LEFT JOIN user_group as ug ON ug.user_id = u.id WHERE u.id = ? AND u.delete_time IS NULL )
+2024-03-21 11:46:48.511 [http-nio-80-exec-6] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - ==> Parameters: 13(Integer)
+2024-03-21 11:46:48.512 [http-nio-80-exec-6] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - <==      Total: 1
+2024-03-21 11:46:48.513 [http-nio-80-exec-6] "GET /chat/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-03-21 11:46:48.513 [http-nio-80-exec-6] "GET /chat/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PageResponseVO(total=7, items=[UserInfoVO(id=4, username=user, nickname=刘同学, avatar=https://bjck.xil (truncated)...]
+2024-03-21 11:46:48.516 [http-nio-80-exec-6] "GET /chat/users HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-03-21 11:46:48.545 [http-nio-80-exec-5] "POST /ws/ep/606/elejng4u/xhr_streaming HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/ws/ep/606/elejng4u/xhr_streaming?t=1710992808535", parameters={masked}
+2024-03-21 11:46:48.546 [http-nio-80-exec-5] "POST /ws/ep/606/elejng4u/xhr_streaming HTTP/1.1" DEBUG o.s.w.s.server.support.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler@5ffa1100
+2024-03-21 11:46:48.546 [http-nio-80-exec-5] "POST /ws/ep/606/elejng4u/xhr_streaming HTTP/1.1" DEBUG org.springframework.web.cors.DefaultCorsProcessor - Reject: 'http://localhost:8083' origin is not allowed
+2024-03-21 11:46:48.546 [http-nio-80-exec-5] "POST /ws/ep/606/elejng4u/xhr_streaming HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 403 FORBIDDEN
+2024-03-21 11:46:48.556 [http-nio-80-exec-4] "GET /ws/ep/606/uw5kfnyq/eventsource HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/ws/ep/606/uw5kfnyq/eventsource", parameters={}
+2024-03-21 11:46:48.556 [http-nio-80-exec-4] "GET /ws/ep/606/uw5kfnyq/eventsource HTTP/1.1" DEBUG o.s.w.s.server.support.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler@5ffa1100
+2024-03-21 11:46:48.557 [http-nio-80-exec-4] "GET /ws/ep/606/uw5kfnyq/eventsource HTTP/1.1" DEBUG o.s.w.s.s.transport.handler.DefaultSockJsService - Processing transport request: GET http://localhost/ws/ep/606/uw5kfnyq/eventsource
+2024-03-21 11:46:48.559 [http-nio-80-exec-4] "GET /ws/ep/606/uw5kfnyq/eventsource HTTP/1.1" DEBUG o.s.w.s.s.t.handler.EventSourceTransportHandler - GET http://localhost/ws/ep/606/uw5kfnyq/eventsource
+2024-03-21 11:46:48.563 [http-nio-80-exec-4] "GET /ws/ep/606/uw5kfnyq/eventsource HTTP/1.1" DEBUG o.s.w.s.handler.LoggingWebSocketHandlerDecorator - New EventSourceStreamingSockJsSession[id=uw5kfnyq]
+2024-03-21 11:46:48.564 [http-nio-80-exec-4] "GET /ws/ep/606/uw5kfnyq/eventsource HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-03-21 11:46:48.571 [http-nio-80-exec-7] "POST /ws/ep/606/uw5kfnyq/xhr_send HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/ws/ep/606/uw5kfnyq/xhr_send?t=1710992808566", parameters={masked}
+2024-03-21 11:46:48.572 [http-nio-80-exec-7] "POST /ws/ep/606/uw5kfnyq/xhr_send HTTP/1.1" DEBUG o.s.w.s.server.support.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler@5ffa1100
+2024-03-21 11:46:48.572 [http-nio-80-exec-7] "POST /ws/ep/606/uw5kfnyq/xhr_send HTTP/1.1" DEBUG org.springframework.web.cors.DefaultCorsProcessor - Reject: 'http://localhost:8083' origin is not allowed
+2024-03-21 11:46:48.572 [http-nio-80-exec-7] "POST /ws/ep/606/uw5kfnyq/xhr_send HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 403 FORBIDDEN
+2024-03-21 11:47:11.039 [http-nio-80-exec-8] "GET /recruit/notify HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/notify?userName=%E5%88%98%E5%90%8C%E5%AD%A6&isRead=false", parameters={masked}
+2024-03-21 11:47:11.040 [http-nio-80-exec-8] "GET /recruit/notify HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.NotifyController#get(String, String)
+2024-03-21 11:47:11.044 [http-nio-80-exec-8] "GET /recruit/notify HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectOne - ==>  Preparing: SELECT id,username,nickname,avatar,email,tel,create_time,update_time,delete_time FROM `user` WHERE delete_time IS NULL AND (nickname = ?)
+2024-03-21 11:47:11.045 [http-nio-80-exec-8] "GET /recruit/notify HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectOne - ==> Parameters: 刘同学(String)
+2024-03-21 11:47:11.047 [http-nio-80-exec-8] "GET /recruit/notify HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectOne - <==      Total: 1
+2024-03-21 11:47:11.050 [http-nio-80-exec-8] "GET /recruit/notify HTTP/1.1" DEBUG com.recruit.mapper.NotifyMapper.selectList - ==>  Preparing: SELECT id,content,user_name,is_read,time,create_time,update_time,delete_time FROM notify WHERE delete_time IS NULL AND (user_name = ? AND is_read = ?)
+2024-03-21 11:47:11.050 [http-nio-80-exec-8] "GET /recruit/notify HTTP/1.1" DEBUG com.recruit.mapper.NotifyMapper.selectList - ==> Parameters: user(String), false(String)
+2024-03-21 11:47:11.057 [http-nio-80-exec-8] "GET /recruit/notify HTTP/1.1" DEBUG com.recruit.mapper.NotifyMapper.selectList - <==      Total: 10
+2024-03-21 11:47:11.059 [http-nio-80-exec-8] "GET /recruit/notify HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-03-21 11:47:11.060 [http-nio-80-exec-8] "GET /recruit/notify HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[NotifyDO(content=阿里巴巴发布了职位——Java工程师，快去看看吧！, userName=user, isRead=false, time=Mon Feb 26 05:58:02 C (truncated)...]
+2024-03-21 11:47:11.063 [http-nio-80-exec-9] "GET /ws/ep/info HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/ws/ep/info?t=1710992831050", parameters={masked}
+2024-03-21 11:47:11.063 [http-nio-80-exec-10] "GET /chat/users HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/chat/users", parameters={}
+2024-03-21 11:47:11.063 [http-nio-80-exec-10] "GET /chat/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.ChatController#getUsers(Integer, Integer, Integer)
+2024-03-21 11:47:11.063 [http-nio-80-exec-9] "GET /ws/ep/info HTTP/1.1" DEBUG o.s.w.s.server.support.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler@5ffa1100
+2024-03-21 11:47:11.066 [http-nio-80-exec-8] "GET /recruit/notify HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-03-21 11:47:11.064 [http-nio-80-exec-9] "GET /ws/ep/info HTTP/1.1" DEBUG o.s.w.s.s.transport.handler.DefaultSockJsService - Processing transport request: GET http://localhost/ws/ep/info?t=1710992831050
+2024-03-21 11:47:11.066 [http-nio-80-exec-9] "GET /ws/ep/info HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-03-21 11:47:11.066 [http-nio-80-exec-10] "GET /chat/users HTTP/1.1" DEBUG com.recruit.mapper.GroupMapper.selectOne - ==>  Preparing: SELECT id,name,info,`level`,create_time,update_time,delete_time FROM `group` WHERE delete_time IS NULL AND (`level` = ?)
+2024-03-21 11:47:11.066 [http-nio-80-exec-10] "GET /chat/users HTTP/1.1" DEBUG com.recruit.mapper.GroupMapper.selectOne - ==> Parameters: 1(Integer)
+2024-03-21 11:47:11.068 [http-nio-80-exec-10] "GET /chat/users HTTP/1.1" DEBUG com.recruit.mapper.GroupMapper.selectOne - <==      Total: 1
+2024-03-21 11:47:11.069 [http-nio-80-exec-10] "GET /chat/users HTTP/1.1" DEBUG com.recruit.mapper.UserGroupMapper.selectOne - ==>  Preparing: SELECT id,user_id,group_id FROM user_group WHERE (group_id = ?)
+2024-03-21 11:47:11.069 [http-nio-80-exec-10] "GET /chat/users HTTP/1.1" DEBUG com.recruit.mapper.UserGroupMapper.selectOne - ==> Parameters: 1(Integer)
+2024-03-21 11:47:11.070 [http-nio-80-exec-10] "GET /chat/users HTTP/1.1" DEBUG com.recruit.mapper.UserGroupMapper.selectOne - <==      Total: 1
+2024-03-21 11:47:11.072 [http-nio-80-exec-10] "GET /chat/users HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM `user` WHERE delete_time IS NULL AND (id <> ?)
+2024-03-21 11:47:11.072 [http-nio-80-exec-10] "GET /chat/users HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectPage - ==> Parameters: 1(Integer)
+2024-03-21 11:47:11.073 [http-nio-80-exec-10] "GET /chat/users HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,username,nickname,avatar,email,tel,create_time,update_time,delete_time FROM `user` WHERE delete_time IS NULL AND (id <> ?) LIMIT ?
+2024-03-21 11:47:11.073 [http-nio-80-exec-10] "GET /chat/users HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectPage - ==> Parameters: 1(Integer), 10(Long)
+2024-03-21 11:47:11.074 [http-nio-80-exec-10] "GET /chat/users HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectPage - <==      Total: 7
+2024-03-21 11:47:11.074 [http-nio-80-exec-10] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - ==>  Preparing: SELECT g.id, g.name, g.info,g.level, g.create_time,g.update_time,g.delete_time from `group` AS g WHERE g.delete_time IS NULL AND g.id IN ( SELECT ug.group_id FROM `user` AS u LEFT JOIN user_group as ug ON ug.user_id = u.id WHERE u.id = ? AND u.delete_time IS NULL )
+2024-03-21 11:47:11.074 [http-nio-80-exec-10] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - ==> Parameters: 4(Integer)
+2024-03-21 11:47:11.075 [http-nio-80-exec-10] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - <==      Total: 1
+2024-03-21 11:47:11.076 [http-nio-80-exec-10] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - ==>  Preparing: SELECT g.id, g.name, g.info,g.level, g.create_time,g.update_time,g.delete_time from `group` AS g WHERE g.delete_time IS NULL AND g.id IN ( SELECT ug.group_id FROM `user` AS u LEFT JOIN user_group as ug ON ug.user_id = u.id WHERE u.id = ? AND u.delete_time IS NULL )
+2024-03-21 11:47:11.076 [http-nio-80-exec-10] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - ==> Parameters: 5(Integer)
+2024-03-21 11:47:11.077 [http-nio-80-exec-10] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - <==      Total: 1
+2024-03-21 11:47:11.077 [http-nio-80-exec-10] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - ==>  Preparing: SELECT g.id, g.name, g.info,g.level, g.create_time,g.update_time,g.delete_time from `group` AS g WHERE g.delete_time IS NULL AND g.id IN ( SELECT ug.group_id FROM `user` AS u LEFT JOIN user_group as ug ON ug.user_id = u.id WHERE u.id = ? AND u.delete_time IS NULL )
+2024-03-21 11:47:11.077 [http-nio-80-exec-10] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - ==> Parameters: 6(Integer)
+2024-03-21 11:47:11.078 [http-nio-80-exec-10] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - <==      Total: 1
+2024-03-21 11:47:11.078 [http-nio-80-exec-10] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - ==>  Preparing: SELECT g.id, g.name, g.info,g.level, g.create_time,g.update_time,g.delete_time from `group` AS g WHERE g.delete_time IS NULL AND g.id IN ( SELECT ug.group_id FROM `user` AS u LEFT JOIN user_group as ug ON ug.user_id = u.id WHERE u.id = ? AND u.delete_time IS NULL )
+2024-03-21 11:47:11.078 [http-nio-80-exec-10] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - ==> Parameters: 7(Integer)
+2024-03-21 11:47:11.079 [http-nio-80-exec-10] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - <==      Total: 1
+2024-03-21 11:47:11.080 [http-nio-80-exec-10] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - ==>  Preparing: SELECT g.id, g.name, g.info,g.level, g.create_time,g.update_time,g.delete_time from `group` AS g WHERE g.delete_time IS NULL AND g.id IN ( SELECT ug.group_id FROM `user` AS u LEFT JOIN user_group as ug ON ug.user_id = u.id WHERE u.id = ? AND u.delete_time IS NULL )
+2024-03-21 11:47:11.080 [http-nio-80-exec-10] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - ==> Parameters: 8(Integer)
+2024-03-21 11:47:11.080 [http-nio-80-exec-10] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - <==      Total: 1
+2024-03-21 11:47:11.081 [http-nio-80-exec-10] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - ==>  Preparing: SELECT g.id, g.name, g.info,g.level, g.create_time,g.update_time,g.delete_time from `group` AS g WHERE g.delete_time IS NULL AND g.id IN ( SELECT ug.group_id FROM `user` AS u LEFT JOIN user_group as ug ON ug.user_id = u.id WHERE u.id = ? AND u.delete_time IS NULL )
+2024-03-21 11:47:11.081 [http-nio-80-exec-10] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - ==> Parameters: 9(Integer)
+2024-03-21 11:47:11.082 [http-nio-80-exec-10] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - <==      Total: 1
+2024-03-21 11:47:11.082 [http-nio-80-exec-10] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - ==>  Preparing: SELECT g.id, g.name, g.info,g.level, g.create_time,g.update_time,g.delete_time from `group` AS g WHERE g.delete_time IS NULL AND g.id IN ( SELECT ug.group_id FROM `user` AS u LEFT JOIN user_group as ug ON ug.user_id = u.id WHERE u.id = ? AND u.delete_time IS NULL )
+2024-03-21 11:47:11.082 [http-nio-80-exec-10] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - ==> Parameters: 13(Integer)
+2024-03-21 11:47:11.083 [http-nio-80-exec-10] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - <==      Total: 1
+2024-03-21 11:47:11.083 [http-nio-80-exec-10] "GET /chat/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-03-21 11:47:11.083 [http-nio-80-exec-10] "GET /chat/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PageResponseVO(total=7, items=[UserInfoVO(id=4, username=user, nickname=刘同学, avatar=https://bjck.xil (truncated)...]
+2024-03-21 11:47:11.084 [http-nio-80-exec-10] "GET /chat/users HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-03-21 11:47:11.088 [http-nio-80-exec-1] "GET /ws/ep/316/p21sqle2/websocket HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/ws/ep/316/p21sqle2/websocket", parameters={}
+2024-03-21 11:47:11.088 [http-nio-80-exec-1] "GET /ws/ep/316/p21sqle2/websocket HTTP/1.1" DEBUG o.s.w.s.server.support.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler@5ffa1100
+2024-03-21 11:47:11.088 [http-nio-80-exec-1] "GET /ws/ep/316/p21sqle2/websocket HTTP/1.1" DEBUG org.springframework.web.cors.DefaultCorsProcessor - Reject: 'http://localhost:8083' origin is not allowed
+2024-03-21 11:47:11.089 [http-nio-80-exec-1] "GET /ws/ep/316/p21sqle2/websocket HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 403 FORBIDDEN
+2024-03-21 11:47:11.095 [http-nio-80-exec-3] "GET /ws/ep/316/p21sqle2/websocket HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/ws/ep/316/p21sqle2/websocket", parameters={}
+2024-03-21 11:47:11.096 [http-nio-80-exec-3] "GET /ws/ep/316/p21sqle2/websocket HTTP/1.1" DEBUG o.s.w.s.server.support.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler@5ffa1100
+2024-03-21 11:47:11.096 [http-nio-80-exec-3] "GET /ws/ep/316/p21sqle2/websocket HTTP/1.1" DEBUG org.springframework.web.cors.DefaultCorsProcessor - Reject: 'http://localhost:8083' origin is not allowed
+2024-03-21 11:47:11.096 [http-nio-80-exec-3] "GET /ws/ep/316/p21sqle2/websocket HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 403 FORBIDDEN
+2024-03-21 11:47:11.105 [http-nio-80-exec-5] "GET /ws/ep/316/p21sqle2/websocket HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/ws/ep/316/p21sqle2/websocket", parameters={}
+2024-03-21 11:47:11.105 [http-nio-80-exec-5] "GET /ws/ep/316/p21sqle2/websocket HTTP/1.1" DEBUG o.s.w.s.server.support.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler@5ffa1100
+2024-03-21 11:47:11.106 [http-nio-80-exec-5] "GET /ws/ep/316/p21sqle2/websocket HTTP/1.1" DEBUG org.springframework.web.cors.DefaultCorsProcessor - Reject: 'http://localhost:8083' origin is not allowed
+2024-03-21 11:47:11.106 [http-nio-80-exec-5] "GET /ws/ep/316/p21sqle2/websocket HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 403 FORBIDDEN
+2024-03-21 11:47:11.175 [http-nio-80-exec-7] "POST /ws/ep/316/cbm3djcz/xhr_streaming HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/ws/ep/316/cbm3djcz/xhr_streaming?t=1710992831170", parameters={masked}
+2024-03-21 11:47:11.177 [http-nio-80-exec-7] "POST /ws/ep/316/cbm3djcz/xhr_streaming HTTP/1.1" DEBUG o.s.w.s.server.support.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler@5ffa1100
+2024-03-21 11:47:11.178 [http-nio-80-exec-7] "POST /ws/ep/316/cbm3djcz/xhr_streaming HTTP/1.1" DEBUG org.springframework.web.cors.DefaultCorsProcessor - Reject: 'http://localhost:8083' origin is not allowed
+2024-03-21 11:47:11.178 [http-nio-80-exec-7] "POST /ws/ep/316/cbm3djcz/xhr_streaming HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 403 FORBIDDEN
+2024-03-21 11:47:11.185 [http-nio-80-exec-8] "GET /ws/ep/316/m1izwxc2/eventsource HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/ws/ep/316/m1izwxc2/eventsource", parameters={}
+2024-03-21 11:47:11.186 [http-nio-80-exec-8] "GET /ws/ep/316/m1izwxc2/eventsource HTTP/1.1" DEBUG o.s.w.s.server.support.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler@5ffa1100
+2024-03-21 11:47:11.186 [http-nio-80-exec-8] "GET /ws/ep/316/m1izwxc2/eventsource HTTP/1.1" DEBUG o.s.w.s.s.transport.handler.DefaultSockJsService - Processing transport request: GET http://localhost/ws/ep/316/m1izwxc2/eventsource
+2024-03-21 11:47:11.186 [http-nio-80-exec-8] "GET /ws/ep/316/m1izwxc2/eventsource HTTP/1.1" DEBUG o.s.w.s.s.t.handler.EventSourceTransportHandler - GET http://localhost/ws/ep/316/m1izwxc2/eventsource
+2024-03-21 11:47:11.187 [http-nio-80-exec-8] "GET /ws/ep/316/m1izwxc2/eventsource HTTP/1.1" DEBUG o.s.w.s.handler.LoggingWebSocketHandlerDecorator - New EventSourceStreamingSockJsSession[id=m1izwxc2]
+2024-03-21 11:47:11.187 [http-nio-80-exec-8] "GET /ws/ep/316/m1izwxc2/eventsource HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-03-21 11:47:11.198 [http-nio-80-exec-9] "POST /ws/ep/316/m1izwxc2/xhr_send HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/ws/ep/316/m1izwxc2/xhr_send?t=1710992831190", parameters={masked}
+2024-03-21 11:47:11.199 [http-nio-80-exec-9] "POST /ws/ep/316/m1izwxc2/xhr_send HTTP/1.1" DEBUG o.s.w.s.server.support.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler@5ffa1100
+2024-03-21 11:47:11.199 [http-nio-80-exec-9] "POST /ws/ep/316/m1izwxc2/xhr_send HTTP/1.1" DEBUG org.springframework.web.cors.DefaultCorsProcessor - Reject: 'http://localhost:8083' origin is not allowed
+2024-03-21 11:47:11.200 [http-nio-80-exec-9] "POST /ws/ep/316/m1izwxc2/xhr_send HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 403 FORBIDDEN
+2024-03-21 11:47:38.573 [MessageBroker-4] "  " DEBUG o.s.web.socket.sockjs.DisconnectedClient - Looks like the client has gone away: org.apache.catalina.connector.ClientAbortException: java.io.IOException: Broken pipe (For a full stack trace, set the log category 'org.springframework.web.socket.sockjs.DisconnectedClient' to TRACE level.)
+2024-03-21 11:47:38.574 [MessageBroker-4] "  " DEBUG o.s.w.s.s.t.h.EventSourceTransportHandler$EventSourceStreamingSockJsSession - Closing SockJS session uw5kfnyq with CloseStatus[code=1011, reason=null]
+2024-03-21 11:47:38.574 [MessageBroker-4] "  " DEBUG o.s.w.s.handler.LoggingWebSocketHandlerDecorator - EventSourceStreamingSockJsSession[id=uw5kfnyq] closed with CloseStatus[code=1011, reason=null]
+2024-03-21 11:47:38.574 [MessageBroker-4] "  " DEBUG o.s.w.socket.messaging.SubProtocolWebSocketHandler - Clearing session uw5kfnyq
+2024-03-21 11:47:38.583 [http-nio-80-exec-3] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - "INCLUDE" dispatch for GET "/error", parameters={}
+2024-03-21 11:47:38.584 [http-nio-80-exec-3] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-03-21 11:47:38.592 [clientInboundChannel-2] "  " DEBUG org.springframework.web.SimpLogging - Processing DISCONNECT session=uw5kfnyq
+2024-03-21 11:47:38.592 [http-nio-80-exec-3] "  " DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Found 'Content-Type:text/event-stream;charset=UTF-8' in response
+2024-03-21 11:47:38.593 [clientOutboundChannel-1] "  " DEBUG o.s.w.socket.messaging.SubProtocolWebSocketHandler - No session for GenericMessage [payload=byte[0], headers={simpMessageType=DISCONNECT_ACK, simpDisconnectMessage=GenericMessage [payload=byte[0], headers={simpMessageType=DISCONNECT, stompCommand=DISCONNECT, simpSessionAttributes={org.springframework.messaging.simp.SimpAttributes.COMPLETED=true}, simpSessionId=uw5kfnyq}], simpSessionId=uw5kfnyq}]
+2024-03-21 11:47:38.593 [http-nio-80-exec-3] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.recruit.common.exception.RestExceptionHandler#processException(Exception, HttpServletRequest, HttpServletResponse)
+2024-03-21 11:47:38.595 [http-nio-80-exec-3] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Found 'Content-Type:text/event-stream;charset=UTF-8' in response
+2024-03-21 11:47:38.597 [http-nio-80-exec-3] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Exiting from "INCLUDE" dispatch, status 200
+2024-03-21 11:47:48.564 [MessageBroker-7] "  " DEBUG o.s.w.s.s.transport.handler.DefaultSockJsService - Closed 1 sessions: [uw5kfnyq]
+2024-03-21 11:48:01.206 [MessageBroker-5] "  " DEBUG o.s.web.socket.sockjs.DisconnectedClient - Looks like the client has gone away: org.apache.catalina.connector.ClientAbortException: java.io.IOException: Broken pipe (For a full stack trace, set the log category 'org.springframework.web.socket.sockjs.DisconnectedClient' to TRACE level.)
+2024-03-21 11:48:01.207 [MessageBroker-5] "  " DEBUG o.s.w.s.s.t.h.EventSourceTransportHandler$EventSourceStreamingSockJsSession - Closing SockJS session m1izwxc2 with CloseStatus[code=1011, reason=null]
+2024-03-21 11:48:01.207 [MessageBroker-5] "  " DEBUG o.s.w.s.handler.LoggingWebSocketHandlerDecorator - EventSourceStreamingSockJsSession[id=m1izwxc2] closed with CloseStatus[code=1011, reason=null]
+2024-03-21 11:48:01.207 [MessageBroker-5] "  " DEBUG o.s.w.socket.messaging.SubProtocolWebSocketHandler - Clearing session m1izwxc2
+2024-03-21 11:48:01.208 [http-nio-80-exec-5] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - "INCLUDE" dispatch for GET "/error", parameters={}
+2024-03-21 11:48:01.209 [http-nio-80-exec-5] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-03-21 11:48:01.209 [clientInboundChannel-5] "  " DEBUG org.springframework.web.SimpLogging - Processing DISCONNECT session=m1izwxc2
+2024-03-21 11:48:01.209 [clientOutboundChannel-2] "  " DEBUG o.s.w.socket.messaging.SubProtocolWebSocketHandler - No session for GenericMessage [payload=byte[0], headers={simpMessageType=DISCONNECT_ACK, simpDisconnectMessage=GenericMessage [payload=byte[0], headers={simpMessageType=DISCONNECT, stompCommand=DISCONNECT, simpSessionAttributes={org.springframework.messaging.simp.SimpAttributes.COMPLETED=true}, simpSessionId=m1izwxc2}], simpSessionId=m1izwxc2}]
+2024-03-21 11:48:01.210 [http-nio-80-exec-5] "  " DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Found 'Content-Type:text/event-stream;charset=UTF-8' in response
+2024-03-21 11:48:01.210 [http-nio-80-exec-5] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.recruit.common.exception.RestExceptionHandler#processException(Exception, HttpServletRequest, HttpServletResponse)
+2024-03-21 11:48:01.211 [http-nio-80-exec-5] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Found 'Content-Type:text/event-stream;charset=UTF-8' in response
+2024-03-21 11:48:01.213 [http-nio-80-exec-5] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Exiting from "INCLUDE" dispatch, status 200
+2024-03-21 11:48:08.570 [MessageBroker-4] "  " DEBUG o.s.w.s.s.transport.handler.DefaultSockJsService - Closed 1 sessions: [m1izwxc2]
+2024-03-21 11:48:13.401 [http-nio-80-exec-7] "OPTIONS /recruit/notify HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - OPTIONS "/recruit/notify?userName=%E5%88%98%E5%90%8C%E5%AD%A6&isRead=false", parameters={masked}
+2024-03-21 11:48:13.401 [http-nio-80-exec-4] "OPTIONS /recruit/position/page/1 HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - OPTIONS "/recruit/position/page/1?page=0&count=10", parameters={masked}
+2024-03-21 11:48:13.402 [http-nio-80-exec-7] "OPTIONS /recruit/notify HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.NotifyController#get(String, String)
+2024-03-21 11:48:13.403 [http-nio-80-exec-4] "OPTIONS /recruit/position/page/1 HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.PositionController#page(Integer, Integer, Integer)
+2024-03-21 11:48:13.406 [http-nio-80-exec-7] "OPTIONS /recruit/notify HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-03-21 11:48:13.406 [http-nio-80-exec-4] "OPTIONS /recruit/position/page/1 HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-03-21 11:48:13.417 [http-nio-80-exec-8] "GET /recruit/notify HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/notify?userName=%E5%88%98%E5%90%8C%E5%AD%A6&isRead=false", parameters={masked}
+2024-03-21 11:48:13.418 [http-nio-80-exec-8] "GET /recruit/notify HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.NotifyController#get(String, String)
+2024-03-21 11:48:13.418 [http-nio-80-exec-9] "GET /recruit/position/page/1 HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/recruit/position/page/1?page=0&count=10", parameters={masked}
+2024-03-21 11:48:13.422 [http-nio-80-exec-9] "GET /recruit/position/page/1 HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.PositionController#page(Integer, Integer, Integer)
+2024-03-21 11:48:13.435 [http-nio-80-exec-8] "GET /recruit/notify HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectOne - ==>  Preparing: SELECT id,username,nickname,avatar,email,tel,create_time,update_time,delete_time FROM `user` WHERE delete_time IS NULL AND (nickname = ?)
+2024-03-21 11:48:13.436 [http-nio-80-exec-8] "GET /recruit/notify HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectOne - ==> Parameters: 刘同学(String)
+2024-03-21 11:48:13.438 [http-nio-80-exec-8] "GET /recruit/notify HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectOne - <==      Total: 1
+2024-03-21 11:48:13.438 [http-nio-80-exec-9] "GET /recruit/position/page/1 HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPage - ==>  Preparing: SELECT COUNT(1) FROM position p LEFT JOIN company c ON p.company_id = c.id LEFT JOIN category ca ON p.category_id = ca.id WHERE p.state = ? AND p.delete_time IS NULL
+2024-03-21 11:48:13.439 [http-nio-80-exec-9] "GET /recruit/position/page/1 HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPage - ==> Parameters: 1(Integer)
+2024-03-21 11:48:13.439 [http-nio-80-exec-8] "GET /recruit/notify HTTP/1.1" DEBUG com.recruit.mapper.NotifyMapper.selectList - ==>  Preparing: SELECT id,content,user_name,is_read,time,create_time,update_time,delete_time FROM notify WHERE delete_time IS NULL AND (user_name = ? AND is_read = ?)
+2024-03-21 11:48:13.439 [http-nio-80-exec-8] "GET /recruit/notify HTTP/1.1" DEBUG com.recruit.mapper.NotifyMapper.selectList - ==> Parameters: user(String), false(String)
+2024-03-21 11:48:13.440 [http-nio-80-exec-9] "GET /recruit/position/page/1 HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPage - ==>  Preparing: SELECT p.*,c.id as company_id,c.name as company_name,c.description as company_desc,ca.id as category_id,ca.name as category_name FROM position p left join company c on p.company_id = c.id left join category ca on p.category_id = ca.id where p.state = ? and p.delete_time is null LIMIT ?
+2024-03-21 11:48:13.441 [http-nio-80-exec-9] "GET /recruit/position/page/1 HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPage - ==> Parameters: 1(Integer), 10(Long)
+2024-03-21 11:48:13.441 [http-nio-80-exec-8] "GET /recruit/notify HTTP/1.1" DEBUG com.recruit.mapper.NotifyMapper.selectList - <==      Total: 10
+2024-03-21 11:48:13.442 [http-nio-80-exec-8] "GET /recruit/notify HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-03-21 11:48:13.442 [http-nio-80-exec-9] "GET /recruit/position/page/1 HTTP/1.1" DEBUG com.recruit.mapper.PositionMapper.getPage - <==      Total: 10
+2024-03-21 11:48:13.442 [http-nio-80-exec-8] "GET /recruit/notify HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[NotifyDO(content=阿里巴巴发布了职位——Java工程师，快去看看吧！, userName=user, isRead=false, time=Mon Feb 26 05:58:02 C (truncated)...]
+2024-03-21 11:48:13.443 [http-nio-80-exec-9] "GET /recruit/position/page/1 HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-03-21 11:48:13.443 [http-nio-80-exec-9] "GET /recruit/position/page/1 HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PageResponseVO(total=16, items=[PositionResultDO(CategoryName=Java开发, CompanyName=阿里巴巴, CompanyDesc= (truncated)...]
+2024-03-21 11:48:13.443 [http-nio-80-exec-8] "GET /recruit/notify HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-03-21 11:48:13.448 [http-nio-80-exec-9] "GET /recruit/position/page/1 HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-03-21 11:48:14.999 [http-nio-80-exec-2] "GET /chat/users HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/chat/users", parameters={}
+2024-03-21 11:48:14.999 [http-nio-80-exec-2] "GET /chat/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.recruit.controller.ChatController#getUsers(Integer, Integer, Integer)
+2024-03-21 11:48:15.000 [http-nio-80-exec-10] "GET /ws/ep/info HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/ws/ep/info?t=1710992894971", parameters={masked}
+2024-03-21 11:48:15.001 [http-nio-80-exec-10] "GET /ws/ep/info HTTP/1.1" DEBUG o.s.w.s.server.support.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler@5ffa1100
+2024-03-21 11:48:15.001 [http-nio-80-exec-10] "GET /ws/ep/info HTTP/1.1" DEBUG o.s.w.s.s.transport.handler.DefaultSockJsService - Processing transport request: GET http://localhost/ws/ep/info?t=1710992894971
+2024-03-21 11:48:15.001 [http-nio-80-exec-10] "GET /ws/ep/info HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-03-21 11:48:15.003 [http-nio-80-exec-2] "GET /chat/users HTTP/1.1" DEBUG com.recruit.mapper.GroupMapper.selectOne - ==>  Preparing: SELECT id,name,info,`level`,create_time,update_time,delete_time FROM `group` WHERE delete_time IS NULL AND (`level` = ?)
+2024-03-21 11:48:15.003 [http-nio-80-exec-2] "GET /chat/users HTTP/1.1" DEBUG com.recruit.mapper.GroupMapper.selectOne - ==> Parameters: 1(Integer)
+2024-03-21 11:48:15.005 [http-nio-80-exec-2] "GET /chat/users HTTP/1.1" DEBUG com.recruit.mapper.GroupMapper.selectOne - <==      Total: 1
+2024-03-21 11:48:15.006 [http-nio-80-exec-2] "GET /chat/users HTTP/1.1" DEBUG com.recruit.mapper.UserGroupMapper.selectOne - ==>  Preparing: SELECT id,user_id,group_id FROM user_group WHERE (group_id = ?)
+2024-03-21 11:48:15.006 [http-nio-80-exec-2] "GET /chat/users HTTP/1.1" DEBUG com.recruit.mapper.UserGroupMapper.selectOne - ==> Parameters: 1(Integer)
+2024-03-21 11:48:15.007 [http-nio-80-exec-2] "GET /chat/users HTTP/1.1" DEBUG com.recruit.mapper.UserGroupMapper.selectOne - <==      Total: 1
+2024-03-21 11:48:15.008 [http-nio-80-exec-2] "GET /chat/users HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM `user` WHERE delete_time IS NULL AND (id <> ?)
+2024-03-21 11:48:15.012 [http-nio-80-exec-2] "GET /chat/users HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectPage - ==> Parameters: 1(Integer)
+2024-03-21 11:48:15.013 [http-nio-80-exec-2] "GET /chat/users HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,username,nickname,avatar,email,tel,create_time,update_time,delete_time FROM `user` WHERE delete_time IS NULL AND (id <> ?) LIMIT ?
+2024-03-21 11:48:15.013 [http-nio-80-exec-2] "GET /chat/users HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectPage - ==> Parameters: 1(Integer), 10(Long)
+2024-03-21 11:48:15.014 [http-nio-80-exec-2] "GET /chat/users HTTP/1.1" DEBUG com.recruit.mapper.UserMapper.selectPage - <==      Total: 7
+2024-03-21 11:48:15.020 [http-nio-80-exec-2] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - ==>  Preparing: SELECT g.id, g.name, g.info,g.level, g.create_time,g.update_time,g.delete_time from `group` AS g WHERE g.delete_time IS NULL AND g.id IN ( SELECT ug.group_id FROM `user` AS u LEFT JOIN user_group as ug ON ug.user_id = u.id WHERE u.id = ? AND u.delete_time IS NULL )
+2024-03-21 11:48:15.020 [http-nio-80-exec-2] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - ==> Parameters: 4(Integer)
+2024-03-21 11:48:15.023 [http-nio-80-exec-2] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - <==      Total: 1
+2024-03-21 11:48:15.027 [http-nio-80-exec-1] "GET /ws/ep/372/bgpqhame/websocket HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/ws/ep/372/bgpqhame/websocket", parameters={}
+2024-03-21 11:48:15.028 [http-nio-80-exec-1] "GET /ws/ep/372/bgpqhame/websocket HTTP/1.1" DEBUG o.s.w.s.server.support.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler@5ffa1100
+2024-03-21 11:48:15.028 [http-nio-80-exec-1] "GET /ws/ep/372/bgpqhame/websocket HTTP/1.1" DEBUG o.s.w.s.s.transport.handler.DefaultSockJsService - Processing transport request: GET http://localhost/ws/ep/372/bgpqhame/websocket
+2024-03-21 11:48:15.028 [http-nio-80-exec-2] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - ==>  Preparing: SELECT g.id, g.name, g.info,g.level, g.create_time,g.update_time,g.delete_time from `group` AS g WHERE g.delete_time IS NULL AND g.id IN ( SELECT ug.group_id FROM `user` AS u LEFT JOIN user_group as ug ON ug.user_id = u.id WHERE u.id = ? AND u.delete_time IS NULL )
+2024-03-21 11:48:15.028 [http-nio-80-exec-2] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - ==> Parameters: 5(Integer)
+2024-03-21 11:48:15.030 [http-nio-80-exec-2] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - <==      Total: 1
+2024-03-21 11:48:15.032 [http-nio-80-exec-2] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - ==>  Preparing: SELECT g.id, g.name, g.info,g.level, g.create_time,g.update_time,g.delete_time from `group` AS g WHERE g.delete_time IS NULL AND g.id IN ( SELECT ug.group_id FROM `user` AS u LEFT JOIN user_group as ug ON ug.user_id = u.id WHERE u.id = ? AND u.delete_time IS NULL )
+2024-03-21 11:48:15.032 [http-nio-80-exec-2] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - ==> Parameters: 6(Integer)
+2024-03-21 11:48:15.033 [http-nio-80-exec-2] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - <==      Total: 1
+2024-03-21 11:48:15.034 [http-nio-80-exec-2] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - ==>  Preparing: SELECT g.id, g.name, g.info,g.level, g.create_time,g.update_time,g.delete_time from `group` AS g WHERE g.delete_time IS NULL AND g.id IN ( SELECT ug.group_id FROM `user` AS u LEFT JOIN user_group as ug ON ug.user_id = u.id WHERE u.id = ? AND u.delete_time IS NULL )
+2024-03-21 11:48:15.034 [http-nio-80-exec-2] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - ==> Parameters: 7(Integer)
+2024-03-21 11:48:15.035 [http-nio-80-exec-2] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - <==      Total: 1
+2024-03-21 11:48:15.035 [http-nio-80-exec-2] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - ==>  Preparing: SELECT g.id, g.name, g.info,g.level, g.create_time,g.update_time,g.delete_time from `group` AS g WHERE g.delete_time IS NULL AND g.id IN ( SELECT ug.group_id FROM `user` AS u LEFT JOIN user_group as ug ON ug.user_id = u.id WHERE u.id = ? AND u.delete_time IS NULL )
+2024-03-21 11:48:15.035 [http-nio-80-exec-2] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - ==> Parameters: 8(Integer)
+2024-03-21 11:48:15.036 [http-nio-80-exec-2] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - <==      Total: 1
+2024-03-21 11:48:15.036 [http-nio-80-exec-2] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - ==>  Preparing: SELECT g.id, g.name, g.info,g.level, g.create_time,g.update_time,g.delete_time from `group` AS g WHERE g.delete_time IS NULL AND g.id IN ( SELECT ug.group_id FROM `user` AS u LEFT JOIN user_group as ug ON ug.user_id = u.id WHERE u.id = ? AND u.delete_time IS NULL )
+2024-03-21 11:48:15.036 [http-nio-80-exec-2] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - ==> Parameters: 9(Integer)
+2024-03-21 11:48:15.037 [http-nio-80-exec-2] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - <==      Total: 1
+2024-03-21 11:48:15.037 [http-nio-80-exec-2] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - ==>  Preparing: SELECT g.id, g.name, g.info,g.level, g.create_time,g.update_time,g.delete_time from `group` AS g WHERE g.delete_time IS NULL AND g.id IN ( SELECT ug.group_id FROM `user` AS u LEFT JOIN user_group as ug ON ug.user_id = u.id WHERE u.id = ? AND u.delete_time IS NULL )
+2024-03-21 11:48:15.037 [http-nio-80-exec-2] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - ==> Parameters: 13(Integer)
+2024-03-21 11:48:15.038 [http-nio-80-exec-2] "GET /chat/users HTTP/1.1" DEBUG c.recruit.mapper.GroupMapper.selectGroupsByUserId - <==      Total: 1
+2024-03-21 11:48:15.038 [http-nio-80-exec-2] "GET /chat/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-03-21 11:48:15.038 [http-nio-80-exec-2] "GET /chat/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PageResponseVO(total=7, items=[UserInfoVO(id=4, username=user, nickname=刘同学, avatar=https://bjck.xil (truncated)...]
+2024-03-21 11:48:15.039 [http-nio-80-exec-2] "GET /chat/users HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-03-21 11:48:15.048 [http-nio-80-exec-1] "GET /ws/ep/372/bgpqhame/websocket HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 101 SWITCHING_PROTOCOLS
+2024-03-21 11:48:15.054 [http-nio-80-exec-1] "  " DEBUG o.s.w.s.handler.LoggingWebSocketHandlerDecorator - New WebSocketServerSockJsSession[id=bgpqhame]
+2024-03-21 11:48:15.067 [clientInboundChannel-8] "  " DEBUG org.springframework.web.SimpLogging - Processing CONNECT session=bgpqhame
+2024-03-21 11:48:15.074 [clientInboundChannel-11] "  " DEBUG org.springframework.web.SimpLogging - Processing SUBSCRIBE /queue/user/chat id=sub-0 session=bgpqhame
+2024-03-21 11:48:15.074 [clientInboundChannel-10] "  " DEBUG o.s.w.s.m.WebSocketAnnotationMethodMessageHandler - Searching methods to handle SUBSCRIBE /queue/user/chat id=sub-0 session=bgpqhame, lookupDestination='/queue/user/chat'
+2024-03-21 11:48:15.074 [clientInboundChannel-10] "  " DEBUG o.s.w.s.m.WebSocketAnnotationMethodMessageHandler - No matching message handler methods.
+2024-03-21 11:48:20.280 [http-nio-80-exec-5] "  " DEBUG o.s.w.s.handler.LoggingWebSocketHandlerDecorator - WebSocketServerSockJsSession[id=bgpqhame] closed with CloseStatus[code=1000, reason=null]
+2024-03-21 11:48:20.280 [http-nio-80-exec-5] "  " DEBUG o.s.w.socket.messaging.SubProtocolWebSocketHandler - Clearing session bgpqhame
+2024-03-21 11:48:20.281 [clientInboundChannel-14] "  " DEBUG org.springframework.web.SimpLogging - Processing DISCONNECT session=bgpqhame
+2024-03-21 11:48:20.283 [clientOutboundChannel-4] "  " DEBUG o.s.w.socket.messaging.SubProtocolWebSocketHandler - No session for GenericMessage [payload=byte[0], headers={simpMessageType=DISCONNECT_ACK, simpDisconnectMessage=GenericMessage [payload=byte[0], headers={simpMessageType=DISCONNECT, stompCommand=DISCONNECT, simpSessionAttributes={org.springframework.messaging.simp.SimpAttributes.COMPLETED=true}, simpSessionId=bgpqhame}], simpSessionId=bgpqhame}]
+2024-03-21 11:48:28.569 [MessageBroker-4] "  " DEBUG o.s.w.s.s.transport.handler.DefaultSockJsService - Closed 1 sessions: [bgpqhame]

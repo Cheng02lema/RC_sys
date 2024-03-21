@@ -1,0 +1,7 @@
+2024-02-26 10:24:33.867 [restartedMain] "  " WARN  c.b.mybatisplus.core.injector.AbstractMethod - [com.recruit.mapper.NotifyMapper.update] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Update]
+2024-02-26 10:25:47.287 [restartedMain] "  " WARN  c.b.mybatisplus.core.injector.AbstractMethod - [com.recruit.mapper.NotifyMapper.update] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Update]
+2024-02-26 10:27:08.461 [http-nio-80-exec-6] "GET /recruit/position/page/hr/17 HTTP/1.1" WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [io.github.talelin.autoconfigure.exception.TokenExpiredException: Token Expired]
+2024-02-26 13:11:02.118 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h44s543ms).
+2024-02-26 16:29:43.544 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h18m41s428ms).
+2024-02-26 19:17:07.085 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h47m23s541ms).
+2024-02-26 23:21:10.996 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h4m3s911ms).

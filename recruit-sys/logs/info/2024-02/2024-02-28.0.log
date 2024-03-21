@@ -1,0 +1,224 @@
+2024-02-28 12:32:31.607 [Thread-9] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-02-28 12:32:31.610 [Thread-9] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-02-28 12:32:31.613 [Thread-9] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-02-28 12:32:31.842 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Starting RecruitApplication on Cheng‘sMBP with PID 13338 (/Users/qishuocheng/Desktop/projects/resume/recruit-system/recruit-sys/target/classes started by qishuocheng in /Users/qishuocheng/Desktop/projects/resume/recruit-system/recruit-sys)
+2024-02-28 12:32:31.842 [restartedMain] "  " INFO  com.recruit.RecruitApplication - The following profiles are active: dev
+2024-02-28 12:32:32.019 [restartedMain] "  " INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'commonConfiguration' of type [com.recruit.common.configuration.CommonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-28 12:32:32.073 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2024-02-28 12:32:32.073 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-02-28 12:32:32.073 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-28 12:32:32.074 [restartedMain] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2024-02-28 12:32:32.082 [restartedMain] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-28 12:32:32.082 [restartedMain] "  " INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 238 ms
+2024-02-28 12:32:32.097 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2024-02-28 12:32:32.120 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2024-02-28 12:32:32.120 [restartedMain] "  " INFO  o.s.b.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/apply?useSSL=false&serverTimezone=UTC&characterEncoding=UTF8&allowPublicKeyRetrieval=true'
+2024-02-28 12:32:32.937 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-02-28 12:32:33.035 [restartedMain] "  " INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-02-28 12:32:33.068 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-02-28 12:32:33.069 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2024-02-28 12:32:33.223 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Started RecruitApplication in 1.498 seconds (JVM running for 3503.457)
+2024-02-28 12:32:33.224 [restartedMain] "  " INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-02-28 12:33:49.410 [Thread-17] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-02-28 12:33:49.413 [Thread-17] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2024-02-28 12:33:49.414 [Thread-17] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2024-02-28 12:33:49.543 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Starting RecruitApplication on Cheng‘sMBP with PID 13338 (/Users/qishuocheng/Desktop/projects/resume/recruit-system/recruit-sys/target/classes started by qishuocheng in /Users/qishuocheng/Desktop/projects/resume/recruit-system/recruit-sys)
+2024-02-28 12:33:49.543 [restartedMain] "  " INFO  com.recruit.RecruitApplication - The following profiles are active: dev
+2024-02-28 12:33:49.709 [restartedMain] "  " INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'commonConfiguration' of type [com.recruit.common.configuration.CommonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-28 12:33:49.740 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2024-02-28 12:33:49.740 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-02-28 12:33:49.740 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-28 12:33:49.741 [restartedMain] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2024-02-28 12:33:49.747 [restartedMain] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-28 12:33:49.747 [restartedMain] "  " INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 202 ms
+2024-02-28 12:33:49.761 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2024-02-28 12:33:49.763 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2024-02-28 12:33:49.763 [restartedMain] "  " INFO  o.s.b.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/apply?useSSL=false&serverTimezone=UTC&characterEncoding=UTF8&allowPublicKeyRetrieval=true'
+2024-02-28 12:33:50.367 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-02-28 12:33:50.453 [restartedMain] "  " INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-02-28 12:33:50.474 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-02-28 12:33:50.475 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2024-02-28 12:33:50.572 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Started RecruitApplication in 1.06 seconds (JVM running for 3580.807)
+2024-02-28 12:33:50.573 [restartedMain] "  " INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-02-28 12:34:15.408 [Thread-22] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-02-28 12:34:15.410 [Thread-22] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2024-02-28 12:34:15.412 [Thread-22] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2024-02-28 12:34:15.587 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Starting RecruitApplication on Cheng‘sMBP with PID 13338 (/Users/qishuocheng/Desktop/projects/resume/recruit-system/recruit-sys/target/classes started by qishuocheng in /Users/qishuocheng/Desktop/projects/resume/recruit-system/recruit-sys)
+2024-02-28 12:34:15.587 [restartedMain] "  " INFO  com.recruit.RecruitApplication - The following profiles are active: dev
+2024-02-28 12:34:15.727 [restartedMain] "  " INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'commonConfiguration' of type [com.recruit.common.configuration.CommonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-28 12:34:15.756 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2024-02-28 12:34:15.757 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-02-28 12:34:15.757 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-28 12:34:15.757 [restartedMain] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2024-02-28 12:34:15.763 [restartedMain] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-28 12:34:15.763 [restartedMain] "  " INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 175 ms
+2024-02-28 12:34:15.775 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2024-02-28 12:34:15.778 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2024-02-28 12:34:15.779 [restartedMain] "  " INFO  o.s.b.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/apply?useSSL=false&serverTimezone=UTC&characterEncoding=UTF8&allowPublicKeyRetrieval=true'
+2024-02-28 12:34:16.347 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-02-28 12:34:16.424 [restartedMain] "  " INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-02-28 12:34:16.444 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-02-28 12:34:16.445 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2024-02-28 12:34:16.537 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Started RecruitApplication in 0.979 seconds (JVM running for 3606.772)
+2024-02-28 12:34:16.538 [restartedMain] "  " INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-02-28 12:34:24.020 [Thread-27] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-02-28 12:34:24.020 [Thread-27] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2024-02-28 12:34:24.022 [Thread-27] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2024-02-28 12:34:24.159 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Starting RecruitApplication on Cheng‘sMBP with PID 13338 (/Users/qishuocheng/Desktop/projects/resume/recruit-system/recruit-sys/target/classes started by qishuocheng in /Users/qishuocheng/Desktop/projects/resume/recruit-system/recruit-sys)
+2024-02-28 12:34:24.159 [restartedMain] "  " INFO  com.recruit.RecruitApplication - The following profiles are active: dev
+2024-02-28 12:34:24.271 [restartedMain] "  " INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'commonConfiguration' of type [com.recruit.common.configuration.CommonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-28 12:34:24.300 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2024-02-28 12:34:24.300 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-02-28 12:34:24.300 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-28 12:34:24.300 [restartedMain] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2024-02-28 12:34:24.304 [restartedMain] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-28 12:34:24.304 [restartedMain] "  " INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 144 ms
+2024-02-28 12:34:24.317 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2024-02-28 12:34:24.321 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2024-02-28 12:34:24.321 [restartedMain] "  " INFO  o.s.b.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/apply?useSSL=false&serverTimezone=UTC&characterEncoding=UTF8&allowPublicKeyRetrieval=true'
+2024-02-28 12:34:24.886 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-02-28 12:34:24.971 [restartedMain] "  " INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-02-28 12:34:24.993 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-02-28 12:34:24.994 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2024-02-28 12:34:25.078 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Started RecruitApplication in 0.941 seconds (JVM running for 3615.313)
+2024-02-28 12:34:25.079 [restartedMain] "  " INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-02-28 12:34:35.638 [Thread-32] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-02-28 12:34:35.639 [Thread-32] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+2024-02-28 12:34:35.640 [Thread-32] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+2024-02-28 12:34:35.764 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Starting RecruitApplication on Cheng‘sMBP with PID 13338 (/Users/qishuocheng/Desktop/projects/resume/recruit-system/recruit-sys/target/classes started by qishuocheng in /Users/qishuocheng/Desktop/projects/resume/recruit-system/recruit-sys)
+2024-02-28 12:34:35.764 [restartedMain] "  " INFO  com.recruit.RecruitApplication - The following profiles are active: dev
+2024-02-28 12:34:35.898 [restartedMain] "  " INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'commonConfiguration' of type [com.recruit.common.configuration.CommonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-28 12:34:35.930 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2024-02-28 12:34:35.930 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-02-28 12:34:35.930 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-28 12:34:35.931 [restartedMain] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2024-02-28 12:34:35.937 [restartedMain] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-28 12:34:35.937 [restartedMain] "  " INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 171 ms
+2024-02-28 12:34:35.949 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
+2024-02-28 12:34:35.951 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
+2024-02-28 12:34:35.952 [restartedMain] "  " INFO  o.s.b.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/apply?useSSL=false&serverTimezone=UTC&characterEncoding=UTF8&allowPublicKeyRetrieval=true'
+2024-02-28 12:34:36.505 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-02-28 12:34:36.583 [restartedMain] "  " INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-02-28 12:34:36.604 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-02-28 12:34:36.605 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2024-02-28 12:34:36.692 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Started RecruitApplication in 0.952 seconds (JVM running for 3626.928)
+2024-02-28 12:34:36.693 [restartedMain] "  " INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-02-28 12:34:41.099 [Thread-37] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-02-28 12:34:41.100 [Thread-37] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown initiated...
+2024-02-28 12:34:41.101 [Thread-37] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown completed.
+2024-02-28 12:34:41.270 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Starting RecruitApplication on Cheng‘sMBP with PID 13338 (/Users/qishuocheng/Desktop/projects/resume/recruit-system/recruit-sys/target/classes started by qishuocheng in /Users/qishuocheng/Desktop/projects/resume/recruit-system/recruit-sys)
+2024-02-28 12:34:41.271 [restartedMain] "  " INFO  com.recruit.RecruitApplication - The following profiles are active: dev
+2024-02-28 12:34:41.385 [restartedMain] "  " INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'commonConfiguration' of type [com.recruit.common.configuration.CommonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-28 12:34:41.420 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2024-02-28 12:34:41.421 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-02-28 12:34:41.421 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-28 12:34:41.421 [restartedMain] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2024-02-28 12:34:41.425 [restartedMain] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-28 12:34:41.425 [restartedMain] "  " INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 153 ms
+2024-02-28 12:34:41.437 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Starting...
+2024-02-28 12:34:41.440 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Start completed.
+2024-02-28 12:34:41.440 [restartedMain] "  " INFO  o.s.b.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/apply?useSSL=false&serverTimezone=UTC&characterEncoding=UTF8&allowPublicKeyRetrieval=true'
+2024-02-28 12:34:41.985 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-02-28 12:34:42.068 [restartedMain] "  " INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-02-28 12:34:42.089 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-02-28 12:34:42.090 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2024-02-28 12:34:42.167 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Started RecruitApplication in 0.919 seconds (JVM running for 3632.403)
+2024-02-28 12:34:42.168 [restartedMain] "  " INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-02-28 12:34:51.719 [Thread-42] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-02-28 12:34:51.721 [Thread-42] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown initiated...
+2024-02-28 12:34:51.722 [Thread-42] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown completed.
+2024-02-28 12:34:51.857 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Starting RecruitApplication on Cheng‘sMBP with PID 13338 (/Users/qishuocheng/Desktop/projects/resume/recruit-system/recruit-sys/target/classes started by qishuocheng in /Users/qishuocheng/Desktop/projects/resume/recruit-system/recruit-sys)
+2024-02-28 12:34:51.857 [restartedMain] "  " INFO  com.recruit.RecruitApplication - The following profiles are active: dev
+2024-02-28 12:34:52.012 [restartedMain] "  " INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'commonConfiguration' of type [com.recruit.common.configuration.CommonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-28 12:34:52.043 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2024-02-28 12:34:52.043 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-02-28 12:34:52.043 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-28 12:34:52.043 [restartedMain] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2024-02-28 12:34:52.050 [restartedMain] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-28 12:34:52.050 [restartedMain] "  " INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 192 ms
+2024-02-28 12:34:52.063 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Starting...
+2024-02-28 12:34:52.066 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Start completed.
+2024-02-28 12:34:52.066 [restartedMain] "  " INFO  o.s.b.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/apply?useSSL=false&serverTimezone=UTC&characterEncoding=UTF8&allowPublicKeyRetrieval=true'
+2024-02-28 12:34:52.605 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-02-28 12:34:52.683 [restartedMain] "  " INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-02-28 12:34:52.703 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-02-28 12:34:52.704 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2024-02-28 12:34:52.785 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Started RecruitApplication in 0.95 seconds (JVM running for 3643.021)
+2024-02-28 12:34:52.786 [restartedMain] "  " INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-02-28 12:35:29.992 [Thread-47] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-02-28 12:35:29.993 [Thread-47] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown initiated...
+2024-02-28 12:35:29.994 [Thread-47] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown completed.
+2024-02-28 12:35:30.196 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Starting RecruitApplication on Cheng‘sMBP with PID 13338 (/Users/qishuocheng/Desktop/projects/resume/recruit-system/recruit-sys/target/classes started by qishuocheng in /Users/qishuocheng/Desktop/projects/resume/recruit-system/recruit-sys)
+2024-02-28 12:35:30.196 [restartedMain] "  " INFO  com.recruit.RecruitApplication - The following profiles are active: dev
+2024-02-28 12:35:30.325 [restartedMain] "  " INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'commonConfiguration' of type [com.recruit.common.configuration.CommonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-28 12:35:30.357 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2024-02-28 12:35:30.357 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-02-28 12:35:30.358 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-28 12:35:30.358 [restartedMain] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2024-02-28 12:35:30.363 [restartedMain] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-28 12:35:30.363 [restartedMain] "  " INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 166 ms
+2024-02-28 12:35:30.375 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Starting...
+2024-02-28 12:35:30.378 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Start completed.
+2024-02-28 12:35:30.378 [restartedMain] "  " INFO  o.s.b.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/apply?useSSL=false&serverTimezone=UTC&characterEncoding=UTF8&allowPublicKeyRetrieval=true'
+2024-02-28 12:35:30.916 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-02-28 12:35:30.997 [restartedMain] "  " INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-02-28 12:35:31.017 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-02-28 12:35:31.018 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2024-02-28 12:35:31.098 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Started RecruitApplication in 0.923 seconds (JVM running for 3681.334)
+2024-02-28 12:35:31.099 [restartedMain] "  " INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-02-28 12:37:06.904 [Thread-52] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-02-28 12:37:06.906 [Thread-52] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown initiated...
+2024-02-28 12:37:06.907 [Thread-52] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown completed.
+2024-02-28 12:37:07.061 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Starting RecruitApplication on Cheng‘sMBP with PID 13338 (/Users/qishuocheng/Desktop/projects/resume/recruit-system/recruit-sys/target/classes started by qishuocheng in /Users/qishuocheng/Desktop/projects/resume/recruit-system/recruit-sys)
+2024-02-28 12:37:07.061 [restartedMain] "  " INFO  com.recruit.RecruitApplication - The following profiles are active: dev
+2024-02-28 12:37:07.202 [restartedMain] "  " INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'commonConfiguration' of type [com.recruit.common.configuration.CommonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-28 12:37:07.232 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2024-02-28 12:37:07.233 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-02-28 12:37:07.233 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-28 12:37:07.233 [restartedMain] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2024-02-28 12:37:07.238 [restartedMain] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-28 12:37:07.238 [restartedMain] "  " INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 176 ms
+2024-02-28 12:37:07.252 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Starting...
+2024-02-28 12:37:07.254 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Start completed.
+2024-02-28 12:37:07.255 [restartedMain] "  " INFO  o.s.b.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/apply?useSSL=false&serverTimezone=UTC&characterEncoding=UTF8&allowPublicKeyRetrieval=true'
+2024-02-28 12:37:07.797 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-02-28 12:37:07.874 [restartedMain] "  " INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-02-28 12:37:07.895 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-02-28 12:37:07.896 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2024-02-28 12:37:07.967 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Started RecruitApplication in 0.93 seconds (JVM running for 3778.204)
+2024-02-28 12:37:07.968 [restartedMain] "  " INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-02-28 12:48:32.704 [Thread-57] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-02-28 12:48:32.706 [Thread-57] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Shutdown initiated...
+2024-02-28 12:48:32.707 [Thread-57] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Shutdown completed.
+2024-02-28 12:48:32.951 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Starting RecruitApplication on Cheng‘sMBP with PID 13338 (/Users/qishuocheng/Desktop/projects/resume/recruit-system/recruit-sys/target/classes started by qishuocheng in /Users/qishuocheng/Desktop/projects/resume/recruit-system/recruit-sys)
+2024-02-28 12:48:32.951 [restartedMain] "  " INFO  com.recruit.RecruitApplication - The following profiles are active: dev
+2024-02-28 12:48:33.091 [restartedMain] "  " INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'commonConfiguration' of type [com.recruit.common.configuration.CommonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-28 12:48:33.120 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2024-02-28 12:48:33.121 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-02-28 12:48:33.121 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-28 12:48:33.121 [restartedMain] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2024-02-28 12:48:33.127 [restartedMain] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-28 12:48:33.127 [restartedMain] "  " INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 174 ms
+2024-02-28 12:48:33.140 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Starting...
+2024-02-28 12:48:33.143 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Start completed.
+2024-02-28 12:48:33.143 [restartedMain] "  " INFO  o.s.b.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/apply?useSSL=false&serverTimezone=UTC&characterEncoding=UTF8&allowPublicKeyRetrieval=true'
+2024-02-28 12:48:33.727 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-02-28 12:48:33.810 [restartedMain] "  " INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-02-28 12:48:33.831 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-02-28 12:48:33.832 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2024-02-28 12:48:33.921 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Started RecruitApplication in 0.992 seconds (JVM running for 4464.156)
+2024-02-28 12:48:33.922 [restartedMain] "  " INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-02-28 15:28:18.693 [http-nio-80-exec-2] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-28 15:28:18.694 [http-nio-80-exec-2] "  " INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-02-28 15:28:18.709 [http-nio-80-exec-2] "  " INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+2024-02-28 15:28:18.734 [http-nio-80-exec-1] "GET /recruit/category/show HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/category/show] from: 127.0.0.1 costs: 22ms
+2024-02-28 15:28:18.734 [http-nio-80-exec-4] "GET /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/company/find] from: 127.0.0.1 costs: 22ms
+2024-02-28 15:28:18.735 [http-nio-80-exec-3] "GET /recruit/position/sort HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/sort] from: 127.0.0.1 costs: 23ms
+2024-02-28 15:28:18.741 [http-nio-80-exec-2] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 29ms
+2024-02-28 15:28:19.404 [http-nio-80-exec-5] "GET /recruit/category/show HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/category/show] from: 127.0.0.1 costs: 10ms
+2024-02-28 15:28:19.407 [http-nio-80-exec-7] "GET /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/company/find] from: 127.0.0.1 costs: 10ms
+2024-02-28 15:28:19.413 [http-nio-80-exec-6] "GET /recruit/position/sort HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/sort] from: 127.0.0.1 costs: 19ms
+2024-02-28 15:28:19.431 [http-nio-80-exec-8] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 27ms
+2024-02-28 16:46:58.237 [SpringContextShutdownHook] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-02-28 16:46:58.239 [SpringContextShutdownHook] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Shutdown initiated...
+2024-02-28 16:46:58.240 [SpringContextShutdownHook] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Shutdown completed.

@@ -1,0 +1,434 @@
+2024-03-20 23:12:08.895 [background-preinit] "  " INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2024-03-20 23:12:08.908 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Starting RecruitApplication on Cheng‘sMBP with PID 63533 (/Users/qishuocheng/Desktop/projects/resume/recruit-system/recruit-sys/target/classes started by qishuocheng in /Users/qishuocheng/Desktop/projects/resume/recruit-system/recruit-sys)
+2024-03-20 23:12:08.908 [restartedMain] "  " INFO  com.recruit.RecruitApplication - The following profiles are active: dev
+2024-03-20 23:12:08.939 [restartedMain] "  " INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-20 23:12:09.324 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-03-20 23:12:09.325 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-20 23:12:09.346 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 Redis repository interfaces.
+2024-03-20 23:12:09.525 [restartedMain] "  " INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'commonConfiguration' of type [com.recruit.common.configuration.CommonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-20 23:12:09.663 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2024-03-20 23:12:09.668 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-03-20 23:12:09.668 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-20 23:12:09.668 [restartedMain] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2024-03-20 23:12:09.727 [restartedMain] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-20 23:12:09.727 [restartedMain] "  " INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 787 ms
+2024-03-20 23:12:09.756 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-03-20 23:12:09.843 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-03-20 23:12:09.846 [restartedMain] "  " INFO  o.s.b.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/apply?useSSL=false&serverTimezone=UTC&characterEncoding=UTF8&allowPublicKeyRetrieval=true'
+2024-03-20 23:12:10.610 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2024-03-20 23:12:10.613 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2024-03-20 23:12:10.626 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2024-03-20 23:12:10.643 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2024-03-20 23:12:11.105 [restartedMain] "  " INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-03-20 23:12:11.126 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-03-20 23:12:11.140 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2024-03-20 23:12:11.141 [restartedMain] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2024-03-20 23:12:11.141 [restartedMain] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2024-03-20 23:12:11.141 [restartedMain] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2024-03-20 23:12:11.373 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Started RecruitApplication in 2.759 seconds (JVM running for 3.107)
+2024-03-20 23:12:17.500 [http-nio-80-exec-2] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-20 23:12:17.500 [http-nio-80-exec-2] "  " INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-03-20 23:12:17.508 [http-nio-80-exec-2] "  " INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2024-03-20 23:12:17.530 [http-nio-80-exec-2] "OPTIONS /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/notify] from: 127.0.0.1 costs: 12ms
+2024-03-20 23:12:17.530 [http-nio-80-exec-1] "OPTIONS /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/position/page/1] from: 127.0.0.1 costs: 12ms
+2024-03-20 23:12:17.790 [http-nio-80-exec-4] "GET /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/1] from: 127.0.0.1 costs: 248ms
+2024-03-20 23:12:17.790 [http-nio-80-exec-3] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 127.0.0.1 costs: 249ms
+2024-03-20 23:12:21.659 [http-nio-80-exec-7] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 127.0.0.1 costs: 31ms
+2024-03-20 23:12:21.667 [http-nio-80-exec-8] "GET /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/1] from: 127.0.0.1 costs: 40ms
+2024-03-20 23:12:29.308 [http-nio-80-exec-10] "OPTIONS /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/notify] from: 127.0.0.1 costs: 1ms
+2024-03-20 23:12:29.310 [http-nio-80-exec-9] "OPTIONS /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/position/page/1] from: 127.0.0.1 costs: 0ms
+2024-03-20 23:12:29.343 [http-nio-80-exec-2] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 127.0.0.1 costs: 24ms
+2024-03-20 23:12:29.345 [http-nio-80-exec-1] "GET /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/1] from: 127.0.0.1 costs: 24ms
+2024-03-20 23:12:31.973 [http-nio-80-exec-4] "OPTIONS /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 1ms
+2024-03-20 23:12:31.973 [http-nio-80-exec-5] "OPTIONS /recruit/category/show HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/category/show] from: 127.0.0.1 costs: 0ms
+2024-03-20 23:12:31.984 [http-nio-80-exec-6] "OPTIONS /recruit/position/sort HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/position/sort] from: 127.0.0.1 costs: 0ms
+2024-03-20 23:12:31.984 [http-nio-80-exec-7] "OPTIONS /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/company/find] from: 127.0.0.1 costs: 0ms
+2024-03-20 23:12:31.994 [http-nio-80-exec-10] "GET /recruit/position/sort HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/sort] from: 127.0.0.1 costs: 7ms
+2024-03-20 23:12:32.000 [http-nio-80-exec-8] "GET /recruit/category/show HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/category/show] from: 127.0.0.1 costs: 13ms
+2024-03-20 23:12:32.002 [http-nio-80-exec-3] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 24ms
+2024-03-20 23:12:32.002 [http-nio-80-exec-9] "GET /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/company/find] from: 127.0.0.1 costs: 15ms
+2024-03-20 23:12:50.866 [http-nio-80-exec-2] "OPTIONS /recruit/user/login HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/user/login] from: 127.0.0.1 costs: 1ms
+2024-03-20 23:12:51.122 [http-nio-80-exec-1] "POST /recruit/user/login HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [POST] -> [/recruit/user/login] from: 127.0.0.1 costs: 247ms
+2024-03-20 23:12:54.205 [http-nio-80-exec-4] "POST /recruit/user/login HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [POST] -> [/recruit/user/login] from: 127.0.0.1 costs: 139ms
+2024-03-20 23:12:54.209 [http-nio-80-exec-5] "OPTIONS /recruit/user/permissions HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/user/permissions] from: 127.0.0.1 costs: 0ms
+2024-03-20 23:12:54.257 [http-nio-80-exec-6] "GET /recruit/user/permissions HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/permissions] from: 127.0.0.1 costs: 34ms
+2024-03-20 23:12:54.267 [http-nio-80-exec-7] "OPTIONS /recruit/user/getGroup/4 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/user/getGroup/4] from: 127.0.0.1 costs: 0ms
+2024-03-20 23:12:54.279 [http-nio-80-exec-10] "GET /recruit/user/getGroup/4 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/getGroup/4] from: 127.0.0.1 costs: 6ms
+2024-03-20 23:13:06.250 [http-nio-80-exec-1] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 127.0.0.1 costs: 20ms
+2024-03-20 23:13:06.253 [http-nio-80-exec-2] "GET /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/1] from: 127.0.0.1 costs: 18ms
+2024-03-20 23:13:09.570 [http-nio-80-exec-6] "GET /chat/users HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/chat/users] from: 127.0.0.1 costs: 78ms
+2024-03-20 23:13:10.648 [MessageBroker-2] "  " INFO  o.s.web.socket.config.WebSocketMessageBrokerStats - WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 2, completed tasks = 1]
+2024-03-20 23:13:51.553 [http-nio-80-exec-1] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 127.0.0.1 costs: 84ms
+2024-03-20 23:13:51.629 [http-nio-80-exec-2] "GET /chat/users HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/chat/users] from: 127.0.0.1 costs: 154ms
+2024-03-20 23:13:52.569 [http-nio-80-exec-6] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 127.0.0.1 costs: 17ms
+2024-03-20 23:13:52.572 [http-nio-80-exec-9] "GET /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/1] from: 127.0.0.1 costs: 18ms
+2024-03-20 23:16:03.072 [Thread-9] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopping...
+2024-03-20 23:16:03.072 [Thread-9] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2024-03-20 23:16:03.073 [Thread-9] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopped.
+2024-03-20 23:16:04.322 [Thread-9] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+2024-03-20 23:16:04.323 [Thread-9] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2024-03-20 23:16:04.323 [Thread-9] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2024-03-20 23:16:04.323 [Thread-9] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2024-03-20 23:16:04.324 [Thread-9] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-03-20 23:16:04.328 [Thread-9] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-03-20 23:16:12.396 [background-preinit] "  " INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2024-03-20 23:16:12.404 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Starting RecruitApplication on Cheng‘sMBP with PID 64613 (/Users/qishuocheng/Desktop/projects/resume/recruit-system/recruit-sys/target/classes started by qishuocheng in /Users/qishuocheng/Desktop/projects/resume/recruit-system/recruit-sys)
+2024-03-20 23:16:12.404 [restartedMain] "  " INFO  com.recruit.RecruitApplication - The following profiles are active: dev
+2024-03-20 23:16:12.431 [restartedMain] "  " INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-20 23:16:12.844 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-03-20 23:16:12.845 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-20 23:16:12.865 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 Redis repository interfaces.
+2024-03-20 23:16:13.038 [restartedMain] "  " INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'commonConfiguration' of type [com.recruit.common.configuration.CommonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-20 23:16:13.194 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2024-03-20 23:16:13.198 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-03-20 23:16:13.198 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-20 23:16:13.199 [restartedMain] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2024-03-20 23:16:13.227 [restartedMain] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-20 23:16:13.227 [restartedMain] "  " INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 795 ms
+2024-03-20 23:16:13.252 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-03-20 23:16:13.299 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-03-20 23:16:13.300 [restartedMain] "  " INFO  o.s.b.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/apply?useSSL=false&serverTimezone=UTC&characterEncoding=UTF8&allowPublicKeyRetrieval=true'
+2024-03-20 23:16:14.046 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2024-03-20 23:16:14.050 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2024-03-20 23:16:14.062 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2024-03-20 23:16:14.078 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2024-03-20 23:16:14.513 [restartedMain] "  " INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-03-20 23:16:14.537 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-03-20 23:16:14.550 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2024-03-20 23:16:14.551 [restartedMain] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2024-03-20 23:16:14.551 [restartedMain] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2024-03-20 23:16:14.551 [restartedMain] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2024-03-20 23:16:14.776 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Started RecruitApplication in 2.588 seconds (JVM running for 2.876)
+2024-03-20 23:16:18.147 [http-nio-80-exec-3] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-20 23:16:18.147 [http-nio-80-exec-3] "  " INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-03-20 23:16:18.151 [http-nio-80-exec-3] "  " INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2024-03-20 23:16:18.165 [http-nio-80-exec-1] "OPTIONS /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/company/find] from: 127.0.0.1 costs: 6ms
+2024-03-20 23:16:18.165 [http-nio-80-exec-4] "OPTIONS /recruit/category/show HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/category/show] from: 127.0.0.1 costs: 6ms
+2024-03-20 23:16:18.165 [http-nio-80-exec-2] "OPTIONS /recruit/position/sort HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/position/sort] from: 127.0.0.1 costs: 6ms
+2024-03-20 23:16:18.165 [http-nio-80-exec-3] "OPTIONS /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 6ms
+2024-03-20 23:16:18.307 [http-nio-80-exec-7] "GET /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/company/find] from: 127.0.0.1 costs: 134ms
+2024-03-20 23:16:18.307 [http-nio-80-exec-8] "GET /recruit/position/sort HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/sort] from: 127.0.0.1 costs: 134ms
+2024-03-20 23:16:18.307 [http-nio-80-exec-5] "GET /recruit/category/show HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/category/show] from: 127.0.0.1 costs: 134ms
+2024-03-20 23:16:18.308 [http-nio-80-exec-6] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 135ms
+2024-03-20 23:16:31.887 [http-nio-80-exec-9] "OPTIONS /recruit/user/login HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/user/login] from: 127.0.0.1 costs: 1ms
+2024-03-20 23:16:32.122 [http-nio-80-exec-10] "POST /recruit/user/login HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [POST] -> [/recruit/user/login] from: 127.0.0.1 costs: 215ms
+2024-03-20 23:16:32.132 [http-nio-80-exec-4] "OPTIONS /recruit/user/permissions HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/user/permissions] from: 127.0.0.1 costs: 0ms
+2024-03-20 23:16:32.170 [http-nio-80-exec-3] "GET /recruit/user/permissions HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/permissions] from: 127.0.0.1 costs: 27ms
+2024-03-20 23:16:32.190 [http-nio-80-exec-1] "OPTIONS /recruit/user/getGroup/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/user/getGroup/5] from: 127.0.0.1 costs: 1ms
+2024-03-20 23:16:32.202 [http-nio-80-exec-2] "GET /recruit/user/getGroup/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/getGroup/5] from: 127.0.0.1 costs: 7ms
+2024-03-20 23:16:35.145 [http-nio-80-exec-7] "OPTIONS /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/notify] from: 127.0.0.1 costs: 0ms
+2024-03-20 23:16:35.156 [http-nio-80-exec-5] "GET /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/1] from: 127.0.0.1 costs: 13ms
+2024-03-20 23:16:35.166 [http-nio-80-exec-8] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 127.0.0.1 costs: 17ms
+2024-03-20 23:16:38.651 [http-nio-80-exec-6] "GET /chat/users HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/chat/users] from: 127.0.0.1 costs: 61ms
+2024-03-20 23:17:13.303 [http-nio-80-exec-7] "GET /recruit/category/show HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/category/show] from: 127.0.0.1 costs: 5ms
+2024-03-20 23:17:13.312 [http-nio-80-exec-5] "GET /recruit/position/sort HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/sort] from: 127.0.0.1 costs: 14ms
+2024-03-20 23:17:13.314 [http-nio-80-exec-8] "GET /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/company/find] from: 127.0.0.1 costs: 16ms
+2024-03-20 23:17:13.315 [http-nio-80-exec-2] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 25ms
+2024-03-20 23:17:14.083 [MessageBroker-4] "  " INFO  o.s.web.socket.config.WebSocketMessageBrokerStats - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 3, active threads = 0, queued tasks = 0, completed tasks = 3], outboundChannel[pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 1], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 1, completed tasks = 9]
+2024-03-20 23:17:17.235 [http-nio-80-exec-4] "GET /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/company/find] from: 127.0.0.1 costs: 18ms
+2024-03-20 23:17:17.235 [http-nio-80-exec-9] "GET /recruit/category/show HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/category/show] from: 127.0.0.1 costs: 14ms
+2024-03-20 23:17:17.235 [http-nio-80-exec-10] "GET /recruit/position/sort HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/sort] from: 127.0.0.1 costs: 16ms
+2024-03-20 23:17:17.239 [http-nio-80-exec-6] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 20ms
+2024-03-20 23:17:27.749 [http-nio-80-exec-2] "GET /recruit/position/sort HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/sort] from: 127.0.0.1 costs: 11ms
+2024-03-20 23:17:27.753 [http-nio-80-exec-8] "GET /recruit/category/show HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/category/show] from: 127.0.0.1 costs: 16ms
+2024-03-20 23:17:27.757 [http-nio-80-exec-4] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 18ms
+2024-03-20 23:17:27.779 [http-nio-80-exec-10] "GET /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/company/find] from: 127.0.0.1 costs: 38ms
+2024-03-20 23:17:33.912 [http-nio-80-exec-9] "OPTIONS /recruit/user/login HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/user/login] from: 127.0.0.1 costs: 2ms
+2024-03-20 23:17:34.061 [http-nio-80-exec-6] "POST /recruit/user/login HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [POST] -> [/recruit/user/login] from: 127.0.0.1 costs: 144ms
+2024-03-20 23:17:34.065 [http-nio-80-exec-1] "OPTIONS /recruit/user/permissions HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/user/permissions] from: 127.0.0.1 costs: 1ms
+2024-03-20 23:17:34.075 [http-nio-80-exec-3] "GET /recruit/user/permissions HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/permissions] from: 127.0.0.1 costs: 6ms
+2024-03-20 23:17:34.088 [http-nio-80-exec-7] "OPTIONS /recruit/user/getGroup/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/user/getGroup/5] from: 127.0.0.1 costs: 1ms
+2024-03-20 23:17:34.095 [http-nio-80-exec-5] "GET /recruit/user/getGroup/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/getGroup/5] from: 127.0.0.1 costs: 3ms
+2024-03-20 23:17:36.157 [http-nio-80-exec-8] "OPTIONS /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/notify] from: 127.0.0.1 costs: 1ms
+2024-03-20 23:17:36.160 [http-nio-80-exec-2] "OPTIONS /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/position/page/1] from: 127.0.0.1 costs: 0ms
+2024-03-20 23:17:36.166 [http-nio-80-exec-4] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 127.0.0.1 costs: 6ms
+2024-03-20 23:17:36.168 [http-nio-80-exec-10] "GET /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/1] from: 127.0.0.1 costs: 6ms
+2024-03-20 23:17:45.909 [http-nio-80-exec-9] "GET /chat/users HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/chat/users] from: 127.0.0.1 costs: 27ms
+2024-03-20 23:20:05.335 [Thread-9] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopping...
+2024-03-20 23:20:05.335 [Thread-9] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2024-03-20 23:20:05.336 [Thread-9] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopped.
+2024-03-20 23:20:06.600 [Thread-9] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+2024-03-20 23:20:06.600 [Thread-9] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2024-03-20 23:20:06.601 [Thread-9] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2024-03-20 23:20:06.601 [Thread-9] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2024-03-20 23:20:06.603 [Thread-9] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-03-20 23:20:06.609 [Thread-9] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-03-20 23:20:11.821 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Starting RecruitApplication on Cheng‘sMBP with PID 64613 (/Users/qishuocheng/Desktop/projects/resume/recruit-system/recruit-sys/target/classes started by qishuocheng in /Users/qishuocheng/Desktop/projects/resume/recruit-system/recruit-sys)
+2024-03-20 23:20:11.822 [restartedMain] "  " INFO  com.recruit.RecruitApplication - The following profiles are active: dev
+2024-03-20 23:20:11.946 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-03-20 23:20:11.946 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-20 23:20:11.957 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2024-03-20 23:20:11.990 [restartedMain] "  " INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'commonConfiguration' of type [com.recruit.common.configuration.CommonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-20 23:20:12.033 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2024-03-20 23:20:12.034 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-03-20 23:20:12.034 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-20 23:20:12.034 [restartedMain] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2024-03-20 23:20:12.040 [restartedMain] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-20 23:20:12.040 [restartedMain] "  " INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 216 ms
+2024-03-20 23:20:12.052 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2024-03-20 23:20:12.056 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2024-03-20 23:20:12.056 [restartedMain] "  " INFO  o.s.b.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/apply?useSSL=false&serverTimezone=UTC&characterEncoding=UTF8&allowPublicKeyRetrieval=true'
+2024-03-20 23:20:12.624 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2024-03-20 23:20:12.628 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2024-03-20 23:20:12.634 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2024-03-20 23:20:12.639 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2024-03-20 23:20:12.799 [restartedMain] "  " INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-03-20 23:20:12.822 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-03-20 23:20:12.823 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2024-03-20 23:20:12.823 [restartedMain] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2024-03-20 23:20:12.823 [restartedMain] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2024-03-20 23:20:12.823 [restartedMain] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2024-03-20 23:20:12.961 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Started RecruitApplication in 6.216 seconds (JVM running for 241.059)
+2024-03-20 23:20:12.962 [restartedMain] "  " INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-03-20 23:21:12.640 [MessageBroker-1] "  " INFO  o.s.web.socket.config.WebSocketMessageBrokerStats - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2024-03-20 23:21:15.274 [Thread-19] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopping...
+2024-03-20 23:21:15.274 [Thread-19] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2024-03-20 23:21:15.274 [Thread-19] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopped.
+2024-03-20 23:21:16.536 [Thread-19] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+2024-03-20 23:21:16.536 [Thread-19] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2024-03-20 23:21:16.536 [Thread-19] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2024-03-20 23:21:16.536 [Thread-19] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2024-03-20 23:21:16.538 [Thread-19] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2024-03-20 23:21:16.540 [Thread-19] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2024-03-20 23:21:16.694 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Starting RecruitApplication on Cheng‘sMBP with PID 64613 (/Users/qishuocheng/Desktop/projects/resume/recruit-system/recruit-sys/target/classes started by qishuocheng in /Users/qishuocheng/Desktop/projects/resume/recruit-system/recruit-sys)
+2024-03-20 23:21:16.694 [restartedMain] "  " INFO  com.recruit.RecruitApplication - The following profiles are active: dev
+2024-03-20 23:21:16.804 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-03-20 23:21:16.804 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-20 23:21:16.813 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2024-03-20 23:21:16.845 [restartedMain] "  " INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'commonConfiguration' of type [com.recruit.common.configuration.CommonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-20 23:21:16.874 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2024-03-20 23:21:16.875 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-03-20 23:21:16.875 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-20 23:21:16.875 [restartedMain] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2024-03-20 23:21:16.881 [restartedMain] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-20 23:21:16.881 [restartedMain] "  " INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 186 ms
+2024-03-20 23:21:16.892 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2024-03-20 23:21:16.897 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2024-03-20 23:21:16.897 [restartedMain] "  " INFO  o.s.b.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/apply?useSSL=false&serverTimezone=UTC&characterEncoding=UTF8&allowPublicKeyRetrieval=true'
+2024-03-20 23:21:17.431 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2024-03-20 23:21:17.434 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2024-03-20 23:21:17.440 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2024-03-20 23:21:17.446 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2024-03-20 23:21:17.600 [restartedMain] "  " INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-03-20 23:21:17.618 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-03-20 23:21:17.620 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2024-03-20 23:21:17.620 [restartedMain] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2024-03-20 23:21:17.620 [restartedMain] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2024-03-20 23:21:17.620 [restartedMain] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2024-03-20 23:21:17.716 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Started RecruitApplication in 1.059 seconds (JVM running for 305.815)
+2024-03-20 23:21:17.717 [restartedMain] "  " INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-03-20 23:22:11.850 [Thread-24] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopping...
+2024-03-20 23:22:11.851 [Thread-24] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2024-03-20 23:22:11.851 [Thread-24] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopped.
+2024-03-20 23:22:13.069 [Thread-24] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+2024-03-20 23:22:13.069 [Thread-24] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2024-03-20 23:22:13.069 [Thread-24] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2024-03-20 23:22:13.069 [Thread-24] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2024-03-20 23:22:13.070 [Thread-24] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2024-03-20 23:22:13.071 [Thread-24] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2024-03-20 23:22:20.864 [background-preinit] "  " INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2024-03-20 23:22:20.872 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Starting RecruitApplication on Cheng‘sMBP with PID 66226 (/Users/qishuocheng/Desktop/projects/resume/recruit-system/recruit-sys/target/classes started by qishuocheng in /Users/qishuocheng/Desktop/projects/resume/recruit-system/recruit-sys)
+2024-03-20 23:22:20.872 [restartedMain] "  " INFO  com.recruit.RecruitApplication - The following profiles are active: dev
+2024-03-20 23:22:20.907 [restartedMain] "  " INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-20 23:22:21.343 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-03-20 23:22:21.344 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-20 23:22:21.377 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20ms. Found 0 Redis repository interfaces.
+2024-03-20 23:22:21.603 [restartedMain] "  " INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'commonConfiguration' of type [com.recruit.common.configuration.CommonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-20 23:22:21.764 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2024-03-20 23:22:21.768 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-03-20 23:22:21.769 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-20 23:22:21.769 [restartedMain] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2024-03-20 23:22:21.796 [restartedMain] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-20 23:22:21.796 [restartedMain] "  " INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 889 ms
+2024-03-20 23:22:21.823 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-03-20 23:22:21.884 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-03-20 23:22:21.886 [restartedMain] "  " INFO  o.s.b.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/apply?useSSL=false&serverTimezone=UTC&characterEncoding=UTF8&allowPublicKeyRetrieval=true'
+2024-03-20 23:22:22.646 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2024-03-20 23:22:22.650 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2024-03-20 23:22:22.665 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2024-03-20 23:22:22.683 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2024-03-20 23:22:23.133 [restartedMain] "  " INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-03-20 23:22:23.157 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-03-20 23:22:23.171 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2024-03-20 23:22:23.172 [restartedMain] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2024-03-20 23:22:23.172 [restartedMain] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2024-03-20 23:22:23.173 [restartedMain] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2024-03-20 23:22:23.402 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Started RecruitApplication in 2.831 seconds (JVM running for 3.188)
+2024-03-20 23:22:33.746 [Thread-10] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopping...
+2024-03-20 23:22:33.746 [Thread-10] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2024-03-20 23:22:33.746 [Thread-10] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopped.
+2024-03-20 23:22:34.974 [Thread-10] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+2024-03-20 23:22:34.974 [Thread-10] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2024-03-20 23:22:34.974 [Thread-10] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2024-03-20 23:22:34.975 [Thread-10] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2024-03-20 23:22:34.975 [Thread-10] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-03-20 23:22:34.978 [Thread-10] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-03-20 23:22:37.371 [background-preinit] "  " INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2024-03-20 23:22:37.377 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Starting RecruitApplication on Cheng‘sMBP with PID 66309 (/Users/qishuocheng/Desktop/projects/resume/recruit-system/recruit-sys/target/classes started by qishuocheng in /Users/qishuocheng/Desktop/projects/resume/recruit-system/recruit-sys)
+2024-03-20 23:22:37.378 [restartedMain] "  " INFO  com.recruit.RecruitApplication - The following profiles are active: dev
+2024-03-20 23:22:37.405 [restartedMain] "  " INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-20 23:22:37.795 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-03-20 23:22:37.796 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-20 23:22:37.816 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 Redis repository interfaces.
+2024-03-20 23:22:37.992 [restartedMain] "  " INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'commonConfiguration' of type [com.recruit.common.configuration.CommonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-20 23:22:38.159 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2024-03-20 23:22:38.163 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-03-20 23:22:38.164 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-20 23:22:38.164 [restartedMain] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2024-03-20 23:22:38.190 [restartedMain] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-20 23:22:38.191 [restartedMain] "  " INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 786 ms
+2024-03-20 23:22:38.216 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-03-20 23:22:38.262 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-03-20 23:22:38.264 [restartedMain] "  " INFO  o.s.b.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/apply?useSSL=false&serverTimezone=UTC&characterEncoding=UTF8&allowPublicKeyRetrieval=true'
+2024-03-20 23:22:39.023 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2024-03-20 23:22:39.027 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2024-03-20 23:22:39.040 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2024-03-20 23:22:39.056 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2024-03-20 23:22:39.578 [restartedMain] "  " INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-03-20 23:22:39.601 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-03-20 23:22:39.614 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2024-03-20 23:22:39.616 [restartedMain] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2024-03-20 23:22:39.616 [restartedMain] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2024-03-20 23:22:39.616 [restartedMain] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2024-03-20 23:22:39.879 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Started RecruitApplication in 2.74 seconds (JVM running for 3.047)
+2024-03-20 23:22:49.464 [http-nio-80-exec-2] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-20 23:22:49.464 [http-nio-80-exec-2] "  " INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-03-20 23:22:49.551 [http-nio-80-exec-2] "  " INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 85 ms
+2024-03-20 23:22:49.840 [http-nio-80-exec-1] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 127.0.0.1 costs: 266ms
+2024-03-20 23:22:49.907 [http-nio-80-exec-3] "GET /chat/users HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/chat/users] from: 127.0.0.1 costs: 342ms
+2024-03-20 23:23:12.531 [http-nio-80-exec-9] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 127.0.0.1 costs: 23ms
+2024-03-20 23:23:12.548 [http-nio-80-exec-10] "GET /chat/users HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/chat/users] from: 127.0.0.1 costs: 42ms
+2024-03-20 23:23:39.057 [MessageBroker-3] "  " INFO  o.s.web.socket.config.WebSocketMessageBrokerStats - WebSocketSession[2 current WS(2)-HttpStream(0)-HttpPoll(0), 2 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(2)-CONNECTED(2)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 16, active threads = 0, queued tasks = 0, completed tasks = 24], outboundChannel[pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 5], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 3, completed tasks = 11]
+2024-03-20 23:23:50.552 [http-nio-80-exec-9] "GET /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/1] from: 127.0.0.1 costs: 30ms
+2024-03-20 23:23:51.425 [http-nio-80-exec-2] "OPTIONS /recruit/follow/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/follow/5] from: 127.0.0.1 costs: 2ms
+2024-03-20 23:23:51.500 [http-nio-80-exec-10] "GET /recruit/follow/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/follow/5] from: 127.0.0.1 costs: 11ms
+2024-03-20 23:23:52.147 [http-nio-80-exec-1] "OPTIONS /recruit/favor/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/favor/5] from: 127.0.0.1 costs: 1ms
+2024-03-20 23:23:52.204 [http-nio-80-exec-4] "GET /recruit/favor/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/favor/5] from: 127.0.0.1 costs: 28ms
+2024-03-20 23:23:53.737 [http-nio-80-exec-5] "OPTIONS /recruit/resume/get/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/resume/get/5] from: 127.0.0.1 costs: 1ms
+2024-03-20 23:23:53.805 [http-nio-80-exec-3] "GET /recruit/resume/get/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/resume/get/5] from: 127.0.0.1 costs: 50ms
+2024-03-20 23:23:53.834 [http-nio-80-exec-6] "OPTIONS /recruit/resume/2 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/resume/2] from: 127.0.0.1 costs: 1ms
+2024-03-20 23:23:53.856 [http-nio-80-exec-7] "GET /recruit/resume/2 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/resume/2] from: 127.0.0.1 costs: 19ms
+2024-03-20 23:23:55.009 [http-nio-80-exec-8] "OPTIONS /recruit/application/page/find/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/application/page/find/5] from: 127.0.0.1 costs: 0ms
+2024-03-20 23:23:55.047 [http-nio-80-exec-9] "GET /recruit/application/page/find/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/application/page/find/5] from: 127.0.0.1 costs: 21ms
+2024-03-20 23:23:56.165 [http-nio-80-exec-2] "OPTIONS /recruit/interview/page/find/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/interview/page/find/5] from: 127.0.0.1 costs: 0ms
+2024-03-20 23:23:56.214 [http-nio-80-exec-10] "GET /recruit/interview/page/find/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/interview/page/find/5] from: 127.0.0.1 costs: 27ms
+2024-03-20 23:23:57.668 [http-nio-80-exec-1] "GET /recruit/application/page/find/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/application/page/find/5] from: 127.0.0.1 costs: 16ms
+2024-03-20 23:23:59.267 [http-nio-80-exec-4] "GET /chat/users HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/chat/users] from: 127.0.0.1 costs: 44ms
+2024-03-20 23:24:00.199 [http-nio-80-exec-8] "GET /recruit/interview/page/find/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/interview/page/find/5] from: 127.0.0.1 costs: 4ms
+2024-03-20 23:24:06.423 [http-nio-80-exec-9] "GET /recruit/resume/get/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/resume/get/5] from: 127.0.0.1 costs: 26ms
+2024-03-20 23:24:06.477 [http-nio-80-exec-2] "GET /recruit/resume/2 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/resume/2] from: 127.0.0.1 costs: 23ms
+2024-03-20 23:24:07.960 [http-nio-80-exec-10] "GET /recruit/follow/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/follow/5] from: 127.0.0.1 costs: 15ms
+2024-03-20 23:24:08.288 [http-nio-80-exec-1] "GET /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/1] from: 127.0.0.1 costs: 16ms
+2024-03-20 23:24:08.888 [http-nio-80-exec-5] "GET /chat/users HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/chat/users] from: 127.0.0.1 costs: 56ms
+2024-03-20 23:24:10.092 [http-nio-80-exec-8] "GET /recruit/follow/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/follow/5] from: 127.0.0.1 costs: 4ms
+2024-03-20 23:24:11.591 [http-nio-80-exec-9] "GET /recruit/favor/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/favor/5] from: 127.0.0.1 costs: 6ms
+2024-03-20 23:24:11.743 [http-nio-80-exec-2] "GET /recruit/resume/get/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/resume/get/5] from: 127.0.0.1 costs: 31ms
+2024-03-20 23:24:11.797 [http-nio-80-exec-10] "GET /recruit/resume/2 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/resume/2] from: 127.0.0.1 costs: 32ms
+2024-03-20 23:24:16.114 [http-nio-80-exec-1] "GET /recruit/follow/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/follow/5] from: 127.0.0.1 costs: 4ms
+2024-03-20 23:24:16.227 [http-nio-80-exec-3] "GET /chat/users HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/chat/users] from: 127.0.0.1 costs: 40ms
+2024-03-20 23:24:18.667 [http-nio-80-exec-8] "OPTIONS /recruit/category/show HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/category/show] from: 127.0.0.1 costs: 0ms
+2024-03-20 23:24:18.668 [http-nio-80-exec-9] "OPTIONS /recruit/position/sort HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/position/sort] from: 127.0.0.1 costs: 0ms
+2024-03-20 23:24:18.668 [http-nio-80-exec-2] "OPTIONS /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/company/find] from: 127.0.0.1 costs: 0ms
+2024-03-20 23:24:18.670 [http-nio-80-exec-9] "OPTIONS /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 0ms
+2024-03-20 23:24:18.682 [http-nio-80-exec-9] "GET /recruit/position/sort HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/sort] from: 127.0.0.1 costs: 10ms
+2024-03-20 23:24:18.694 [http-nio-80-exec-4] "GET /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/company/find] from: 127.0.0.1 costs: 22ms
+2024-03-20 23:24:18.695 [http-nio-80-exec-5] "GET /recruit/category/show HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/category/show] from: 127.0.0.1 costs: 11ms
+2024-03-20 23:24:18.699 [http-nio-80-exec-6] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 8ms
+2024-03-20 23:24:27.485 [http-nio-80-exec-7] "OPTIONS /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 0ms
+2024-03-20 23:24:27.511 [http-nio-80-exec-3] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 21ms
+2024-03-20 23:24:27.569 [http-nio-80-exec-2] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 11ms
+2024-03-20 23:24:35.887 [http-nio-80-exec-10] "OPTIONS /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 1ms
+2024-03-20 23:24:35.907 [http-nio-80-exec-8] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 15ms
+2024-03-20 23:24:36.015 [http-nio-80-exec-1] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 21ms
+2024-03-20 23:27:15.791 [http-nio-80-exec-1] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 127.0.0.1 costs: 28ms
+2024-03-20 23:27:15.807 [http-nio-80-exec-5] "GET /chat/users HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/chat/users] from: 127.0.0.1 costs: 34ms
+2024-03-20 23:28:58.173 [http-nio-80-exec-10] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 127.0.0.1 costs: 27ms
+2024-03-20 23:30:32.670 [http-nio-80-exec-9] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 127.0.0.1 costs: 96ms
+2024-03-20 23:30:32.720 [http-nio-80-exec-1] "GET /chat/users HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/chat/users] from: 127.0.0.1 costs: 123ms
+2024-03-20 23:36:39.726 [http-nio-80-exec-3] "OPTIONS /recruit/follow/4 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/follow/4] from: 127.0.0.1 costs: 1ms
+2024-03-20 23:36:39.753 [http-nio-80-exec-10] "GET /recruit/follow/4 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/follow/4] from: 127.0.0.1 costs: 3ms
+2024-03-20 23:36:40.463 [http-nio-80-exec-8] "GET /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/1] from: 127.0.0.1 costs: 11ms
+2024-03-20 23:49:12.225 [http-nio-80-exec-1] "GET /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/1] from: 127.0.0.1 costs: 29ms
+2024-03-20 23:49:12.225 [http-nio-80-exec-6] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 127.0.0.1 costs: 30ms
+2024-03-20 23:53:04.665 [Thread-10] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopping...
+2024-03-20 23:53:04.665 [Thread-10] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2024-03-20 23:53:04.665 [Thread-10] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopped.
+2024-03-20 23:53:05.943 [Thread-10] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+2024-03-20 23:53:05.943 [Thread-10] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2024-03-20 23:53:05.943 [Thread-10] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2024-03-20 23:53:05.943 [Thread-10] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2024-03-20 23:53:05.944 [Thread-10] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-03-20 23:53:05.946 [Thread-10] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-03-20 23:53:11.133 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Starting RecruitApplication on Cheng‘sMBP with PID 66309 (/Users/qishuocheng/Desktop/projects/resume/recruit-system/recruit-sys/target/classes started by qishuocheng in /Users/qishuocheng/Desktop/projects/resume/recruit-system/recruit-sys)
+2024-03-20 23:53:11.133 [restartedMain] "  " INFO  com.recruit.RecruitApplication - The following profiles are active: dev
+2024-03-20 23:53:11.250 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-03-20 23:53:11.251 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-20 23:53:11.262 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
+2024-03-20 23:53:11.300 [restartedMain] "  " INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'commonConfiguration' of type [com.recruit.common.configuration.CommonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-20 23:53:11.353 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2024-03-20 23:53:11.353 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-03-20 23:53:11.353 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-20 23:53:11.353 [restartedMain] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2024-03-20 23:53:11.360 [restartedMain] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-20 23:53:11.360 [restartedMain] "  " INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 226 ms
+2024-03-20 23:53:11.376 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2024-03-20 23:53:11.379 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2024-03-20 23:53:11.379 [restartedMain] "  " INFO  o.s.b.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/apply?useSSL=false&serverTimezone=UTC&characterEncoding=UTF8&allowPublicKeyRetrieval=true'
+2024-03-20 23:53:11.958 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2024-03-20 23:53:11.961 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2024-03-20 23:53:11.967 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2024-03-20 23:53:11.974 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2024-03-20 23:53:12.154 [restartedMain] "  " INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-03-20 23:53:12.174 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-03-20 23:53:12.175 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2024-03-20 23:53:12.176 [restartedMain] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2024-03-20 23:53:12.176 [restartedMain] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2024-03-20 23:53:12.176 [restartedMain] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2024-03-20 23:53:12.361 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Started RecruitApplication in 6.259 seconds (JVM running for 1835.529)
+2024-03-20 23:53:12.362 [restartedMain] "  " INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-03-20 23:54:11.974 [MessageBroker-1] "  " INFO  o.s.web.socket.config.WebSocketMessageBrokerStats - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2024-03-20 23:54:30.110 [Thread-20] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopping...
+2024-03-20 23:54:30.110 [Thread-20] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2024-03-20 23:54:30.110 [Thread-20] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopped.
+2024-03-20 23:54:31.309 [Thread-20] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+2024-03-20 23:54:31.309 [Thread-20] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2024-03-20 23:54:31.309 [Thread-20] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2024-03-20 23:54:31.309 [Thread-20] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2024-03-20 23:54:31.310 [Thread-20] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2024-03-20 23:54:31.312 [Thread-20] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2024-03-20 23:54:36.437 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Starting RecruitApplication on Cheng‘sMBP with PID 66309 (/Users/qishuocheng/Desktop/projects/resume/recruit-system/recruit-sys/target/classes started by qishuocheng in /Users/qishuocheng/Desktop/projects/resume/recruit-system/recruit-sys)
+2024-03-20 23:54:36.437 [restartedMain] "  " INFO  com.recruit.RecruitApplication - The following profiles are active: dev
+2024-03-20 23:54:36.529 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-03-20 23:54:36.529 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-20 23:54:36.538 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8ms. Found 0 Redis repository interfaces.
+2024-03-20 23:54:36.568 [restartedMain] "  " INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'commonConfiguration' of type [com.recruit.common.configuration.CommonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-20 23:54:36.595 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2024-03-20 23:54:36.595 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-03-20 23:54:36.596 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-20 23:54:36.596 [restartedMain] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2024-03-20 23:54:36.600 [restartedMain] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-20 23:54:36.600 [restartedMain] "  " INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 161 ms
+2024-03-20 23:54:36.613 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2024-03-20 23:54:36.616 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2024-03-20 23:54:36.616 [restartedMain] "  " INFO  o.s.b.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/apply?useSSL=false&serverTimezone=UTC&characterEncoding=UTF8&allowPublicKeyRetrieval=true'
+2024-03-20 23:54:37.105 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2024-03-20 23:54:37.108 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2024-03-20 23:54:37.113 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2024-03-20 23:54:37.118 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2024-03-20 23:54:37.257 [restartedMain] "  " INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-03-20 23:54:37.274 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-03-20 23:54:37.275 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2024-03-20 23:54:37.275 [restartedMain] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2024-03-20 23:54:37.275 [restartedMain] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2024-03-20 23:54:37.275 [restartedMain] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2024-03-20 23:54:37.366 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Started RecruitApplication in 5.956 seconds (JVM running for 1920.534)
+2024-03-20 23:54:37.367 [restartedMain] "  " INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-03-20 23:54:40.101 [SpringContextShutdownHook] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopping...
+2024-03-20 23:54:40.101 [SpringContextShutdownHook] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2024-03-20 23:54:40.101 [SpringContextShutdownHook] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopped.
+2024-03-20 23:54:41.296 [SpringContextShutdownHook] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+2024-03-20 23:54:41.296 [SpringContextShutdownHook] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2024-03-20 23:54:41.296 [SpringContextShutdownHook] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2024-03-20 23:54:41.296 [SpringContextShutdownHook] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2024-03-20 23:54:41.297 [SpringContextShutdownHook] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2024-03-20 23:54:41.298 [SpringContextShutdownHook] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.

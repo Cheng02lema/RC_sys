@@ -1,0 +1,28 @@
+2024-03-04 18:24:50.717 [restartedMain] "  " ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 80 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 80 or configure this application to listen on another port.
+
+2024-03-04 18:35:10.293 [restartedMain] "  " ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 80 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 80 or configure this application to listen on another port.
+

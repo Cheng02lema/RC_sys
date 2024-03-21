@@ -1,0 +1,341 @@
+2024-03-10 01:03:49.868 [restartedMain] "  " WARN  c.b.mybatisplus.core.injector.AbstractMethod - [com.recruit.mapper.NotifyMapper.update] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Update]
+2024-03-10 01:06:21.344 [http-nio-80-exec-4] "GET /recruit/position/page/keyword HTTP/1.1" WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Failure in @ExceptionHandler com.recruit.common.exception.RestExceptionHandler#processException(Exception, HttpServletRequest, HttpServletResponse)
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: Broken pipe
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:309)
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:272)
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1176)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1008)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:335)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:287)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:181)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:123)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:403)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1300)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1111)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.recruit.module.log.MDCAccessServletFilter.doFilter(MDCAccessServletFilter.java:28)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.IOException: Broken pipe
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:470)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:138)
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:152)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1252)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:764)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:717)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:707)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:564)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:157)
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:217)
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1179)
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:399)
+	at org.apache.coyote.Response.action(Response.java:209)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:305)
+	... 59 common frames omitted
+2024-03-10 01:10:33.989 [http-nio-80-exec-7] "GET /recruit/position/page/keyword HTTP/1.1" WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Failure in @ExceptionHandler com.recruit.common.exception.RestExceptionHandler#processException(Exception, HttpServletRequest, HttpServletResponse)
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: Broken pipe
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:309)
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:272)
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1176)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1008)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:335)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:287)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:181)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:123)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:403)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1300)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1111)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.recruit.module.log.MDCAccessServletFilter.doFilter(MDCAccessServletFilter.java:28)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.IOException: Broken pipe
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:470)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:138)
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:152)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1252)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:764)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:717)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:707)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:564)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:157)
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:217)
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1179)
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:399)
+	at org.apache.coyote.Response.action(Response.java:209)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:305)
+	... 59 common frames omitted
+2024-03-10 01:11:10.462 [http-nio-80-exec-3] "POST /recruit/user/login HTTP/1.1" WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [io.github.talelin.autoconfigure.exception.ParameterException: Parameters Error]
+2024-03-10 01:21:49.084 [restartedMain] "  " WARN  c.b.mybatisplus.core.injector.AbstractMethod - [com.recruit.mapper.NotifyMapper.update] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Update]
+2024-03-10 01:25:18.934 [restartedMain] "  " WARN  c.b.mybatisplus.core.injector.AbstractMethod - [com.recruit.mapper.NotifyMapper.update] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Update]
+2024-03-10 01:25:33.570 [restartedMain] "  " WARN  c.b.mybatisplus.core.injector.AbstractMethod - [com.recruit.mapper.NotifyMapper.update] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Update]
+2024-03-10 01:25:47.987 [restartedMain] "  " WARN  c.b.mybatisplus.core.injector.AbstractMethod - [com.recruit.mapper.NotifyMapper.update] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Update]
+2024-03-10 01:29:36.731 [restartedMain] "  " WARN  c.b.mybatisplus.core.injector.AbstractMethod - [com.recruit.mapper.NotifyMapper.update] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Update]
+2024-03-10 01:29:43.240 [restartedMain] "  " WARN  c.b.mybatisplus.core.injector.AbstractMethod - [com.recruit.mapper.NotifyMapper.update] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Update]
+2024-03-10 01:31:51.450 [http-nio-80-exec-4] "GET /recruit/position/page/keyword HTTP/1.1" WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Failure in @ExceptionHandler com.recruit.common.exception.RestExceptionHandler#processException(Exception, HttpServletRequest, HttpServletResponse)
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: Broken pipe
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:309)
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:272)
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1176)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1008)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:335)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:287)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:181)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:123)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:403)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1300)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1111)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.recruit.module.log.MDCAccessServletFilter.doFilter(MDCAccessServletFilter.java:28)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.IOException: Broken pipe
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:470)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:138)
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:152)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1252)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:764)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:717)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:707)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:564)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:157)
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:217)
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1179)
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:399)
+	at org.apache.coyote.Response.action(Response.java:209)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:305)
+	... 59 common frames omitted
+2024-03-10 01:35:52.448 [http-nio-80-exec-2] "GET /save HTTP/1.1" WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /save
+2024-03-10 01:35:52.456 [http-nio-80-exec-2] "GET /save HTTP/1.1" WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.NoHandlerFoundException: No handler found for GET /save]
+2024-03-10 01:36:11.432 [http-nio-80-exec-1] "GET /chat HTTP/1.1" WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /chat
+2024-03-10 01:36:11.434 [http-nio-80-exec-1] "GET /chat HTTP/1.1" WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.NoHandlerFoundException: No handler found for GET /chat]
+2024-03-10 01:36:39.940 [http-nio-80-exec-10] "GET /index HTTP/1.1" WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /index
+2024-03-10 01:36:39.941 [http-nio-80-exec-10] "GET /index HTTP/1.1" WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.NoHandlerFoundException: No handler found for GET /index]
+2024-03-10 02:08:09.221 [http-nio-80-exec-10] "GET /recruit/resume/null HTTP/1.1" WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "null"]
+2024-03-10 02:08:12.623 [http-nio-80-exec-7] "GET /recruit/hr-company/1 HTTP/1.1" WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [io.github.talelin.autoconfigure.exception.NotFoundException: Not Found]
+2024-03-10 02:08:35.516 [http-nio-80-exec-6] "GET /recruit/hr-company/1 HTTP/1.1" WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [io.github.talelin.autoconfigure.exception.NotFoundException: Not Found]
+2024-03-10 02:08:38.680 [http-nio-80-exec-1] "GET /recruit/resume/null HTTP/1.1" WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "null"]
+2024-03-10 02:22:36.562 [http-nio-80-exec-1] "POST /recruit/application HTTP/1.1" WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLException: Field 'resume_id' doesn't have a default value
+### The error may exist in com/recruit/mapper/ApplicationMapper.java (best guess)
+### The error may involve com.recruit.mapper.ApplicationMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO application  ( position_id, user_id, hr_id, company_id )  VALUES  ( ?, ?, ?, ? )
+### Cause: java.sql.SQLException: Field 'resume_id' doesn't have a default value
+; Field 'resume_id' doesn't have a default value; nested exception is java.sql.SQLException: Field 'resume_id' doesn't have a default value]
+2024-03-10 02:24:43.380 [http-nio-80-exec-3] "POST /recruit/application HTTP/1.1" WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLException: Field 'resume_id' doesn't have a default value
+### The error may exist in com/recruit/mapper/ApplicationMapper.java (best guess)
+### The error may involve com.recruit.mapper.ApplicationMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO application  ( position_id, user_id, hr_id, company_id )  VALUES  ( ?, ?, ?, ? )
+### Cause: java.sql.SQLException: Field 'resume_id' doesn't have a default value
+; Field 'resume_id' doesn't have a default value; nested exception is java.sql.SQLException: Field 'resume_id' doesn't have a default value]
+2024-03-10 02:26:30.491 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m16s866ms).
+2024-03-10 02:27:54.974 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54s473ms).
+2024-03-10 02:44:23.301 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m58s317ms).
+2024-03-10 03:07:06.698 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m43s299ms).
+2024-03-10 03:26:07.951 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m31s220ms).
+2024-03-10 03:31:03.856 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m55s872ms).
+2024-03-10 04:26:45.569 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s113ms).
+2024-03-10 04:30:05.307 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m19s713ms).
+2024-03-10 04:48:47.636 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m42s293ms).
+2024-03-10 05:06:28.642 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m10s987ms).
+2024-03-10 05:25:58.173 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m29s494ms).
+2024-03-10 05:44:34.016 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m35s820ms).
+2024-03-10 06:03:20.246 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m46s192ms).
+2024-03-10 06:20:34.855 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m44s592ms).
+2024-03-10 06:27:49.306 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m14s418ms).
+2024-03-10 06:45:59.421 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m10s89ms).
+2024-03-10 07:05:30.165 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m30s728ms).
+2024-03-10 07:23:44.889 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m44s697ms).
+2024-03-10 07:29:04.195 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m49s267ms).
+2024-03-10 08:32:09.986 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m35s96ms).
+2024-03-10 08:40:12.878 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m2s857ms).
+2024-03-10 08:58:39.625 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m56s716ms).
+2024-03-10 09:16:49.502 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m39s846ms).
+2024-03-10 09:24:07.400 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m17s866ms).
+2024-03-10 09:29:52.793 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m45s360ms).
+2024-03-10 09:48:48.990 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m26s170ms).
+2024-03-10 10:08:21.980 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m2s946ms).
+2024-03-10 10:26:38.786 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m46s786ms).
+2024-03-10 10:31:05.029 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m56s204ms).
+2024-03-10 10:36:21.533 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m46s485ms).
+2024-03-10 10:53:07.397 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m45s793ms).
+2024-03-10 11:02:47.954 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m40s528ms).
+2024-03-10 11:23:40.270 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m52s256ms).
+2024-03-10 11:31:39.949 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m29s662ms).
+2024-03-10 11:50:41.804 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m1s819ms).
+2024-03-10 12:08:12.536 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m30s710ms).
+2024-03-10 12:26:46.851 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m34s269ms).
+2024-03-10 12:52:45.613 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m28s474ms).
+2024-03-10 13:56:08.488 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m22s130ms).
+2024-03-10 14:12:37.743 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m29s255ms).
+2024-03-10 14:31:26.522 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m48s774ms).
+2024-03-10 15:13:29.101 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m30s563ms).
+2024-03-10 15:59:44.314 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m43s156ms).
+2024-03-10 16:18:24.340 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m39s981ms).
+2024-03-10 16:36:51.861 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m27s479ms).
+2024-03-10 16:56:39.297 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m17s383ms).
+2024-03-10 17:21:08.664 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m59s217ms).
+2024-03-10 17:33:57.485 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m18s779ms).
+2024-03-10 19:30:55.582 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=57s195ms).
+2024-03-10 19:37:34.213 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m8s618ms).
+2024-03-10 19:53:55.420 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m21s207ms).
+2024-03-10 20:10:06.354 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m40s887ms).
+2024-03-10 20:30:53.926 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m7s99ms).
+2024-03-10 22:36:34.148 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m9s191ms).
+2024-03-10 22:55:05.872 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m1s618ms).
+2024-03-10 23:22:05.948 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m59s956ms).
+2024-03-10 23:35:37.369 [HikariPool-1 housekeeper] "  " WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m1s399ms).
+2024-03-10 23:59:50.046 [restartedMain] "  " WARN  c.b.mybatisplus.core.injector.AbstractMethod - [com.recruit.mapper.NotifyMapper.update] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Update]

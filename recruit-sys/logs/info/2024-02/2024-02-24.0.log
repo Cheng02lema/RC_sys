@@ -1,0 +1,375 @@
+2024-02-24 13:08:22.226 [background-preinit] "  " INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2024-02-24 13:08:22.234 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Starting RecruitApplication on Cheng‘sMBP with PID 44735 (/Users/qishuocheng/Desktop/projects/resume/recruit-system/recruit-sys/target/classes started by qishuocheng in /Users/qishuocheng/Desktop/projects/resume/recruit-system/recruit-sys)
+2024-02-24 13:08:22.234 [restartedMain] "  " INFO  com.recruit.RecruitApplication - The following profiles are active: dev
+2024-02-24 13:08:22.258 [restartedMain] "  " INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-24 13:08:22.733 [restartedMain] "  " INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'commonConfiguration' of type [com.recruit.common.configuration.CommonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-24 13:08:22.865 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 5000 (http)
+2024-02-24 13:08:22.869 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5000"]
+2024-02-24 13:08:22.870 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-24 13:08:22.870 [restartedMain] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2024-02-24 13:08:22.897 [restartedMain] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-24 13:08:22.897 [restartedMain] "  " INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 639 ms
+2024-02-24 13:08:22.923 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-02-24 13:08:23.047 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-02-24 13:08:23.049 [restartedMain] "  " INFO  o.s.b.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/apply?useSSL=false&serverTimezone=UTC&characterEncoding=UTF8&allowPublicKeyRetrieval=true'
+2024-02-24 13:08:23.854 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-02-24 13:08:24.020 [restartedMain] "  " INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-02-24 13:08:24.042 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5000"]
+2024-02-24 13:08:24.051 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-02-24 13:08:24.052 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-02-24 13:08:24.055 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-02-24 13:08:24.056 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-5000"]
+2024-02-24 13:08:24.056 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2024-02-24 13:08:24.058 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-5000"]
+2024-02-24 13:08:24.058 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-5000"]
+2024-02-24 13:08:24.062 [restartedMain] "  " INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-02-24 13:10:48.021 [background-preinit] "  " INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2024-02-24 13:10:48.027 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Starting RecruitApplication on Cheng‘sMBP with PID 45583 (/Users/qishuocheng/Desktop/projects/resume/recruit-system/recruit-sys/target/classes started by qishuocheng in /Users/qishuocheng/Desktop/projects/resume/recruit-system/recruit-sys)
+2024-02-24 13:10:48.028 [restartedMain] "  " INFO  com.recruit.RecruitApplication - The following profiles are active: dev
+2024-02-24 13:10:48.051 [restartedMain] "  " INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-24 13:10:48.503 [restartedMain] "  " INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'commonConfiguration' of type [com.recruit.common.configuration.CommonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-24 13:10:48.631 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2024-02-24 13:10:48.634 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-02-24 13:10:48.635 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-24 13:10:48.635 [restartedMain] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2024-02-24 13:10:48.658 [restartedMain] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-24 13:10:48.658 [restartedMain] "  " INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 607 ms
+2024-02-24 13:10:48.683 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-02-24 13:10:48.768 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-02-24 13:10:48.770 [restartedMain] "  " INFO  o.s.b.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/apply?useSSL=false&serverTimezone=UTC&characterEncoding=UTF8&allowPublicKeyRetrieval=true'
+2024-02-24 13:10:49.498 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-02-24 13:10:49.636 [restartedMain] "  " INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-02-24 13:10:49.656 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-02-24 13:10:49.670 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2024-02-24 13:10:49.894 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Started RecruitApplication in 2.052 seconds (JVM running for 7.338)
+2024-02-24 13:50:39.295 [http-nio-80-exec-1] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-24 13:50:39.296 [http-nio-80-exec-1] "  " INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-02-24 13:50:39.316 [http-nio-80-exec-1] "  " INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 20 ms
+2024-02-24 13:50:39.441 [http-nio-80-exec-2] "GET /recruit/category/show HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/category/show] from: 127.0.0.1 costs: 88ms
+2024-02-24 13:50:39.441 [http-nio-80-exec-4] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 88ms
+2024-02-24 13:50:39.441 [http-nio-80-exec-1] "GET /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/company/find] from: 127.0.0.1 costs: 88ms
+2024-02-24 13:50:39.441 [http-nio-80-exec-3] "GET /recruit/position/sort HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/sort] from: 127.0.0.1 costs: 88ms
+2024-02-24 13:50:52.171 [http-nio-80-exec-5] "OPTIONS /recruit/user/login HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/user/login] from: 127.0.0.1 costs: 1ms
+2024-02-24 13:50:52.431 [http-nio-80-exec-6] "POST /recruit/user/login HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [POST] -> [/recruit/user/login] from: 127.0.0.1 costs: 249ms
+2024-02-24 13:50:52.436 [http-nio-80-exec-7] "OPTIONS /recruit/user/permissions HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/user/permissions] from: 127.0.0.1 costs: 0ms
+2024-02-24 13:50:52.478 [http-nio-80-exec-8] "GET /recruit/user/permissions HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/permissions] from: 127.0.0.1 costs: 28ms
+2024-02-24 13:50:52.490 [http-nio-80-exec-9] "OPTIONS /recruit/user/getGroup/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/user/getGroup/1] from: 127.0.0.1 costs: 0ms
+2024-02-24 13:50:52.500 [http-nio-80-exec-10] "GET /recruit/user/getGroup/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/getGroup/1] from: 127.0.0.1 costs: 5ms
+2024-02-24 13:50:54.688 [http-nio-80-exec-1] "OPTIONS /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/notify] from: 127.0.0.1 costs: 0ms
+2024-02-24 13:50:54.688 [http-nio-80-exec-3] "OPTIONS /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/position/page/1] from: 127.0.0.1 costs: 0ms
+2024-02-24 13:50:54.711 [http-nio-80-exec-2] "GET /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/1] from: 127.0.0.1 costs: 10ms
+2024-02-24 13:50:54.712 [http-nio-80-exec-4] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 127.0.0.1 costs: 19ms
+2024-02-24 13:51:05.355 [http-nio-80-exec-5] "OPTIONS /recruit/hr-company/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/hr-company/1] from: 127.0.0.1 costs: 1ms
+2024-02-24 13:51:05.399 [http-nio-80-exec-6] "GET /recruit/hr-company/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/hr-company/1] from: 127.0.0.1 costs: 28ms
+2024-02-24 13:51:06.864 [http-nio-80-exec-7] "OPTIONS /recruit/position/page/hr/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/position/page/hr/1] from: 127.0.0.1 costs: 5ms
+2024-02-24 13:51:06.887 [http-nio-80-exec-8] "GET /recruit/position/page/hr/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/hr/1] from: 127.0.0.1 costs: 8ms
+2024-02-24 13:51:09.404 [http-nio-80-exec-9] "GET /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/1] from: 127.0.0.1 costs: 22ms
+2024-02-24 13:51:14.137 [http-nio-80-exec-1] "OPTIONS /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 0ms
+2024-02-24 13:51:14.140 [http-nio-80-exec-2] "OPTIONS /recruit/position/sort HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/position/sort] from: 127.0.0.1 costs: 0ms
+2024-02-24 13:51:14.143 [http-nio-80-exec-10] "OPTIONS /recruit/category/show HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/category/show] from: 127.0.0.1 costs: 6ms
+2024-02-24 13:51:14.148 [http-nio-80-exec-3] "OPTIONS /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/company/find] from: 127.0.0.1 costs: 0ms
+2024-02-24 13:51:14.162 [http-nio-80-exec-4] "GET /recruit/position/sort HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/sort] from: 127.0.0.1 costs: 10ms
+2024-02-24 13:51:14.162 [http-nio-80-exec-3] "GET /recruit/category/show HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/category/show] from: 127.0.0.1 costs: 4ms
+2024-02-24 13:51:14.162 [http-nio-80-exec-6] "GET /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/company/find] from: 127.0.0.1 costs: 5ms
+2024-02-24 13:51:14.167 [http-nio-80-exec-5] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 9ms
+2024-02-24 13:51:27.090 [http-nio-80-exec-8] "OPTIONS /recruit/position/12 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/position/12] from: 127.0.0.1 costs: 1ms
+2024-02-24 13:51:27.108 [http-nio-80-exec-9] "GET /recruit/position/12 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/12] from: 127.0.0.1 costs: 10ms
+2024-02-24 13:51:27.113 [http-nio-80-exec-1] "OPTIONS /recruit/position/hits/12 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/position/hits/12] from: 127.0.0.1 costs: 1ms
+2024-02-24 13:51:27.131 [http-nio-80-exec-10] "PUT /recruit/position/hits/12 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [PUT] -> [/recruit/position/hits/12] from: 127.0.0.1 costs: 16ms
+2024-02-24 13:51:27.137 [http-nio-80-exec-2] "OPTIONS /recruit/resume/get/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/resume/get/1] from: 127.0.0.1 costs: 0ms
+2024-02-24 13:51:27.177 [http-nio-80-exec-7] "GET /recruit/resume/get/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/resume/get/1] from: 127.0.0.1 costs: 29ms
+2024-02-24 13:51:27.182 [http-nio-80-exec-4] "GET /recruit/position/12 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/12] from: 127.0.0.1 costs: 2ms
+2024-02-24 13:51:30.181 [http-nio-80-exec-3] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 127.0.0.1 costs: 8ms
+2024-02-24 13:51:30.187 [http-nio-80-exec-6] "GET /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/1] from: 127.0.0.1 costs: 13ms
+2024-02-24 13:51:35.491 [http-nio-80-exec-5] "OPTIONS /recruit/log/users HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/log/users] from: 127.0.0.1 costs: 0ms
+2024-02-24 13:51:35.546 [http-nio-80-exec-8] "GET /recruit/log/users HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/log/users] from: 127.0.0.1 costs: 34ms
+2024-02-24 13:51:35.551 [http-nio-80-exec-9] "OPTIONS /recruit/log HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/log] from: 127.0.0.1 costs: 1ms
+2024-02-24 13:51:35.573 [http-nio-80-exec-1] "GET /recruit/log HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/log] from: 127.0.0.1 costs: 15ms
+2024-02-24 13:51:43.635 [http-nio-80-exec-10] "GET /recruit/hr-company/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/hr-company/1] from: 127.0.0.1 costs: 7ms
+2024-02-24 13:51:45.757 [http-nio-80-exec-2] "GET /recruit/category/show HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/category/show] from: 127.0.0.1 costs: 7ms
+2024-02-24 13:51:45.757 [http-nio-80-exec-7] "GET /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/company/find] from: 127.0.0.1 costs: 13ms
+2024-02-24 13:51:45.760 [http-nio-80-exec-3] "GET /recruit/position/sort HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/sort] from: 127.0.0.1 costs: 4ms
+2024-02-24 13:51:45.764 [http-nio-80-exec-4] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 8ms
+2024-02-24 13:52:20.702 [http-nio-80-exec-6] "POST /recruit/user/login HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [POST] -> [/recruit/user/login] from: 127.0.0.1 costs: 170ms
+2024-02-24 13:52:20.724 [http-nio-80-exec-5] "GET /recruit/user/permissions HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/permissions] from: 127.0.0.1 costs: 10ms
+2024-02-24 13:52:20.739 [http-nio-80-exec-8] "OPTIONS /recruit/user/getGroup/4 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/user/getGroup/4] from: 127.0.0.1 costs: 1ms
+2024-02-24 13:52:20.779 [http-nio-80-exec-9] "GET /recruit/user/getGroup/4 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/getGroup/4] from: 127.0.0.1 costs: 30ms
+2024-02-24 13:52:24.955 [http-nio-80-exec-10] "OPTIONS /recruit/resume/get/4 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/resume/get/4] from: 127.0.0.1 costs: 0ms
+2024-02-24 13:52:24.956 [http-nio-80-exec-1] "OPTIONS /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/notify] from: 127.0.0.1 costs: 1ms
+2024-02-24 13:52:24.974 [http-nio-80-exec-7] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 127.0.0.1 costs: 14ms
+2024-02-24 13:52:25.015 [http-nio-80-exec-2] "GET /recruit/resume/get/4 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/resume/get/4] from: 127.0.0.1 costs: 34ms
+2024-02-24 13:52:25.049 [http-nio-80-exec-3] "OPTIONS /recruit/resume/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/resume/1] from: 127.0.0.1 costs: 0ms
+2024-02-24 13:52:25.069 [http-nio-80-exec-4] "GET /recruit/resume/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/resume/1] from: 127.0.0.1 costs: 14ms
+2024-02-24 13:52:29.714 [http-nio-80-exec-5] "GET /recruit/category/show HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/category/show] from: 127.0.0.1 costs: 6ms
+2024-02-24 13:52:29.718 [http-nio-80-exec-9] "GET /recruit/position/sort HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/sort] from: 127.0.0.1 costs: 13ms
+2024-02-24 13:52:29.721 [http-nio-80-exec-6] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 16ms
+2024-02-24 13:52:29.721 [http-nio-80-exec-8] "GET /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/company/find] from: 127.0.0.1 costs: 9ms
+2024-02-24 13:52:35.184 [http-nio-80-exec-10] "OPTIONS /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 1ms
+2024-02-24 13:52:35.209 [http-nio-80-exec-1] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 20ms
+2024-02-24 13:52:35.317 [http-nio-80-exec-7] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 17ms
+2024-02-24 13:52:38.756 [http-nio-80-exec-2] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 20ms
+2024-02-24 13:52:38.877 [http-nio-80-exec-3] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 8ms
+2024-02-24 13:52:43.958 [http-nio-80-exec-4] "OPTIONS /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 1ms
+2024-02-24 13:52:43.976 [http-nio-80-exec-9] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 12ms
+2024-02-24 13:52:46.875 [http-nio-80-exec-5] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 14ms
+2024-02-24 13:53:03.244 [http-nio-80-exec-6] "OPTIONS /recruit/position/2 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/position/2] from: 127.0.0.1 costs: 0ms
+2024-02-24 13:53:03.258 [http-nio-80-exec-8] "GET /recruit/position/2 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/2] from: 127.0.0.1 costs: 8ms
+2024-02-24 13:53:03.268 [http-nio-80-exec-10] "OPTIONS /recruit/position/hits/2 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/position/hits/2] from: 127.0.0.1 costs: 0ms
+2024-02-24 13:53:03.281 [http-nio-80-exec-1] "PUT /recruit/position/hits/2 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [PUT] -> [/recruit/position/hits/2] from: 127.0.0.1 costs: 9ms
+2024-02-24 13:53:03.336 [http-nio-80-exec-7] "GET /recruit/resume/get/4 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/resume/get/4] from: 127.0.0.1 costs: 31ms
+2024-02-24 13:53:03.342 [http-nio-80-exec-2] "GET /recruit/position/2 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/2] from: 127.0.0.1 costs: 2ms
+2024-02-24 13:53:07.318 [http-nio-80-exec-5] "OPTIONS /recruit/application HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/application] from: 127.0.0.1 costs: 0ms
+2024-02-24 13:53:07.346 [http-nio-80-exec-6] "GET /recruit/application HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/application] from: 127.0.0.1 costs: 22ms
+2024-02-24 13:53:11.599 [http-nio-80-exec-10] "OPTIONS /recruit/application/page/find/4 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/application/page/find/4] from: 127.0.0.1 costs: 1ms
+2024-02-24 13:53:11.614 [http-nio-80-exec-8] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 127.0.0.1 costs: 17ms
+2024-02-24 13:53:11.634 [http-nio-80-exec-1] "GET /recruit/application/page/find/4 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/application/page/find/4] from: 127.0.0.1 costs: 13ms
+2024-02-24 13:53:22.400 [http-nio-80-exec-7] "OPTIONS /recruit/application/63 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/application/63] from: 127.0.0.1 costs: 0ms
+2024-02-24 13:53:22.417 [http-nio-80-exec-2] "DELETE /recruit/application/63 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [DELETE] -> [/recruit/application/63] from: 127.0.0.1 costs: 7ms
+2024-02-24 13:53:22.442 [http-nio-80-exec-3] "GET /recruit/application/page/find/4 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/application/page/find/4] from: 127.0.0.1 costs: 13ms
+2024-02-24 13:53:25.235 [http-nio-80-exec-9] "OPTIONS /recruit/application/65 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/application/65] from: 127.0.0.1 costs: 0ms
+2024-02-24 13:53:25.282 [http-nio-80-exec-4] "DELETE /recruit/application/65 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [DELETE] -> [/recruit/application/65] from: 127.0.0.1 costs: 16ms
+2024-02-24 13:53:25.324 [http-nio-80-exec-5] "GET /recruit/application/page/find/4 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/application/page/find/4] from: 127.0.0.1 costs: 13ms
+2024-02-24 13:53:27.360 [http-nio-80-exec-6] "OPTIONS /recruit/application/75 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/application/75] from: 127.0.0.1 costs: 1ms
+2024-02-24 13:53:27.407 [http-nio-80-exec-10] "DELETE /recruit/application/75 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [DELETE] -> [/recruit/application/75] from: 127.0.0.1 costs: 24ms
+2024-02-24 13:53:27.423 [http-nio-80-exec-8] "GET /recruit/application/page/find/4 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/application/page/find/4] from: 127.0.0.1 costs: 6ms
+2024-02-24 13:53:30.678 [http-nio-80-exec-1] "GET /recruit/category/show HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/category/show] from: 127.0.0.1 costs: 11ms
+2024-02-24 13:53:30.682 [http-nio-80-exec-3] "GET /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/company/find] from: 127.0.0.1 costs: 7ms
+2024-02-24 13:53:30.684 [http-nio-80-exec-2] "GET /recruit/position/sort HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/sort] from: 127.0.0.1 costs: 10ms
+2024-02-24 13:53:30.685 [http-nio-80-exec-7] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 17ms
+2024-02-24 13:53:40.268 [http-nio-80-exec-9] "GET /recruit/position/12 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/12] from: 127.0.0.1 costs: 4ms
+2024-02-24 13:53:40.294 [http-nio-80-exec-4] "PUT /recruit/position/hits/12 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [PUT] -> [/recruit/position/hits/12] from: 127.0.0.1 costs: 11ms
+2024-02-24 13:53:40.334 [http-nio-80-exec-5] "GET /recruit/resume/get/4 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/resume/get/4] from: 127.0.0.1 costs: 16ms
+2024-02-24 13:53:40.338 [http-nio-80-exec-6] "GET /recruit/position/12 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/12] from: 127.0.0.1 costs: 1ms
+2024-02-24 13:53:47.079 [http-nio-80-exec-10] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 13ms
+2024-02-24 13:53:58.254 [http-nio-80-exec-8] "GET /recruit/position/sort HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/sort] from: 127.0.0.1 costs: 34ms
+2024-02-24 13:53:58.254 [http-nio-80-exec-1] "GET /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/company/find] from: 127.0.0.1 costs: 34ms
+2024-02-24 13:53:58.254 [http-nio-80-exec-3] "GET /recruit/category/show HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/category/show] from: 127.0.0.1 costs: 34ms
+2024-02-24 13:53:58.260 [http-nio-80-exec-2] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 40ms
+2024-02-24 13:53:59.633 [http-nio-80-exec-9] "GET /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/1] from: 127.0.0.1 costs: 9ms
+2024-02-24 13:53:59.635 [http-nio-80-exec-7] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 127.0.0.1 costs: 11ms
+2024-02-24 13:54:04.061 [http-nio-80-exec-4] "OPTIONS /recruit/interview/page/find/4 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/interview/page/find/4] from: 127.0.0.1 costs: 0ms
+2024-02-24 13:54:04.102 [http-nio-80-exec-5] "GET /recruit/interview/page/find/4 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/interview/page/find/4] from: 127.0.0.1 costs: 26ms
+2024-02-24 13:54:07.069 [http-nio-80-exec-6] "GET /recruit/application/page/find/4 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/application/page/find/4] from: 127.0.0.1 costs: 11ms
+2024-02-24 13:54:09.950 [http-nio-80-exec-10] "GET /recruit/interview/page/find/4 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/interview/page/find/4] from: 127.0.0.1 costs: 8ms
+2024-02-24 13:54:11.995 [http-nio-80-exec-3] "GET /recruit/position/sort HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/sort] from: 127.0.0.1 costs: 8ms
+2024-02-24 13:54:11.996 [http-nio-80-exec-8] "GET /recruit/category/show HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/category/show] from: 127.0.0.1 costs: 10ms
+2024-02-24 13:54:11.997 [http-nio-80-exec-2] "GET /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/company/find] from: 127.0.0.1 costs: 9ms
+2024-02-24 13:54:12.002 [http-nio-80-exec-1] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 14ms
+2024-02-24 13:54:19.104 [http-nio-80-exec-9] "POST /recruit/user/login HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [POST] -> [/recruit/user/login] from: 127.0.0.1 costs: 161ms
+2024-02-24 13:54:19.118 [http-nio-80-exec-7] "GET /recruit/user/permissions HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/permissions] from: 127.0.0.1 costs: 4ms
+2024-02-24 13:54:19.133 [http-nio-80-exec-4] "GET /recruit/user/getGroup/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/getGroup/1] from: 127.0.0.1 costs: 2ms
+2024-02-24 13:54:24.539 [http-nio-80-exec-5] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 127.0.0.1 costs: 14ms
+2024-02-24 13:54:24.542 [http-nio-80-exec-6] "GET /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/1] from: 127.0.0.1 costs: 17ms
+2024-02-24 13:54:49.445 [http-nio-80-exec-10] "GET /recruit/hr-company/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/hr-company/1] from: 127.0.0.1 costs: 19ms
+2024-02-24 13:55:15.255 [http-nio-80-exec-1] "GET /recruit/log/users HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/log/users] from: 127.0.0.1 costs: 14ms
+2024-02-24 13:55:15.272 [http-nio-80-exec-9] "GET /recruit/log HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/log] from: 127.0.0.1 costs: 7ms
+2024-02-24 13:55:33.165 [http-nio-80-exec-7] "OPTIONS /recruit/category/page HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/category/page] from: 127.0.0.1 costs: 1ms
+2024-02-24 13:55:33.189 [http-nio-80-exec-7] "GET /recruit/category/page HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/category/page] from: 127.0.0.1 costs: 9ms
+2024-02-24 13:55:36.453 [http-nio-80-exec-4] "GET /recruit/hr-company/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/hr-company/1] from: 127.0.0.1 costs: 11ms
+2024-02-24 13:55:37.182 [http-nio-80-exec-5] "GET /recruit/position/page/hr/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/hr/1] from: 127.0.0.1 costs: 3ms
+2024-02-24 13:55:40.282 [http-nio-80-exec-6] "OPTIONS /recruit/application/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/application/page/1] from: 127.0.0.1 costs: 0ms
+2024-02-24 13:55:40.302 [http-nio-80-exec-10] "GET /recruit/application/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/application/page/1] from: 127.0.0.1 costs: 9ms
+2024-02-24 13:55:40.518 [http-nio-80-exec-3] "OPTIONS /recruit/application/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/application/page/1] from: 127.0.0.1 costs: 0ms
+2024-02-24 13:55:40.534 [http-nio-80-exec-8] "GET /recruit/application/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/application/page/1] from: 127.0.0.1 costs: 6ms
+2024-02-24 13:55:41.351 [http-nio-80-exec-2] "OPTIONS /recruit/application/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/application/page/1] from: 127.0.0.1 costs: 0ms
+2024-02-24 13:55:41.378 [http-nio-80-exec-1] "GET /recruit/application/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/application/page/1] from: 127.0.0.1 costs: 7ms
+2024-02-24 13:55:42.205 [http-nio-80-exec-9] "GET /recruit/hr-company/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/hr-company/1] from: 127.0.0.1 costs: 15ms
+2024-02-24 13:55:42.993 [http-nio-80-exec-7] "OPTIONS /recruit/follow/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/follow/1] from: 127.0.0.1 costs: 3ms
+2024-02-24 13:55:43.033 [http-nio-80-exec-4] "GET /recruit/follow/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/follow/1] from: 127.0.0.1 costs: 18ms
+2024-02-24 13:55:48.409 [http-nio-80-exec-5] "GET /recruit/hr-company/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/hr-company/1] from: 127.0.0.1 costs: 16ms
+2024-02-24 13:55:49.049 [http-nio-80-exec-6] "GET /recruit/follow/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/follow/1] from: 127.0.0.1 costs: 3ms
+2024-02-24 13:55:55.311 [http-nio-80-exec-10] "OPTIONS /recruit/admin/users HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/admin/users] from: 127.0.0.1 costs: 0ms
+2024-02-24 13:55:55.389 [http-nio-80-exec-3] "GET /recruit/admin/users HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/admin/users] from: 127.0.0.1 costs: 74ms
+2024-02-24 13:55:55.405 [http-nio-80-exec-8] "OPTIONS /recruit/admin/group/all HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/admin/group/all] from: 127.0.0.1 costs: 1ms
+2024-02-24 13:55:55.412 [http-nio-80-exec-2] "GET /recruit/admin/group/all HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/admin/group/all] from: 127.0.0.1 costs: 5ms
+2024-02-24 13:55:59.519 [http-nio-80-exec-1] "GET /recruit/admin/group/all HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/admin/group/all] from: 127.0.0.1 costs: 13ms
+2024-02-24 13:56:02.174 [http-nio-80-exec-9] "GET /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/1] from: 127.0.0.1 costs: 21ms
+2024-02-24 13:56:03.872 [http-nio-80-exec-5] "GET /recruit/position/sort HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/sort] from: 127.0.0.1 costs: 13ms
+2024-02-24 13:56:03.865 [http-nio-80-exec-7] "GET /recruit/category/show HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/category/show] from: 127.0.0.1 costs: 7ms
+2024-02-24 13:56:03.870 [http-nio-80-exec-6] "GET /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/company/find] from: 127.0.0.1 costs: 9ms
+2024-02-24 13:56:03.877 [http-nio-80-exec-4] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 19ms
+2024-02-24 13:56:28.883 [http-nio-80-exec-10] "POST /recruit/user/login HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [POST] -> [/recruit/user/login] from: 127.0.0.1 costs: 136ms
+2024-02-24 13:56:28.896 [http-nio-80-exec-3] "GET /recruit/user/permissions HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/permissions] from: 127.0.0.1 costs: 4ms
+2024-02-24 13:56:28.911 [http-nio-80-exec-8] "GET /recruit/user/getGroup/4 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/getGroup/4] from: 127.0.0.1 costs: 2ms
+2024-02-24 13:57:14.400 [http-nio-80-exec-7] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 17ms
+2024-02-24 13:57:29.120 [http-nio-80-exec-4] "GET /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/1] from: 127.0.0.1 costs: 10ms
+2024-02-24 13:57:29.122 [http-nio-80-exec-6] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 127.0.0.1 costs: 12ms
+2024-02-24 13:57:39.078 [http-nio-80-exec-10] "GET /recruit/category/show HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/category/show] from: 127.0.0.1 costs: 5ms
+2024-02-24 13:57:39.079 [http-nio-80-exec-8] "GET /recruit/position/sort HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/sort] from: 127.0.0.1 costs: 5ms
+2024-02-24 13:57:39.083 [http-nio-80-exec-2] "GET /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/company/find] from: 127.0.0.1 costs: 7ms
+2024-02-24 13:57:39.086 [http-nio-80-exec-3] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 14ms
+2024-02-24 13:58:32.834 [http-nio-80-exec-4] "POST /recruit/user/login HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [POST] -> [/recruit/user/login] from: 127.0.0.1 costs: 152ms
+2024-02-24 13:58:32.847 [http-nio-80-exec-6] "GET /recruit/user/permissions HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/permissions] from: 127.0.0.1 costs: 4ms
+2024-02-24 13:58:32.860 [http-nio-80-exec-8] "GET /recruit/user/getGroup/4 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/getGroup/4] from: 127.0.0.1 costs: 2ms
+2024-02-24 13:58:50.122 [http-nio-80-exec-10] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 127.0.0.1 costs: 25ms
+2024-02-24 13:58:50.125 [http-nio-80-exec-2] "GET /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/1] from: 127.0.0.1 costs: 28ms
+2024-02-24 13:59:12.417 [http-nio-80-exec-1] "GET /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/company/find] from: 127.0.0.1 costs: 12ms
+2024-02-24 13:59:12.417 [http-nio-80-exec-7] "GET /recruit/position/sort HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/sort] from: 127.0.0.1 costs: 9ms
+2024-02-24 13:59:12.417 [http-nio-80-exec-3] "GET /recruit/category/show HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/category/show] from: 127.0.0.1 costs: 11ms
+2024-02-24 13:59:12.417 [http-nio-80-exec-9] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 12ms
+2024-02-24 13:59:22.634 [http-nio-80-exec-5] "POST /recruit/user/login HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [POST] -> [/recruit/user/login] from: 127.0.0.1 costs: 142ms
+2024-02-24 13:59:22.645 [http-nio-80-exec-4] "GET /recruit/user/permissions HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/permissions] from: 127.0.0.1 costs: 3ms
+2024-02-24 13:59:22.666 [http-nio-80-exec-6] "GET /recruit/user/getGroup/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/getGroup/1] from: 127.0.0.1 costs: 2ms
+2024-02-24 13:59:24.546 [http-nio-80-exec-8] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 127.0.0.1 costs: 16ms
+2024-02-24 13:59:24.547 [http-nio-80-exec-10] "GET /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/1] from: 127.0.0.1 costs: 15ms
+2024-02-24 13:59:29.793 [http-nio-80-exec-2] "GET /recruit/admin/users HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/admin/users] from: 127.0.0.1 costs: 48ms
+2024-02-24 13:59:29.821 [http-nio-80-exec-7] "GET /recruit/admin/group/all HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/admin/group/all] from: 127.0.0.1 costs: 8ms
+2024-02-24 14:00:04.925 [http-nio-80-exec-5] "GET /recruit/log/users HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/log/users] from: 127.0.0.1 costs: 13ms
+2024-02-24 14:00:04.941 [http-nio-80-exec-6] "GET /recruit/log HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/log] from: 127.0.0.1 costs: 5ms
+2024-02-24 14:00:06.919 [http-nio-80-exec-8] "OPTIONS /recruit/position/page/0 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/position/page/0] from: 127.0.0.1 costs: 0ms
+2024-02-24 14:00:06.933 [http-nio-80-exec-10] "GET /recruit/position/page/0 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/0] from: 127.0.0.1 costs: 8ms
+2024-02-24 14:00:08.040 [http-nio-80-exec-2] "GET /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/1] from: 127.0.0.1 costs: 16ms
+2024-02-24 14:00:10.149 [http-nio-80-exec-7] "OPTIONS /recruit/position/page/2 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/position/page/2] from: 127.0.0.1 costs: 0ms
+2024-02-24 14:00:10.157 [http-nio-80-exec-3] "GET /recruit/position/page/2 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/2] from: 127.0.0.1 costs: 5ms
+2024-02-24 14:00:14.506 [http-nio-80-exec-1] "GET /recruit/category/page HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/category/page] from: 127.0.0.1 costs: 9ms
+2024-02-24 14:00:29.261 [http-nio-80-exec-9] "OPTIONS /recruit/favor/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/favor/1] from: 127.0.0.1 costs: 1ms
+2024-02-24 14:00:29.300 [http-nio-80-exec-4] "GET /recruit/favor/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/favor/1] from: 127.0.0.1 costs: 19ms
+2024-02-24 14:00:30.402 [http-nio-80-exec-5] "GET /recruit/resume/get/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/resume/get/1] from: 127.0.0.1 costs: 11ms
+2024-02-24 14:00:30.413 [http-nio-80-exec-6] "OPTIONS /recruit/resume/null HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/resume/null] from: 127.0.0.1 costs: 0ms
+2024-02-24 14:00:30.419 [http-nio-80-exec-8] "GET /recruit/resume/null HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/resume/null] from: 127.0.0.1 costs: 4ms
+2024-02-24 14:01:37.051 [http-nio-80-exec-10] "OPTIONS /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/position/page/1] from: 127.0.0.1 costs: 1ms
+2024-02-24 14:01:37.072 [http-nio-80-exec-2] "GET /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/1] from: 127.0.0.1 costs: 14ms
+2024-02-24 14:01:41.444 [http-nio-80-exec-7] "OPTIONS /recruit/category/show HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/category/show] from: 127.0.0.1 costs: 0ms
+2024-02-24 14:01:41.445 [http-nio-80-exec-3] "OPTIONS /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 0ms
+2024-02-24 14:01:41.446 [http-nio-80-exec-7] "OPTIONS /recruit/position/sort HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/position/sort] from: 127.0.0.1 costs: 0ms
+2024-02-24 14:01:41.446 [http-nio-80-exec-3] "OPTIONS /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/company/find] from: 127.0.0.1 costs: 0ms
+2024-02-24 14:01:41.455 [http-nio-80-exec-9] "GET /recruit/category/show HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/category/show] from: 127.0.0.1 costs: 7ms
+2024-02-24 14:01:41.461 [http-nio-80-exec-3] "GET /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/company/find] from: 127.0.0.1 costs: 5ms
+2024-02-24 14:01:41.464 [http-nio-80-exec-7] "GET /recruit/position/sort HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/sort] from: 127.0.0.1 costs: 11ms
+2024-02-24 14:01:41.466 [http-nio-80-exec-4] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 12ms
+2024-02-24 14:01:42.918 [http-nio-80-exec-10] "OPTIONS /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/notify] from: 127.0.0.1 costs: 0ms
+2024-02-24 14:01:42.922 [http-nio-80-exec-2] "GET /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/1] from: 127.0.0.1 costs: 4ms
+2024-02-24 14:01:42.923 [http-nio-80-exec-1] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 127.0.0.1 costs: 3ms
+2024-02-24 14:01:43.760 [http-nio-80-exec-6] "GET /recruit/category/show HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/category/show] from: 127.0.0.1 costs: 13ms
+2024-02-24 14:01:43.764 [http-nio-80-exec-9] "GET /recruit/position/sort HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/sort] from: 127.0.0.1 costs: 15ms
+2024-02-24 14:01:43.765 [http-nio-80-exec-5] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 20ms
+2024-02-24 14:01:43.766 [http-nio-80-exec-8] "GET /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/company/find] from: 127.0.0.1 costs: 9ms
+2024-02-24 14:01:44.740 [http-nio-80-exec-7] "GET /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/1] from: 127.0.0.1 costs: 15ms
+2024-02-24 14:01:44.741 [http-nio-80-exec-3] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 127.0.0.1 costs: 13ms
+2024-02-24 14:02:27.729 [http-nio-80-exec-4] "GET /recruit/category/show HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/category/show] from: 127.0.0.1 costs: 13ms
+2024-02-24 14:02:27.731 [http-nio-80-exec-2] "GET /recruit/position/sort HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/sort] from: 127.0.0.1 costs: 15ms
+2024-02-24 14:02:27.733 [http-nio-80-exec-1] "GET /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/company/find] from: 127.0.0.1 costs: 17ms
+2024-02-24 14:02:27.736 [http-nio-80-exec-10] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 20ms
+2024-02-24 14:03:04.823 [http-nio-80-exec-6] "OPTIONS /recruit/user/register HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/user/register] from: 127.0.0.1 costs: 1ms
+2024-02-24 14:03:05.155 [http-nio-80-exec-9] "POST /recruit/user/register HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [POST] -> [/recruit/user/register] from: 127.0.0.1 costs: 324ms
+2024-02-24 14:03:06.628 [Thread-10] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-02-24 14:03:06.628 [Thread-10] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-02-24 14:03:06.629 [Thread-10] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-02-24 14:03:11.813 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Starting RecruitApplication on Cheng‘sMBP with PID 45583 (/Users/qishuocheng/Desktop/projects/resume/recruit-system/recruit-sys/target/classes started by qishuocheng in /Users/qishuocheng/Desktop/projects/resume/recruit-system/recruit-sys)
+2024-02-24 14:03:11.813 [restartedMain] "  " INFO  com.recruit.RecruitApplication - The following profiles are active: dev
+2024-02-24 14:03:11.980 [restartedMain] "  " INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'commonConfiguration' of type [com.recruit.common.configuration.CommonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-02-24 14:03:12.020 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2024-02-24 14:03:12.020 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-02-24 14:03:12.020 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-24 14:03:12.020 [restartedMain] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2024-02-24 14:03:12.027 [restartedMain] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-24 14:03:12.027 [restartedMain] "  " INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 212 ms
+2024-02-24 14:03:12.039 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2024-02-24 14:03:12.045 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2024-02-24 14:03:12.045 [restartedMain] "  " INFO  o.s.b.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/apply?useSSL=false&serverTimezone=UTC&characterEncoding=UTF8&allowPublicKeyRetrieval=true'
+2024-02-24 14:03:12.501 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-02-24 14:03:12.572 [restartedMain] "  " INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-02-24 14:03:12.588 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-02-24 14:03:12.589 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2024-02-24 14:03:12.658 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Started RecruitApplication in 5.911 seconds (JVM running for 3150.095)
+2024-02-24 14:03:12.659 [restartedMain] "  " INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-02-24 14:03:15.643 [http-nio-80-exec-1] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-24 14:03:15.644 [http-nio-80-exec-1] "  " INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-02-24 14:03:15.647 [http-nio-80-exec-1] "  " INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2024-02-24 14:03:15.680 [http-nio-80-exec-1] "POST /recruit/user/register HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [POST] -> [/recruit/user/register] from: 127.0.0.1 costs: 32ms
+2024-02-24 14:06:07.357 [http-nio-80-exec-3] "OPTIONS /recruit/user/login HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/user/login] from: 127.0.0.1 costs: 1ms
+2024-02-24 14:06:07.523 [http-nio-80-exec-4] "POST /recruit/user/login HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [POST] -> [/recruit/user/login] from: 127.0.0.1 costs: 157ms
+2024-02-24 14:06:07.529 [http-nio-80-exec-5] "OPTIONS /recruit/user/permissions HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/user/permissions] from: 127.0.0.1 costs: 0ms
+2024-02-24 14:06:07.547 [http-nio-80-exec-6] "GET /recruit/user/permissions HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/permissions] from: 127.0.0.1 costs: 15ms
+2024-02-24 14:06:07.558 [http-nio-80-exec-7] "OPTIONS /recruit/user/getGroup/17 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/user/getGroup/17] from: 127.0.0.1 costs: 0ms
+2024-02-24 14:06:07.572 [http-nio-80-exec-8] "GET /recruit/user/getGroup/17 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/getGroup/17] from: 127.0.0.1 costs: 12ms
+2024-02-24 14:06:10.874 [http-nio-80-exec-9] "OPTIONS /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/notify] from: 127.0.0.1 costs: 0ms
+2024-02-24 14:06:10.897 [http-nio-80-exec-1] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 127.0.0.1 costs: 19ms
+2024-02-24 14:06:10.901 [http-nio-80-exec-10] "GET /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/1] from: 127.0.0.1 costs: 23ms
+2024-02-24 14:06:14.972 [http-nio-80-exec-2] "OPTIONS /recruit/hr-company/17 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/hr-company/17] from: 127.0.0.1 costs: 0ms
+2024-02-24 14:06:15.007 [http-nio-80-exec-3] "GET /recruit/hr-company/17 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/hr-company/17] from: 127.0.0.1 costs: 32ms
+2024-02-24 14:06:23.075 [http-nio-80-exec-4] "OPTIONS /recruit/interview/page/17 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/interview/page/17] from: 127.0.0.1 costs: 1ms
+2024-02-24 14:06:23.114 [http-nio-80-exec-5] "GET /recruit/interview/page/17 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/interview/page/17] from: 127.0.0.1 costs: 13ms
+2024-02-24 14:06:24.234 [http-nio-80-exec-6] "GET /recruit/interview/page/17 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/interview/page/17] from: 127.0.0.1 costs: 8ms
+2024-02-24 14:06:27.210 [http-nio-80-exec-7] "GET /recruit/hr-company/17 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/hr-company/17] from: 127.0.0.1 costs: 10ms
+2024-02-24 14:07:01.676 [http-nio-80-exec-8] "OPTIONS /recruit/company HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/company] from: 127.0.0.1 costs: 0ms
+2024-02-24 14:07:01.704 [http-nio-80-exec-9] "POST /recruit/company HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [POST] -> [/recruit/company] from: 127.0.0.1 costs: 19ms
+2024-02-24 14:07:01.708 [http-nio-80-exec-1] "OPTIONS /recruit/company/search HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/company/search] from: 127.0.0.1 costs: 0ms
+2024-02-24 14:07:01.713 [http-nio-80-exec-10] "GET /recruit/company/search HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/company/search] from: 127.0.0.1 costs: 3ms
+2024-02-24 14:07:01.717 [http-nio-80-exec-2] "OPTIONS /recruit/hr-company/ HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/hr-company/] from: 127.0.0.1 costs: 0ms
+2024-02-24 14:07:01.722 [http-nio-80-exec-3] "POST /recruit/hr-company/ HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [POST] -> [/recruit/hr-company/] from: 127.0.0.1 costs: 3ms
+2024-02-24 14:07:01.737 [http-nio-80-exec-4] "GET /recruit/hr-company/17 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/hr-company/17] from: 127.0.0.1 costs: 2ms
+2024-02-24 14:07:08.289 [http-nio-80-exec-5] "OPTIONS /recruit/position/page/hr/17 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/position/page/hr/17] from: 127.0.0.1 costs: 1ms
+2024-02-24 14:07:08.300 [http-nio-80-exec-6] "GET /recruit/position/page/hr/17 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/hr/17] from: 127.0.0.1 costs: 3ms
+2024-02-24 14:07:09.513 [http-nio-80-exec-8] "GET /recruit/hr-company/17 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/hr-company/17] from: 127.0.0.1 costs: 10ms
+2024-02-24 14:07:12.483 [http-nio-80-exec-2] "GET /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/company/find] from: 127.0.0.1 costs: 3ms
+2024-02-24 14:07:12.486 [http-nio-80-exec-9] "GET /recruit/category/show HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/category/show] from: 127.0.0.1 costs: 11ms
+2024-02-24 14:07:12.487 [http-nio-80-exec-1] "GET /recruit/position/sort HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/sort] from: 127.0.0.1 costs: 7ms
+2024-02-24 14:07:12.488 [http-nio-80-exec-10] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 8ms
+2024-02-24 14:07:14.161 [http-nio-80-exec-3] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 127.0.0.1 costs: 13ms
+2024-02-24 14:07:14.163 [http-nio-80-exec-4] "GET /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/1] from: 127.0.0.1 costs: 14ms
+2024-02-24 14:07:15.565 [http-nio-80-exec-5] "GET /recruit/category/show HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/category/show] from: 127.0.0.1 costs: 6ms
+2024-02-24 14:07:15.568 [http-nio-80-exec-8] "GET /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/company/find] from: 127.0.0.1 costs: 10ms
+2024-02-24 14:07:15.570 [http-nio-80-exec-7] "GET /recruit/position/sort HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/sort] from: 127.0.0.1 costs: 8ms
+2024-02-24 14:07:15.570 [http-nio-80-exec-6] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 11ms
+2024-02-24 14:07:22.284 [http-nio-80-exec-2] "POST /recruit/user/login HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [POST] -> [/recruit/user/login] from: 127.0.0.1 costs: 157ms
+2024-02-24 14:07:22.293 [http-nio-80-exec-9] "GET /recruit/user/permissions HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/permissions] from: 127.0.0.1 costs: 2ms
+2024-02-24 14:07:22.301 [http-nio-80-exec-1] "OPTIONS /recruit/user/getGroup/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/user/getGroup/1] from: 127.0.0.1 costs: 1ms
+2024-02-24 14:07:22.305 [http-nio-80-exec-10] "GET /recruit/user/getGroup/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/getGroup/1] from: 127.0.0.1 costs: 1ms
+2024-02-24 14:07:24.329 [http-nio-80-exec-3] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 127.0.0.1 costs: 11ms
+2024-02-24 14:07:24.334 [http-nio-80-exec-4] "GET /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/1] from: 127.0.0.1 costs: 16ms
+2024-02-24 14:07:27.390 [http-nio-80-exec-5] "OPTIONS /recruit/company/page/0 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/company/page/0] from: 127.0.0.1 costs: 0ms
+2024-02-24 14:07:27.405 [http-nio-80-exec-8] "GET /recruit/company/page/0 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/company/page/0] from: 127.0.0.1 costs: 11ms
+2024-02-24 14:07:31.330 [http-nio-80-exec-6] "OPTIONS /recruit/company/state/22 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/company/state/22] from: 127.0.0.1 costs: 0ms
+2024-02-24 14:07:31.358 [http-nio-80-exec-7] "PUT /recruit/company/state/22 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [PUT] -> [/recruit/company/state/22] from: 127.0.0.1 costs: 20ms
+2024-02-24 14:07:31.368 [http-nio-80-exec-2] "GET /recruit/company/page/0 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/company/page/0] from: 127.0.0.1 costs: 5ms
+2024-02-24 14:07:33.230 [http-nio-80-exec-9] "GET /recruit/position/sort HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/sort] from: 127.0.0.1 costs: 16ms
+2024-02-24 14:07:33.230 [http-nio-80-exec-10] "GET /recruit/category/show HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/category/show] from: 127.0.0.1 costs: 10ms
+2024-02-24 14:07:33.234 [http-nio-80-exec-3] "GET /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/company/find] from: 127.0.0.1 costs: 6ms
+2024-02-24 14:07:33.238 [http-nio-80-exec-1] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 22ms
+2024-02-24 14:07:36.274 [http-nio-80-exec-4] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 127.0.0.1 costs: 8ms
+2024-02-24 14:07:36.274 [http-nio-80-exec-5] "GET /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/1] from: 127.0.0.1 costs: 7ms
+2024-02-24 14:07:37.529 [http-nio-80-exec-8] "GET /recruit/category/show HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/category/show] from: 127.0.0.1 costs: 6ms
+2024-02-24 14:07:37.530 [http-nio-80-exec-7] "GET /recruit/position/sort HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/sort] from: 127.0.0.1 costs: 8ms
+2024-02-24 14:07:37.535 [http-nio-80-exec-2] "GET /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/company/find] from: 127.0.0.1 costs: 15ms
+2024-02-24 14:07:37.538 [http-nio-80-exec-6] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 17ms
+2024-02-24 14:07:45.579 [http-nio-80-exec-9] "POST /recruit/user/login HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [POST] -> [/recruit/user/login] from: 127.0.0.1 costs: 149ms
+2024-02-24 14:07:45.589 [http-nio-80-exec-10] "GET /recruit/user/permissions HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/permissions] from: 127.0.0.1 costs: 3ms
+2024-02-24 14:07:45.602 [http-nio-80-exec-3] "GET /recruit/user/getGroup/17 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/getGroup/17] from: 127.0.0.1 costs: 4ms
+2024-02-24 14:07:47.275 [http-nio-80-exec-1] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 127.0.0.1 costs: 13ms
+2024-02-24 14:07:47.280 [http-nio-80-exec-4] "GET /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/1] from: 127.0.0.1 costs: 14ms
+2024-02-24 14:07:50.486 [http-nio-80-exec-5] "GET /recruit/hr-company/17 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/hr-company/17] from: 127.0.0.1 costs: 16ms
+2024-02-24 14:07:54.583 [http-nio-80-exec-7] "OPTIONS /recruit/application/page/17 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/application/page/17] from: 127.0.0.1 costs: 1ms
+2024-02-24 14:07:54.625 [http-nio-80-exec-8] "GET /recruit/application/page/17 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/application/page/17] from: 127.0.0.1 costs: 20ms
+2024-02-24 14:07:56.051 [http-nio-80-exec-2] "GET /recruit/hr-company/17 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/hr-company/17] from: 127.0.0.1 costs: 8ms
+2024-02-24 14:08:09.191 [http-nio-80-exec-6] "OPTIONS /recruit/category HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/category] from: 127.0.0.1 costs: 0ms
+2024-02-24 14:08:09.197 [http-nio-80-exec-9] "GET /recruit/category HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/category] from: 127.0.0.1 costs: 3ms
+2024-02-24 14:08:31.721 [http-nio-80-exec-3] "GET /recruit/hr-company/17 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/hr-company/17] from: 127.0.0.1 costs: 7ms
+2024-02-24 14:08:31.730 [http-nio-80-exec-1] "OPTIONS /recruit/position HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/position] from: 127.0.0.1 costs: 0ms
+2024-02-24 14:08:31.757 [http-nio-80-exec-4] "POST /recruit/position HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [POST] -> [/recruit/position] from: 127.0.0.1 costs: 11ms
+2024-02-24 14:08:38.895 [http-nio-80-exec-5] "GET /recruit/hr-company/17 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/hr-company/17] from: 127.0.0.1 costs: 4ms
+2024-02-24 14:08:38.915 [http-nio-80-exec-7] "POST /recruit/position HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [POST] -> [/recruit/position] from: 127.0.0.1 costs: 5ms
+2024-02-24 14:08:47.628 [http-nio-80-exec-8] "GET /recruit/position/page/hr/17 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/hr/17] from: 127.0.0.1 costs: 5ms
+2024-02-24 14:08:49.162 [http-nio-80-exec-2] "GET /recruit/hr-company/17 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/hr-company/17] from: 127.0.0.1 costs: 11ms
+2024-02-24 14:08:52.647 [http-nio-80-exec-6] "GET /recruit/hr-company/17 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/hr-company/17] from: 127.0.0.1 costs: 7ms
+2024-02-24 14:08:58.880 [http-nio-80-exec-9] "GET /recruit/hr-company/17 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/hr-company/17] from: 127.0.0.1 costs: 4ms
+2024-02-24 14:11:02.123 [http-nio-80-exec-3] "OPTIONS /recruit/application/page/17 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/application/page/17] from: 127.0.0.1 costs: 1ms
+2024-02-24 14:11:02.193 [http-nio-80-exec-1] "GET /recruit/application/page/17 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/application/page/17] from: 127.0.0.1 costs: 7ms
+2024-02-24 14:11:04.064 [http-nio-80-exec-4] "GET /recruit/hr-company/17 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/hr-company/17] from: 127.0.0.1 costs: 9ms
+2024-02-24 14:11:08.784 [http-nio-80-exec-5] "GET /recruit/category HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/category] from: 127.0.0.1 costs: 7ms
+2024-02-24 14:11:39.280 [http-nio-80-exec-7] "GET /recruit/hr-company/17 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/hr-company/17] from: 127.0.0.1 costs: 9ms
+2024-02-24 14:11:39.327 [http-nio-80-exec-8] "POST /recruit/position HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [POST] -> [/recruit/position] from: 127.0.0.1 costs: 23ms
+2024-02-24 14:11:43.519 [http-nio-80-exec-2] "GET /recruit/position/page/hr/17 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/hr/17] from: 127.0.0.1 costs: 7ms
+2024-02-24 14:21:58.702 [http-nio-80-exec-9] "OPTIONS /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 2ms
+2024-02-24 14:21:58.702 [http-nio-80-exec-10] "OPTIONS /recruit/category/show HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/category/show] from: 127.0.0.1 costs: 2ms
+2024-02-24 14:21:58.739 [http-nio-80-exec-4] "OPTIONS /recruit/position/sort HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/position/sort] from: 127.0.0.1 costs: 0ms
+2024-02-24 14:21:58.743 [http-nio-80-exec-5] "OPTIONS /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/company/find] from: 127.0.0.1 costs: 0ms
+2024-02-24 14:21:58.758 [http-nio-80-exec-3] "GET /recruit/category/show HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/category/show] from: 127.0.0.1 costs: 45ms
+2024-02-24 14:21:58.760 [http-nio-80-exec-8] "GET /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/company/find] from: 127.0.0.1 costs: 8ms
+2024-02-24 14:21:58.763 [http-nio-80-exec-1] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 50ms
+2024-02-24 14:21:58.763 [http-nio-80-exec-7] "GET /recruit/position/sort HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/sort] from: 127.0.0.1 costs: 13ms
+2024-02-24 16:04:17.849 [SpringContextShutdownHook] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-02-24 16:04:17.851 [SpringContextShutdownHook] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2024-02-24 16:04:17.853 [SpringContextShutdownHook] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.

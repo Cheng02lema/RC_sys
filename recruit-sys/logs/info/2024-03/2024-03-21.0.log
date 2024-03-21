@@ -1,0 +1,57 @@
+2024-03-21 11:46:11.049 [background-preinit] "  " INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2024-03-21 11:46:11.059 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Starting RecruitApplication on Cheng‘sMBP with PID 22754 (/Users/qishuocheng/Desktop/done_projects/recruit_system/recruit-sys/target/classes started by qishuocheng in /Users/qishuocheng/Desktop/done_projects/recruit_system/recruit-sys)
+2024-03-21 11:46:11.059 [restartedMain] "  " INFO  com.recruit.RecruitApplication - The following profiles are active: dev
+2024-03-21 11:46:11.092 [restartedMain] "  " INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-21 11:46:11.477 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-03-21 11:46:11.478 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-21 11:46:11.500 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 Redis repository interfaces.
+2024-03-21 11:46:11.692 [restartedMain] "  " INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'commonConfiguration' of type [com.recruit.common.configuration.CommonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-21 11:46:11.865 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2024-03-21 11:46:11.869 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-03-21 11:46:11.870 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-21 11:46:11.870 [restartedMain] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2024-03-21 11:46:11.900 [restartedMain] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-21 11:46:11.900 [restartedMain] "  " INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 808 ms
+2024-03-21 11:46:11.930 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-03-21 11:46:11.993 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-03-21 11:46:11.995 [restartedMain] "  " INFO  o.s.b.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/apply?useSSL=false&serverTimezone=UTC&characterEncoding=UTF8&allowPublicKeyRetrieval=true'
+2024-03-21 11:46:12.784 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2024-03-21 11:46:12.788 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2024-03-21 11:46:12.803 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2024-03-21 11:46:12.821 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2024-03-21 11:46:13.302 [restartedMain] "  " INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-03-21 11:46:13.325 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-03-21 11:46:13.339 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2024-03-21 11:46:13.340 [restartedMain] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2024-03-21 11:46:13.340 [restartedMain] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2024-03-21 11:46:13.340 [restartedMain] "  " INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2024-03-21 11:46:13.596 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Started RecruitApplication in 2.788 seconds (JVM running for 3.094)
+2024-03-21 11:46:28.018 [http-nio-80-exec-4] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-21 11:46:28.019 [http-nio-80-exec-4] "  " INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-03-21 11:46:28.052 [http-nio-80-exec-4] "  " INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 33 ms
+2024-03-21 11:46:28.400 [http-nio-80-exec-1] "GET /recruit/category/show HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/category/show] from: 127.0.0.1 costs: 305ms
+2024-03-21 11:46:28.401 [http-nio-80-exec-3] "GET /recruit/position/sort HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/sort] from: 127.0.0.1 costs: 306ms
+2024-03-21 11:46:28.402 [http-nio-80-exec-4] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 307ms
+2024-03-21 11:46:28.400 [http-nio-80-exec-2] "GET /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/company/find] from: 127.0.0.1 costs: 305ms
+2024-03-21 11:46:35.367 [http-nio-80-exec-5] "OPTIONS /recruit/user/login HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/user/login] from: 127.0.0.1 costs: 2ms
+2024-03-21 11:46:35.465 [http-nio-80-exec-6] "POST /recruit/user/login HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [POST] -> [/recruit/user/login] from: 127.0.0.1 costs: 87ms
+2024-03-21 11:46:44.754 [http-nio-80-exec-7] "POST /recruit/user/login HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [POST] -> [/recruit/user/login] from: 127.0.0.1 costs: 175ms
+2024-03-21 11:46:44.760 [http-nio-80-exec-8] "OPTIONS /recruit/user/permissions HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/user/permissions] from: 127.0.0.1 costs: 1ms
+2024-03-21 11:46:44.794 [http-nio-80-exec-9] "GET /recruit/user/permissions HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/permissions] from: 127.0.0.1 costs: 22ms
+2024-03-21 11:46:44.806 [http-nio-80-exec-10] "OPTIONS /recruit/user/getGroup/4 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/user/getGroup/4] from: 127.0.0.1 costs: 0ms
+2024-03-21 11:46:44.819 [http-nio-80-exec-1] "GET /recruit/user/getGroup/4 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/getGroup/4] from: 127.0.0.1 costs: 6ms
+2024-03-21 11:46:46.654 [http-nio-80-exec-2] "OPTIONS /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/notify] from: 127.0.0.1 costs: 1ms
+2024-03-21 11:46:46.654 [http-nio-80-exec-3] "OPTIONS /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/position/page/1] from: 127.0.0.1 costs: 1ms
+2024-03-21 11:46:46.682 [http-nio-80-exec-5] "GET /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/1] from: 127.0.0.1 costs: 20ms
+2024-03-21 11:46:46.685 [http-nio-80-exec-4] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 127.0.0.1 costs: 28ms
+2024-03-21 11:46:48.516 [http-nio-80-exec-6] "GET /chat/users HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/chat/users] from: 127.0.0.1 costs: 73ms
+2024-03-21 11:47:11.062 [http-nio-80-exec-8] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 127.0.0.1 costs: 21ms
+2024-03-21 11:47:11.084 [http-nio-80-exec-10] "GET /chat/users HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/chat/users] from: 127.0.0.1 costs: 21ms
+2024-03-21 11:47:12.821 [MessageBroker-2] "  " INFO  o.s.web.socket.config.WebSocketMessageBrokerStats - WebSocketSession[2 current WS(0)-HttpStream(2)-HttpPoll(0), 2 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 3, completed tasks = 5]
+2024-03-21 11:47:38.596 [http-nio-80-exec-3] "  " INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/ws/ep/606/uw5kfnyq/eventsource] from: 127.0.0.1 costs: 11ms
+2024-03-21 11:48:01.212 [http-nio-80-exec-5] "  " INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/ws/ep/316/m1izwxc2/eventsource] from: 127.0.0.1 costs: 3ms
+2024-03-21 11:48:13.405 [http-nio-80-exec-4] "OPTIONS /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/position/page/1] from: 127.0.0.1 costs: 1ms
+2024-03-21 11:48:13.405 [http-nio-80-exec-7] "OPTIONS /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/notify] from: 127.0.0.1 costs: 2ms
+2024-03-21 11:48:13.443 [http-nio-80-exec-8] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 127.0.0.1 costs: 21ms
+2024-03-21 11:48:13.445 [http-nio-80-exec-9] "GET /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/1] from: 127.0.0.1 costs: 21ms
+2024-03-21 11:48:15.039 [http-nio-80-exec-2] "GET /chat/users HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/chat/users] from: 127.0.0.1 costs: 40ms
